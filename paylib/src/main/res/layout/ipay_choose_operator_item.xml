@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  	<TextView
+		android:id="@+id/textview"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:text=""
+		android:textSize="20sp"
+		android:textColor="@color/ipay_griditem_btn"
+		android:gravity="center"
+		android:background="@drawable/ipay_big_btn_red_selector"
+		android:layout_centerInParent="true">
+	</TextView>
+	<ImageView 
+		android:id="@+id/image"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:src="@drawable/ipay_bottomright_subscript"
+		android:visibility="invisible" />
+</RelativeLayout>

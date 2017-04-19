@@ -1,0 +1,236 @@
+<resources>
+	<dimen name="ipay_fontsize_xxc_big">27dp</dimen>
+	<dimen name="ipay_fontsize_xx_big">26dp</dimen>
+	<dimen name="ipay_fontsize_big">17dp</dimen>
+	<dimen name="ipay_fontsize_middle">16dp</dimen>
+	<dimen name="ipay_fontsize_small">15dp</dimen>
+	<dimen name="ipay_fontsize_small_s">12dp</dimen>
+	<dimen name="ipay_fontsize_x_small">11dp</dimen>
+	<dimen name="ipay_edit_height">31dp</dimen>
+	
+	<dimen name="ipay_topmargin_page">7dp</dimen>
+	<dimen name="ipay_leftmargin_page">12dp</dimen>
+	<dimen name="ipay_rightmargin_page">12dp</dimen>
+	<dimen name="ipay_height_setting_item">52dp</dimen>
+	<dimen name="ipay_height_switch_button">32dp</dimen>
+	<dimen name="ipay_width_switch_button">90dp</dimen>
+	<dimen name="ipay_left_padding_setting_item">17dp</dimen>
+	<dimen name="ipay_right_padding_setting_item">22dp</dimen>
+	<dimen name="ipay_height_recharge_button">38dp</dimen>
+	<dimen name="ipay_width_recharge_button">75dp</dimen>
+	
+	<dimen name="ipay_edit_padding">5dp</dimen>
+	
+	<!-- 界面通用 -->
+	<dimen name="ipay_common_horizontal_padding">12dp</dimen>
+	<dimen name="ipay_common_top_padding">12dp</dimen>
+	<dimen name="ipay_common_content_left_padding">16dp</dimen>
+	<dimen name="ipay_common_title_top_margin">10dp</dimen>
+	<dimen name="ipay_common_title_bottom_margin">7dp</dimen>
+	<dimen name="ipay_common_spinner_height">51dp</dimen>
+	<dimen name="ipay_common_spinner_margin">10dp</dimen>
+	<dimen name="ipay_common_button_height">38dp</dimen>
+	<dimen name="ipay_common_button_top_margin">24.5dp</dimen>
+	<dimen name="ipay_common_edit_height">46dp</dimen>
+	
+	<dimen name="ipay_common_choosetype_top_padding">8dp</dimen>
+	<dimen name="ipay_common_choosetype_bottom_padding">8dp</dimen>
+	<dimen name="ipay_common_choosetype_left_padding">21dp</dimen>
+	<dimen name="ipay_common_choosetype_image_text_margin">23dp</dimen>
+	
+	<dimen name="ipay_common_choosetype_width">96dp</dimen>
+	<dimen name="ipay_common_choosetype_height">96dp</dimen>
+	
+	<!-- 个人首页 -->
+	<dimen name="ipay_personalcenter_topbar_height">120dp</dimen>
+	
+	<dimen name="ipay_personalcenter_tabbar_height">55.5dp</dimen>
+	<dimen name="ipay_personalcenter_tabbar_item_top_padding">6dp</dimen>
+	<dimen name="ipay_personalcenter_tabbar_image_size">28dp</dimen>
+	
+	<dimen name="ipay_personalcenter_accountlayout_height">132.5dp</dimen>
+	<dimen name="ipay_personalcenter_accountlayout_horizontal_padding">16dp</dimen>
+	
+	<dimen name="ipay_personalcenter_listitem_marginline_height">1dp</dimen>
+	<dimen name="ipay_personalcenter_listitem_height">45.5dp</dimen>
+	
+	<dimen name="ipay_personalcenter_dotimage_height">8dp</dimen>
+	<dimen name="ipay_personalcenter_dotimage_width">17dp</dimen>
+
+	<dimen name="ipay_personalcenter_edit_height">37dp</dimen>
+	<dimen name="ipay_personalcenter_edit_width">128dp</dimen>
+	
+	<dimen name="ipay_personalcenter_btn_height">41dp</dimen>
+	<dimen name="ipay_personalcenter_btn_width">83.5dp</dimen>
+	
+	<dimen name="ipay_personalcenter_horizontal_padding">12dp</dimen>
+	<dimen name="ipay_personalcenter_top_padding">11dp</dimen>
+	<dimen name="ipay_personalcenter_item_horizontal_padding">15dp</dimen>
+	<dimen name="ipay_personalcenter_item_vertical_margin">12dp</dimen>
+	
+	<dimen name="ipay_personalcenter_item_arrow_right_margin">17dp</dimen>
+	<dimen name="ipay_personalcenter_navigator_bottom_margin">10dp</dimen>
+	<dimen name="ipay_personalcenter_btn_right_margin">27.5dp</dimen>
+	
+	<dimen name="ipay_personalcenter_my_top_padding">10dp</dimen>
+	<dimen name="ipay_personalcenter_my_bottom_padding">7dp</dimen>
+	
+	<!-- 推荐页面-->
+	<dimen name="ipay_preferentialcenter_layout_top_padding">11dp</dimen>
+	<dimen name="ipay_preferentialcenter_layout_bottom_padding">15dp</dimen>
+	<dimen name="ipay_preferentialcenter_time_top_margin">8dp</dimen>
+	<dimen name="ipay_preferentialcenter_image_top_margin">6dp</dimen>
+	<dimen name="ipay_preferentialcenter_image_height">121dp</dimen>
+	<dimen name="ipay_preferentialcenter_content_top_margin">17dp</dimen>
+	<dimen name="ipay_preferentialcenter_detail_top_margin">10dp</dimen>
+	
+	<!-- 支付中心页面-->
+	<dimen name="ipay_paycenter_toplayout_item_margin">11dp</dimen>
+	<dimen name="ipay_paycenter_spinnerlayout_padding">9.5dp</dimen>
+	<dimen name="ipay_paycenter_spinner_height">44.5dp</dimen>
+	<dimen name="ipay_paycenter_nextbtn_top_margin">17dp</dimen>
+	<dimen name="ipay_paycenter_nextbtn_height">40.5dp</dimen>
+	<dimen name="ipay_paycenter_otherlabel_toppadding">15dp</dimen>
+	<dimen name="ipay_paycenter_otherlabel_bottompadding">8dp</dimen>
+	<dimen name="ipay_paycenter_gridview_verticalspace">24dp</dimen>
+	<dimen name="ipay_paycenter_gridview_padding">6.5dp</dimen>
+	<dimen name="ipay_paycenter_gridview_item_margin">5dp</dimen>
+	<dimen name="ipay_paycenter_gridview_item_left_padding">13dp</dimen>
+	<dimen name="ipay_paycenter_gridview_item_right_padding">13dp</dimen>
+	<dimen name="ipay_paycenter_gridview_item_top_padding">6dp</dimen>
+	<dimen name="ipay_paycenter_gridview_item_width">98dp</dimen>
+	<dimen name="ipay_paycenter_gridview_width">174dp</dimen>
+	
+	<!-- 充值卡支付中心页面-->
+	<dimen name="ipay_phonepaycenter_toplayout_item_margin">13dp</dimen>
+	<dimen name="ipay_phonepaycenter_choosetype_layout_toppadding">9.5dp</dimen>
+	<dimen name="ipay_phonepaycenter_choosetype_layout_bottompadding">11.5dp</dimen>
+	<dimen name="ipay_phonepaycenter_title_toppadding">14dp</dimen>
+	<dimen name="ipay_phonepaycenter_title_bottompadding">5dp</dimen>
+	<dimen name="ipay_phonepaycenter_edit_margin">5.5dp</dimen>
+	
+	<!-- 短信号码输入页面-->
+	<dimen name="ipay_smsinputpaycenter_toplayout_item_margin">13dp</dimen>
+	<dimen name="ipay_smsinputpaycenter_choosetype_layout_toppadding">11dp</dimen>
+	<dimen name="ipay_smsinputpaycenter_choosetype_layout_bottompadding">11dp</dimen>
+	<dimen name="ipay_smsinputpaycenter_choosetype_layout_topmargin">11dp</dimen>
+	<dimen name="ipay_smsinputpaycenter_title_toppadding">14dp</dimen>
+	<dimen name="ipay_smsinputpaycenter_title_bottompadding">5dp</dimen>
+	<dimen name="ipay_smsinputpaycenter_edit_margin">14dp</dimen>
+	
+	<!-- 短信支付页面-->
+	<dimen name="ipay_smspaycenter_page_vertical_padding">20dp</dimen>
+	<dimen name="ipay_smspaycenter_page_horizontal_padding">12dp</dimen>
+	<dimen name="ipay_smspaycenter_phone_leftmargin">14dp</dimen>
+	<dimen name="ipay_smspaycenter_phone_rightmargin">19dp</dimen>
+	<dimen name="ipay_smspaycenter_phone_layout_height">53dp</dimen>
+	<dimen name="ipay_smspaycenter_phone_edit_height">31dp</dimen>
+	<dimen name="ipay_smspaycenter_button_height">39dp</dimen>
+	
+	
+	<dimen name="ipay_smspaycenter_toplayout_item_margin">13dp</dimen>
+	<dimen name="ipay_smspaycenter_smscontent_layout_topmargin">9dp</dimen>
+	<dimen name="ipay_smspaycenter_smscontent_layout_bottompadding">13dp</dimen>
+	<dimen name="ipay_smspaycenter_smscontent_layout_toppadding">13dp</dimen>
+	<dimen name="ipay_smspaycenter_smscontent_layout_item_margin">13dp</dimen>
+	<dimen name="ipay_smspaycenter_title_toppadding">14dp</dimen>
+	<dimen name="ipay_smspaycenter_title_bottompadding">5dp</dimen>
+	<dimen name="ipay_smspaycenter_edit_margin">14dp</dimen>
+	<dimen name="ipay_smspaycenter_btn_top_margin">14dp</dimen>
+	<dimen name="ipay_smspaycenter_hint_top_margin">10dp</dimen>
+	
+	<!-- 短信支付结果页面-->
+	<dimen name="ipay_smspayresult_toplayout_height">89dp</dimen>
+	<dimen name="ipay_smspayresult_btn_topmargin">31dp</dimen>
+	
+	<!-- 余额支付支付结果页面-->
+	<dimen name="ipay_nopwdpay_layout_margin">10dp</dimen>
+	<dimen name="ipay_nopwdpay_item_margin">13dp</dimen>
+	<dimen name="ipay_nopwdpay_texthint_margin">6dp</dimen>
+	
+	<!-- 登陆页面-->
+	<dimen name="ipay_login_title_topmargin">100dp</dimen>
+	<dimen name="ipay_login_title_bottommargin">22dp</dimen>
+	<dimen name="ipay_login_layout_height">279dp</dimen>
+	<dimen name="ipay_login_layout_left_margin">15dp</dimen>
+	<dimen name="ipay_login_layout_right_margin">15dp</dimen>
+	<dimen name="ipay_login_layout_left_padding">26dp</dimen>
+	<dimen name="ipay_login_layout_right_padding">26dp</dimen>
+	<dimen name="ipay_login_layout_top_padding">19dp</dimen>
+	<dimen name="ipay_login_layout_bottom_padding">34dp</dimen>
+	<dimen name="ipay_login_edit_height">62dp</dimen>
+	<dimen name="ipay_login_edit_margin">10dp</dimen>
+	<dimen name="ipay_login_btn_height">49dp</dimen>
+	<dimen name="ipay_login_btn_margin">15dp</dimen>
+	<dimen name="ipay_login_forget_top_padding">8dp</dimen>
+	<dimen name="ipay_login_forget_bottom_padding">15dp</dimen>
+	
+	<!-- 注册页面 -->
+	<dimen name="ipay_reg_topmargin_page">12dp</dimen>
+	<dimen name="ipay_reg_bottommargin_page">15dp</dimen>
+	<dimen name="ipay_reg_leftmargin_page">12dp</dimen>
+	<dimen name="ipay_reg_rightmargin_page">12dp</dimen>
+	<dimen name="ipay_reg_left_padding_panel">18dp</dimen>
+	<dimen name="ipay_reg_right_padding_panel">17dp</dimen>
+	<dimen name="ipay_reg_top_padding_panel">13dp</dimen>
+	<dimen name="ipay_reg_bottom_padding_panel">15dp</dimen>
+	<dimen name="ipay_reg_topmargin_row2">24dp</dimen>
+	<dimen name="ipay_reg_topmargin_row3">37dp</dimen>
+	<dimen name="ipay_reg_height_edit">40dp</dimen>
+	<dimen name="ipay_reg_height_button">42dp</dimen>
+	
+	<!-- 账单 -->
+	<dimen name="ipay_bill_height_parent_item">42dp</dimen>
+	<dimen name="ipay_bill_height_child_item">75dp</dimen>	
+	<dimen name="ipay_bill_width_left_panel">78dp</dimen>
+	<dimen name="ipay_bill_right_padding">28dp</dimen>
+	<dimen name="ipay_bill_left_padding_right_panel">12dp</dimen>
+	<dimen name="ipay_bill_margin_vertical_of_textview">10dp</dimen>
+	
+	<dimen name="ipay_bill_type_choose_height_item">60dp</dimen>
+	<dimen name="ipay_bill_type_choose_left_padding_item">22dp</dimen>
+	<dimen name="ipay_bill_type_choose_right_padding_item">33dp</dimen>
+	
+	<dimen name="ipay_bill_detail_topmargin_page">10dp</dimen>
+	<dimen name="ipay_bill_detail_leftmargin_page">12dp</dimen>
+	<dimen name="ipay_bill_detail_rightmargin_page">12dp</dimen>
+	<dimen name="ipay_bill_detail_leftpadding_panel">22dp</dimen>
+	<dimen name="ipay_bill_detail_toppadding_panel">15dp</dimen>
+	<dimen name="ipay_bill_detail_bottompadding_panel">33dp</dimen>
+	<dimen name="ipay_bill_detail_width_left_textview">80dp</dimen>
+	<dimen name="ipay_bill_detail_height_item">45dp</dimen>
+		
+	<dimen name="ipay_app_bill_topmargin_child_item">7dp</dimen>
+	<dimen name="ipay_app_bill_bottommargin_child_item">7dp</dimen>
+	<dimen name="ipay_app_bill_leftmargin_child_item">13dp</dimen>
+	<dimen name="ipay_app_bill_rightmargin_child_item">12dp</dimen>
+	<dimen name="ipay_app_bill_top_padding_child_item">14dp</dimen>
+	<dimen name="ipay_app_bill_bottom_padding_child_item">30dp</dimen>
+	<dimen name="ipay_app_bill_left_padding_child_item">24dp</dimen>
+	<dimen name="ipay_app_bill_right_padding_child_item">24dp</dimen>
+	<dimen name="ipay_app_bill_height_textitem_child_item">46dp</dimen>
+		
+	<dimen name="ipay_bill_no_record_topmargin">22dp</dimen>
+	<dimen name="ipay_bill_no_record_bottommargin">22dp</dimen>
+	<dimen name="ipay_bill_no_record_margin_vertical">7dp</dimen>
+	
+	<dimen name="ipay_bill_appname_fontsize">15sp</dimen>
+		
+	<!-- 财付通 -->
+     <!-- 标题，导航栏高度 -->
+    <dimen name="com_tenpay_title_bar">48dp</dimen>
+    <!-- 表单距左右屏幕边距的距离 -->
+    <dimen name="com_tenpay_form_side_padding">15dp</dimen>
+    <!-- 表单输入控件的高度 -->
+    <dimen name="com_tenpay_form_edit_height">45dp</dimen>
+    <!-- 提交按钮的高度 -->
+    <dimen name="com_tenpay_form_submit_btn_height">50dp</dimen>    
+     <!-- 提交按钮的周边距 -->
+    <dimen name="com_tenpay_form_submit_btn_margin">15dp</dimen>
+    
+	<dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+</resources>

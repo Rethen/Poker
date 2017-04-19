@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/ipay_page_bg">
+  <!-- 顶部标题栏 -->
+	<include
+		layout="@layout/ipay_common_topbar">
+	</include>
+	    <LinearLayout 
+		    android:orientation="vertical"
+		    android:paddingTop="@dimen/ipay_common_top_padding"
+			android:paddingLeft="@dimen/ipay_common_horizontal_padding"
+			android:paddingRight="@dimen/ipay_common_horizontal_padding" 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent"
+	  		android:layout_below="@id/topbar">	
+		    
+		    <LinearLayout 
+		    	android:id = "@+id/paycenter_select"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal"
+			    android:background="@null"
+			    android:paddingTop="@dimen/ipay_common_title_top_margin"
+			    android:paddingBottom="@dimen/ipay_common_title_bottom_margin">
+		    		<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/ipay_choose_operators"
+						android:textSize="@dimen/ipay_fontsize_middle"
+						android:textColor="@color/ipay_dark_gray"
+					>
+					</TextView>
+					
+		    </LinearLayout>
+
+		    <LinearLayout 
+		    	android:id="@+id/operators_grid_layout"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical">
+		    		<GridView
+						android:id="@+id/operators_gridview"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:columnWidth="@dimen/ipay_paycenter_gridview_item_width"
+						android:numColumns="2"
+						android:verticalSpacing="10dp"
+						android:stretchMode="columnWidth"
+						android:gravity="center" 
+						android:scrollbars="none"
+						android:horizontalSpacing="14dp"
+						android:cacheColorHint="#00000000" 
+						android:background="@null" 
+						android:listSelector="@color/ipay_transparent"
+						android:fadingEdge="none">
+					</GridView>
+		    </LinearLayout>
+			
+			<View 
+				android:layout_width="fill_parent"
+				android:layout_height="1dp" 
+				android:layout_marginTop="15dp"
+				android:layout_marginBottom="25dp"
+				android:background="@color/ipay_sms_rearge_page_line"
+				/>
+			
+			<LinearLayout
+				android:layout_height="22dp" 
+				android:layout_width="fill_parent"
+				android:layout_below="@id/smspay_generatesms_btn">
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/ipay_prompt" 
+					android:layout_gravity="left|center_vertical">
+				</ImageView>
+				<TextView 
+					android:id="@+id/smspay_prompt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/ipay_prompt"
+					android:textSize="@dimen/ipay_fontsize_middle"
+					android:textColor="@color/ipay_black"
+					android:layout_marginLeft="5dp"/>
+			</LinearLayout>
+			<TextView 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/ipay_rechargecard_recharge_hint1"
+				android:layout_marginTop="8dp"
+				android:textSize="@dimen/ipay_fontsize_small"
+				android:textColor="@color/ipay_gray"
+				android:layout_below="@id/smspay_generatesms_btn"
+				/>
+			
+			<Button
+				android:id="@+id/next_btn"
+				android:layout_width="fill_parent"
+				android:layout_height="@dimen/ipay_smspaycenter_button_height"
+				android:layout_gravity="center_horizontal"
+				android:text="@string/ipay_next_step"
+				android:textSize="@dimen/ipay_fontsize_middle"
+				android:textColor="@color/ipay_white"
+				android:gravity="center"
+				android:background="@drawable/ipay_red_btn_selector"
+				android:layout_marginTop="@dimen/ipay_common_button_top_margin"
+				android:enabled="true">
+			</Button>
+			
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="15dp"
+				android:layout_below="@+id/phonepay_pay_btn">
+			</TextView>
+	    </LinearLayout>
+	
+</RelativeLayout>

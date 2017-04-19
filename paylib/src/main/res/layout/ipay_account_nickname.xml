@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:paddingTop="31dp"
+  android:paddingLeft="15dp">
+  	<TextView
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="@string/ipay_account_nickname"
+	  android:textSize="14sp"
+	  android:textColor="@color/ipay_white"
+	  android:gravity="center">
+   </TextView>
+   <TextView
+   	  android:id="@+id/account_nickname"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text=""
+	  android:textSize="18sp"
+	  android:textColor="@color/ipay_white"
+	  android:gravity="center"
+	  android:background="@drawable/ipay_edit_normal_bg"
+	  android:layout_marginLeft="10dp">
+   </TextView>
+</LinearLayout>

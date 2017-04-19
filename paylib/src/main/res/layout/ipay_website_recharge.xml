@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ipay_white"
+    >
+    	<View 
+			android:layout_width="fill_parent"
+			android:id="@+id/ipay_dialog_line"
+			android:layout_height="2dp" 
+			android:background="@color/ipay_topbar_title"
+			/>
+			
+		<TextView
+			android:id="@+id/ipay_website_recharge_title"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_marginTop="13dp"
+			android:layout_marginBottom="13dp"
+			android:padding="0dp"
+			android:textSize="21sp"
+			android:gravity="center"
+			android:visibility="visible"
+			android:textColor="@color/ipay_topbar_title"
+			/>		
+		
+		<LinearLayout 
+			android:id="@+id/setting_panel"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:orientation="vertical"
+			android:visibility="visible"
+    		android:paddingLeft="20dp"
+    		android:paddingRight="20dp"
+    		android:paddingTop="0dp"
+    		android:paddingBottom="0dp">
+			
+			    
+			<TextView
+				android:id="@+id/website_recharge_hint"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:padding="0dp"
+				android:textSize="15sp"
+				android:textColor="@color/ipay_black"
+				/>		
+				
+			<LinearLayout 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+				android:paddingTop="20dp"
+				android:paddingBottom="20dp"
+				android:paddingLeft="40dp"
+				android:paddingRight="40dp">
+				
+				<Button 
+					android:id="@+id/ok"
+					android:layout_width="fill_parent"
+					android:layout_height="36dp"
+					android:orientation="horizontal"
+					android:text="@string/ipay_know"
+					android:textSize="20sp"
+					android:layout_weight="1"
+					android:background="@drawable/ipay_popbtn_selector"
+					android:textColor="@color/ipay_white"
+					android:gravity="center"
+					/>
+			</LinearLayout>
+		</LinearLayout>
+			
+</LinearLayout>   

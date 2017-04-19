@@ -1,0 +1,57 @@
+<resources>
+	<style name="ipay_tabbar_item" >  
+	    <item name="android:layout_width">wrap_content</item>  
+	    <item name="android:layout_height">fill_parent</item>  
+	    <item name="android:orientation">vertical</item>  
+	    <item name="android:gravity">center</item>  
+	    <item name="android:layout_gravity">bottom</item>  
+	    <item name="android:layout_weight">1</item>
+	    <item name="android:paddingTop">@dimen/ipay_personalcenter_tabbar_item_top_padding</item>  
+	</style>  
+
+	<style name="ipay_tabbar_item_image" >  
+	    <item name="android:layout_width">@dimen/ipay_personalcenter_tabbar_image_size</item>  
+	    <item name="android:layout_height">@dimen/ipay_personalcenter_tabbar_image_size</item>  
+	    <item name="android:scaleType">fitXY</item>  
+	</style>  
+	  
+	<style name="ipay_tabbar_item_textview" >  
+	    <item name="android:layout_width">fill_parent</item>  
+	    <item name="android:layout_height">wrap_content</item>  
+	    <item name="android:textSize">15sp</item>  
+	    <item name="android:textColor">@drawable/ipay_tab_text_color</item>  
+	    <item name="android:paddingTop">0dip</item>  
+	    <item name="android:gravity">center</item>  
+	</style>
+	
+	<style name="choose_paytype_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/ipay_bill_type_choose_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+        
+	<style name="ipay_bill_type_choose">
+		<item name="android:windowBackground">@color/ipay_bill_type_choose_background</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsTranslucent">true</item>  
+		<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+	</style>
+	
+	<style name="ipay_progress_round">
+	    <item name="android:indeterminateDrawable">@drawable/ipay_tag_scroll_loading</item>
+	</style>
+	
+    <style name="ipay_CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">#00ffffff</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>  

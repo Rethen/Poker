@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/ipay_page_bg">
+  <!-- 顶部标题栏 -->
+	<include
+		android:id="@+id/topbar"
+		layout="@layout/ipay_common_topbar">
+	</include>
+	
+	    <LinearLayout 
+	    android:orientation="vertical"
+	    android:paddingTop="@dimen/ipay_smspaycenter_page_vertical_padding"
+		android:paddingLeft="@dimen/ipay_smspaycenter_page_horizontal_padding"
+		android:paddingRight="@dimen/ipay_smspaycenter_page_horizontal_padding" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+	  	android:layout_below="@id/topbar">
+		  	<TextView 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/ipay_input_verify_code"
+					android:textSize="@dimen/ipay_fontsize_middle"
+					android:textColor="@color/ipay_black"
+					android:layout_marginBottom="14dp"
+					/>
+	  	
+	    	<LinearLayout 
+	    		android:id="@+id/smspay_phone_layout"
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="@dimen/ipay_smspaycenter_phone_layout_height"
+		    	android:background="@drawable/ipay_white_panel"
+		    	android:paddingLeft="7dp" 
+		    	android:paddingRight="11dp" 
+		    	android:gravity="center_vertical">
+		    	
+		    	<LinearLayout 
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_gravity="center_vertical"
+					>
+					<EditText 
+						android:id="@+id/verify_code_edittext"
+			    		android:layout_width="150dp" 
+						android:layout_height="wrap_content"
+						android:textSize="@dimen/ipay_fontsize_middle"
+						android:textColor="@color/ipay_black"
+						android:gravity="center_vertical|left"
+						android:hint="@string/ipay_input_verify_code_hint"
+						android:background="@drawable/ipay_edit_small"
+						android:layout_gravity="center_vertical"
+						android:layout_weight="1"
+					    android:maxLength="10"
+					    android:enabled="false"
+						/>
+		    		<View
+						android:layout_height="1dp"
+						android:layout_width="10dp"
+						/>
+	    			<Button
+		    			android:id="@+id/get_verify_code_btn"
+						android:layout_height="wrap_content"
+						android:layout_width="100dp"
+						android:text="@string/ipay_get_sms_code"
+						android:textSize="@dimen/ipay_fontsize_middle"
+						android:textColor="@color/ipay_white"
+						android:gravity="center" 
+						android:layout_gravity="center_vertical"
+						android:background="@drawable/ipay_green_btn_selector"
+						/>
+		    	</LinearLayout>	
+			    
+		    </LinearLayout>	
+		    
+			<View 
+				android:layout_width="fill_parent"
+				android:layout_height="1dp" 
+				android:layout_marginTop="15dp"
+				android:layout_marginBottom="17dp"
+				android:background="@color/ipay_sms_rearge_page_line"
+				/>
+			
+			<Button
+				android:id="@+id/ok"
+				android:layout_width="fill_parent"
+				android:layout_height="@dimen/ipay_smspaycenter_button_height"
+				android:layout_gravity="center_horizontal"
+				android:text="@string/ipay_ok"
+				android:textSize="@dimen/ipay_fontsize_middle"
+				android:textColor="@color/ipay_white"
+				android:gravity="center"
+				android:background="@drawable/ipay_red_btn_selector"
+				android:enabled="false">
+			</Button>
+						
+			<LinearLayout
+				android:layout_marginTop="@dimen/ipay_smspaycenter_hint_top_margin"
+				android:layout_height="22dp"
+				android:layout_width="fill_parent"
+				android:id="@+id/smspay_prompt_layout">	
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/ipay_prompt" android:layout_gravity="left|center_vertical">
+				</ImageView>	
+				<TextView 
+					android:id="@+id/smspay_prompt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/ipay_prompt"
+					android:textSize="@dimen/ipay_fontsize_middle"
+					android:textColor="@color/ipay_black"
+					android:layout_marginLeft="5dp"/>
+			</LinearLayout>
+			<TextView
+				android:id="@+id/smspayhint"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/ipay_chinamobile_sms_verifycode_tip"
+				android:textSize="@dimen/ipay_fontsize_small"
+				android:textColor="@color/ipay_gray"
+				android:layout_marginTop="@dimen/ipay_smspaycenter_hint_top_margin">
+			</TextView>
+			
+	    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="bule">#1874CD</color>
+    <color name="set_color">#949494</color>
+    <color name="red">#ff0000</color>
+    <color name="orange">#ff9229</color>
+    <color name="gray">#666666</color>
+    <color name="yellow">#ffff00</color>
+    <color name="yellow_deep">#fff000</color>
+    <color name="countdown">#c0ff00</color>
+    <color name="yellow_1">#FCFF00</color>
+    <color name="transparent">#00000000</color>
+    <color name="yellow_2">#FFE800</color>
+    <color name="yellow_3">#f4ff02</color>
+    <color name="spitline">#10336D</color>
+    <color name="green">#C0FF00</color>
+    <color name="orange_deep">#ff8202</color>
+    <color name="table_user_sit">#798793</color>
+    <color name="table_user_chips">#ffe369</color>
+    <color name="table_user_head_circle_color">#0c1924</color>
+    <color name="user_info_bg">#40020202</color>
+    <color name="count_down_mask">#6b000000</color>
+    <color name="count_down_circle">#00fff0</color>
+    <color name="im_message_profile_picture_border">#fff</color>
+    <color name="record_positive">#fcff00</color>
+    <color name="record_negative">#1fe0c2</color>
+    <color name="situation_player_gray">#717171</color>
+    <color name="count_down_text_color">#fff</color>
+    <color name="table_hilight_color">#ffd369</color>
+    <color name="table_main_text_color">#4de2ca7b</color>
+    <color name="table_main_chips_color">#e2ca7b</color>
+    <color name="table_sit_text_color">#788B96</color>
+    <color name="table_bg_color">#084E67</color>
+    <color name="table_percent_text_color">#0B2036</color>
+    <color name="table_popup_dim_color">#26000000</color>
+    <color name="table_popup_bg_color">#040A0E</color>
+    <color name="table_real_time_record_color1">#E2CA7B</color>
+    <color name="table_situation_title_bg">#23242A</color>
+    <color name="table_situation_color_normal">#fff</color>
+    <color name="table_situation_color_disable">#717171</color>
+    <color name="table_situation_score_color_normal">#E2CA7B</color>
+    <color name="table_situation_score_color_disable">#695F3A</color>
+    <color name="table_player_message_normal">#fff</color>
+    <color name="table_player_message_raise">#000</color>
+    <color name="table_player_message_keep_seat">#fff</color>
+
+    <color name="general_btn_yes_color">#1b2a33</color>
+    <color name="dialog_notitle_btn_color">#000</color>
+    <color name="dialog_notitle_bg_color">#3d3d40</color>
+    <color name="dialog_notitle_title_color">#dedede</color>
+    <color name="dialog_notitle_content_color">#bab8b5</color>
+
+    <color name="new_title_bg">#171719</color>
+    <color name="new_split_line">#544933</color>
+    <color name="new_item_bg">#292318</color>
+    <color name="new_bg_color">#121212</color>
+    <color name="new_bg_child_color">#212123</color>
+    <color name="new_bg_child_color1">#1B1B1B</color>
+    <color name="new_bg_child_color2">#292929</color>
+    <color name="new_bg_child_color3">#5F5F62</color>
+
+    <color name="new_text_color1">#FEDF9E</color>
+    <color name="new_text_color2">#212121</color>
+    <color name="new_text_color3">#929191</color>
+    <color name="new_text_color4">#969696</color>
+    <color name="new_text_color5">#6E6E6E</color>
+    <color name="new_text_color6">#E1E1E1</color>
+    <color name="new_text_color7">#92815D</color>
+    <color name="new_text_color8">#838383</color>
+    <color name="new_text_color9">#74623C</color>
+    <color name="new_span_line">#33FFFFFF</color>
+    <color name="new_span_line1">#414142</color>
+    <color name="new_click_select_bg">#353535</color>
+    <color name="discover_list_select_bg">#2D2D2D</color>
+
+    <color name="new_edit_hint_text">#75757a</color>
+    <color name="register_send_disable_text">#AF9A6C</color>
+    <color name="register_send_enable_text">#FEDF9E</color>
+    <color name="darkred">#b30101</color>
+
+
+    <color name="register_country_unchecked_color">#DEDEDE</color>
+    <color name="register_country_checked_color">#FBCB76</color>
+    <color name="register_country_pressed_backcolor">#343434</color>
+    <color name="register_country_normal_backcolor">#4D4D50</color>
+
+    <color name="data_record_long_progress">#E2CA7B</color>
+    <color name="data_record_backgroud_progress">#242424</color>
+    <color name="data_record_short_progress">#C69731</color>
+    <color name="data_record_line_color">#2B2A2A</color>
+    <color name="data_record_path_color">#927F47</color>
+    <color name="data_record_text_color">#828282</color>
+    <color name="data_record_area_color">#3FE2CA7B</color>
+    <color name="data_record_text_color1">#E2CA7B</color>
+    <color name="data_record_text_color2">#C69731</color>
+
+    <color name="data_record_text_color3">#8B8B8B</color>
+
+    <color name="data_record_score_color1">#959595</color>
+    <color name="data_record_score_color2">#ffffff</color>
+    <color name="data_record_score_color3">#FEDF9E</color>
+
+    <color name="situation_reward_color1">#E2CA7B</color>
+    <color name="situation_reward_color2">#E7E7E7</color>
+    <color name="situation_reward_color3">#B47E31</color>
+    <color name="situation_reward_color4">#919191</color>
+    <color name="situation_reward_color5">#476F78</color>
+
+    <color name="key_number_text_color">#DEDEDE</color>
+
+    <color name="last_card_item_even_color">#1a1c1e</color>
+    <color name="insurance_all_pot_text">#DFE0E0</color>
+    <color name="hor_bar_raise_color">#F9D65D</color>
+
+    <color name="sng_setting_child_bg">#262626</color>
+    <color name="sng_list_text">#FFCE4C</color>
+    <color name="sng_situation_list_text">#E2CA7B</color>
+
+    <color name="table_label_color">#1EFFFFFF</color>
+
+    <color name="pa_menu_text_color">#FBE088</color>
+
+</resources>

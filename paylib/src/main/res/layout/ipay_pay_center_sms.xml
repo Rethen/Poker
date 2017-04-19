@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/ipay_page_bg">
+  <!-- 顶部标题栏 -->
+	<include
+		layout="@layout/ipay_common_topbar">
+	</include>
+	<ScrollView
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content" 
+	  android:scrollbars="none"
+	  android:fadingEdge="none"
+	  android:background="@null"
+	  android:layout_below="@id/topbar">
+	    <RelativeLayout 
+	    android:orientation="vertical"
+	    android:paddingTop="@dimen/ipay_smspaycenter_page_vertical_padding"
+		android:paddingLeft="@dimen/ipay_smspaycenter_page_horizontal_padding"
+		android:paddingRight="@dimen/ipay_smspaycenter_page_horizontal_padding" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent">	
+		    
+		    <LinearLayout 
+	    		android:id = "@+id/smspay_middle_layout"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+		    	android:background="@drawable/ipay_white_panel"
+		    	android:paddingLeft="@dimen/ipay_common_content_left_padding" 
+		    	android:paddingRight="@dimen/ipay_common_content_left_padding" 
+		    	android:paddingTop="@dimen/ipay_smspaycenter_smscontent_layout_toppadding" 
+		    	android:paddingBottom="@dimen/ipay_smspaycenter_smscontent_layout_bottompadding">
+		    	<LinearLayout 
+					android:layout_width="fill_parent"
+					android:layout_height = "wrap_content"
+					android:orientation="horizontal">
+	    			<TextView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/ipay_addressee"
+						android:textSize="@dimen/ipay_fontsize_middle"
+						android:textColor="@color/ipay_black"
+						android:gravity="center_vertical" 
+						android:layout_gravity="center_vertical">
+					</TextView>
+		    	
+		    		<TextView
+			    		android:id = "@+id/smspaycenter_receiver"
+			    		android:layout_width="fill_parent" 
+						android:layout_height="wrap_content"
+						android:text=""
+						android:textSize="@dimen/ipay_fontsize_middle"
+						android:textColor="@color/ipay_gray"
+						android:gravity="center_vertical" 
+						android:layout_gravity="center_vertical">
+					</TextView>
+		    	</LinearLayout>	
+			    
+			    <LinearLayout 
+					android:layout_width="fill_parent"
+					android:layout_height = "wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="@dimen/ipay_smspaycenter_smscontent_layout_item_margin">
+		    			<TextView
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:text="@string/ipay_send_message"
+							android:textSize="@dimen/ipay_fontsize_middle"
+							android:textColor="@color/ipay_black"
+							android:gravity="center_vertical" 
+							android:layout_gravity="center_vertical">
+						</TextView>
+			    	
+			    		<TextView
+				    		android:layout_marginLeft="5dp"
+				    		android:id = "@+id/smspaycenter_message"
+				    		android:layout_width="wrap_content" 
+							android:layout_height="wrap_content"
+							android:text=""
+							android:textSize="@dimen/ipay_fontsize_middle"
+							android:textColor="@color/ipay_black"
+							android:gravity="center_vertical" 
+							android:layout_gravity="center_vertical">
+						</TextView>
+			    </LinearLayout>	
+			    
+			     <LinearLayout 
+					android:layout_width="fill_parent"
+					android:layout_height = "wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="@dimen/ipay_smspaycenter_smscontent_layout_item_margin"
+					android:layout_weight="1">
+		    			<TextView
+		    			android:id="@+id/ipay_smspay_sendmessagehint_label"
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/ipay_smspay_sendmessagehint"
+						android:textSize="@dimen/ipay_fontsize_small"
+						android:textColor="@color/ipay_black"
+						android:gravity="center_vertical" 
+						android:layout_gravity="center_vertical">
+						</TextView>
+			    </LinearLayout>	
+		    </LinearLayout>
+
+			<Button
+				android:id="@+id/smspay_generatesms_btn"
+				android:layout_width="fill_parent"
+				android:layout_height="@dimen/ipay_smspaycenter_button_height"
+				android:layout_gravity="center_horizontal"
+				android:text="@string/ipay_smspay_generatesms"
+				android:textSize="@dimen/ipay_fontsize_middle"
+				android:textColor="@color/ipay_white"
+				android:gravity="center"
+				android:background="@drawable/ipay_red_btn_selector"
+				android:layout_below="@id/smspay_middle_layout" 
+				android:layout_marginTop="@dimen/ipay_smspaycenter_btn_top_margin">
+			</Button>
+				
+			<LinearLayout
+				android:layout_marginTop="@dimen/ipay_smspaycenter_hint_top_margin"
+				android:layout_height="22dp"
+				android:layout_width="fill_parent"
+				android:layout_below="@id/smspay_generatesms_btn"
+				android:id="@+id/smspay_prompt_layout">	
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:src="@drawable/ipay_prompt" android:layout_gravity="left|center_vertical">
+				</ImageView>	
+				<TextView 
+					android:id="@+id/smspay_prompt"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/ipay_prompt"
+					android:textSize="@dimen/ipay_fontsize_middle"
+					android:textColor="@color/ipay_black"
+					android:layout_marginLeft="5dp"/>
+			</LinearLayout>
+			<TextView
+				android:id="@+id/smspayhint"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/ipay_mobilesmspay_tint"
+				android:textSize="@dimen/ipay_fontsize_small"
+				android:textColor="@color/ipay_gray"
+				android:layout_marginTop="12dp"
+				android:layout_below="@id/smspay_prompt_layout">
+			</TextView>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="15dp"
+				android:layout_marginTop="5dp"
+				android:layout_below="@id/smspayhint">
+			</TextView>
+			
+	    </RelativeLayout>
+	
+	</ScrollView>
+</RelativeLayout>

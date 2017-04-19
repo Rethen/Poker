@@ -1,0 +1,12 @@
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="0"
+          android:drawable="@drawable/vioce_volume0"/>
+    <item android:maxLevel="1"
+          android:drawable="@drawable/vioce_volume1"/>
+    <item android:maxLevel="2"
+          android:drawable="@drawable/vioce_volume2"/>
+    <item android:maxLevel="3"
+          android:drawable="@drawable/vioce_volume3"/>
+    <item android:maxLevel="4"
+          android:drawable="@drawable/vioce_volume4"/>
+</level-list>

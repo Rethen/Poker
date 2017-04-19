@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@color/ipay_page_bg" >
+	<include
+		layout="@layout/ipay_common_topbar"
+	/>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:paddingTop="@dimen/ipay_common_top_padding"
+		android:paddingLeft="@dimen/ipay_common_horizontal_padding"
+		android:paddingRight="@dimen/ipay_common_horizontal_padding" 
+		android:orientation="vertical"
+		android:layout_gravity="center">
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="4dp"
+			android:paddingRight="4dp" 
+			android:paddingTop="15dp" 
+			android:paddingBottom="15dp" 
+			android:background="@drawable/ipay_white_panel" 
+			android:orientation="vertical">			
+			<TextView
+				android:id="@+id/tip_title"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/ipay_recharge_finish_tip_title"
+				android:textColor="@color/ipay_black"
+				android:textSize="12sp"
+				android:gravity="left|center_vertical" 
+				android:textStyle="bold"/>
+			<TextView
+				android:id="@+id/tip"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="8dp"
+				android:text="@string/ipay_recharge_finish_tip"
+				android:textColor="@color/ipay_black"
+				android:textSize="12sp"
+				android:gravity="left|center_vertical" />
+		</LinearLayout>
+		
+		<Button
+			android:id="@+id/recharge"
+			android:layout_width="fill_parent"
+			android:layout_height="@dimen/ipay_common_button_height"
+			android:layout_gravity="center_horizontal"
+			android:text="@string/ipay_recharge_finish"
+			android:textSize="@dimen/ipay_fontsize_middle"
+			android:textColor="@color/ipay_white"
+			android:gravity="center"
+			android:background="@drawable/ipay_red_btn_selector"
+			android:layout_marginTop="@dimen/ipay_smspayresult_btn_topmargin">
+		</Button>
+	</LinearLayout>
+</LinearLayout>

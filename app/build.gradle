@@ -1,0 +1,325 @@
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+//apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+    defaultConfig {
+        applicationId rootProject.ext.android.applicationId
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        default_config {
+            keyAlias 'poseidon.keystore'
+            keyPassword '123456'
+            storeFile file('E:/poseidon.keystore')
+            storePassword '123456'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.default_config
+        }
+
+    }
+
+
+    dataBinding {
+        enabled = true
+    }
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+    }
+
+
+
+    sourceSets {
+        main {
+            res.srcDirs =
+                    [
+                            'src/main/res/layouts/main',
+                            'src/main/res/layouts/login',
+                            'src/main/res/layouts/splash',
+                            'src/main/res/layouts/register',
+                            'src/main/res/layouts/view',
+                            'src/main/res/layouts',
+                            'src/main/res'
+                    ]
+        }
+    }
+
+
+
+    flavorDimensions("network", "country", "channel")
+    productFlavors {
+        online {
+            dimension "network"
+            manifestPlaceholders = [NETWORK_ENVIRONMENT: "online"]
+        }
+        offline {
+            dimension "network"
+            manifestPlaceholders = [NETWORK_ENVIRONMENT: "offline"]
+        }
+        onlinetest {
+            dimension "network"
+            manifestPlaceholders = [NETWORK_ENVIRONMENT: "onlinetest"]
+        }
+        abroad {
+            dimension "country"
+            manifestPlaceholders = [COUNTRY: "abroad"]
+        }
+        home {
+            dimension "country"
+            manifestPlaceholders = [COUNTRY: "home"]
+        }
+        nochannel {
+            dimension "channel"
+            manifestPlaceholders = [CHANNEL_ENVIRONMENT: "CHANNEL_UNDEFINED_CHANNEL_UNDEFINED"]
+        }
+        gp {
+            dimension "channel"
+            manifestPlaceholders = [CHANNEL_ENVIRONMENT: "GP"]
+        }
+    }
+
+    // httpApiServerBase
+    def httpApiServerBaseOffline = "http://hkg02-sys-web199.hkg02.hipokers.com:8080/"
+    // def httpApiServerBaseOnlineHome = "http://cgi1.kingpokers.com/"
+    def httpApiServerBaseOnlineHome = "http://14.215.177.249/"
+    // def httpApiServerBaseOnlineAboard = "http://cgi.kingpokers.com/"
+    def httpApiServerBaseOnlineAboard = "http://103.235.47.59/"
+    def httpApiServerBaseOnlineTest = "http://test.hipokers.com:8080/"
+    def httpApiServerBase = httpApiServerBaseOffline
+
+    // serverAddress
+    //online 125.77.25.68
+    def serverAddressOffline = "125.77.25.68"
+    def serverAddressOnlineHome = "125.77.25.68"
+    def serverAddressOnlineAboard = "125.77.25.68"
+    def serverAddressOnlineTest = "125.77.25.68"
+    def serverAddress = serverAddressOffline
+
+    // payServerAddress
+    def payServerAddressOffline = "mpay.hipokers.com"
+    def payServerAddressOnlineHome = "mpay.hipokers.com"
+    def payServerAddressOnlineAboard = "mpay.hipokers.com"
+    def payServerAddressOnlineTest = "mpay.hipokers.com"
+    def payServerAddress = "mpay.hipokers.com"
+
+    // cardReplayAddress
+    def cardReplayAddressOffline = "http://10.242.127.12:8600/"
+    // def cardReplayAddressOnlineHome = "http://static1.kingpokers.com/"
+    def cardReplayAddressOnlineHome = "http://14.215.178.49/"
+    // def cardReplayAddressOnlineAboard = "http://static.kingpokers.com/"
+    def cardReplayAddressOnlineAboard = "http://103.235.47.60/"
+    def cardReplayAddressOnlineTest = "http://test.hipokers.com:8600/"
+    def cardReplayAddress = cardReplayAddressOffline
+
+    def uploadAddressBaseOffline = "http://hkg02-sys-web199.hkg02.hipokers.com:8000/"
+    // def uploadAddressBaseOnlineHome = "http://api1.kingpokers.com/"
+    def uploadAddressBaseOnlineHome = "http://14.215.177.231/"
+    // def uploadAddressBaseOnlineAbroad = "http://api.kingpokers.com/"
+    def uploadAddressBaseOnlineAbroad = "http://103.235.47.28/"
+    def uploadAddressBaseOnlineTest = "http://test.hipokers.com:8000/"
+    def uploadAddressBase = uploadAddressBaseOffline
+
+    // global wap pass
+    def globalWapPassDomainHome = "http://hkg02-sys-web199.hkg02.hipokers.com:8080/"
+    def globalWapPassDomainAbroad = "http://id.hipokers.com/"
+    def globalWapPassDomainNorthAmerica = "http://us.hipokers.com/"
+
+    // uts report
+    def utsReportOffline = "http://hkg02-inf-dev00.hkg02.hipokers.com:8080/cgi-bin-py/starpoker.cgi"
+    def utsReportOnline = "http://sync.starpoker.baidu.com/cgi-bin-py/starpoker.cgi"
+    def utsReportBase = utsReportOffline
+
+    def aboardVersion = false
+    def envConfig = "offline"
+    applicationVariants.all { variant ->
+        println("Iterating variant: [" + variant.getName() + "]")
+        def onlineType = variant.productFlavors.get(0).name
+        def countryType = variant.productFlavors.get(1).name
+        aboardVersion = countryType.equals("abroad")
+        println("Product flavors:" + onlineType + " country:" + countryType)
+        if (onlineType.equals("online")) {
+            if (countryType.equals("home")) {   // China config
+                serverAddress = serverAddressOnlineHome
+                payServerAddress = payServerAddressOnlineHome
+                cardReplayAddress = cardReplayAddressOnlineHome
+                httpApiServerBase = httpApiServerBaseOnlineHome
+                uploadAddressBase = uploadAddressBaseOnlineHome
+                utsReportBase = utsReportOnline
+                envConfig = "onlineHome"
+            } else { // Hongkong config
+                serverAddress = serverAddressOnlineAboard
+                payServerAddress = payServerAddressOnlineAboard
+                cardReplayAddress = cardReplayAddressOnlineAboard
+                httpApiServerBase = httpApiServerBaseOnlineAboard
+                uploadAddressBase = uploadAddressBaseOnlineAbroad
+                utsReportBase = utsReportOnline
+                envConfig = "onlineAbroad"
+            }
+        } else if (onlineType.equals("onlinetest")) {
+            if (countryType.equals("home")) {   // home test online config
+                serverAddress = serverAddressOnlineTest
+                payServerAddress = payServerAddressOnlineTest
+                cardReplayAddress = cardReplayAddressOnlineTest
+                httpApiServerBase = httpApiServerBaseOnlineTest
+                uploadAddressBase = uploadAddressBaseOnlineTest
+                utsReportBase = utsReportOffline
+                envConfig = "onlineTest"
+            }
+        } else { // 兼容旧版的Gradle，必须重新一次赋值
+            serverAddress = serverAddressOffline
+            payServerAddress = payServerAddressOffline
+            cardReplayAddress = cardReplayAddressOffline
+            httpApiServerBase = httpApiServerBaseOffline
+            uploadAddressBase = uploadAddressBaseOffline
+            utsReportBase = utsReportOffline
+            envConfig = "offline"
+        }
+        def uploadHeadAddress = uploadAddressBase + "upload/head"
+        def uploadHeadAddressOffline = uploadAddressBaseOffline + "upload/head"
+        def uploadHeadAddressOnlineHome = uploadAddressBaseOnlineHome + "upload/head"
+        def uploadHeadAddressOnlineAboard = uploadAddressBaseOnlineAbroad + "upload/head"
+        def uploadHeadAddressOnlineTest = uploadAddressBaseOnlineTest + "upload/head"
+
+        variant.buildConfigField "String", "SERVER_ADDRESS".toString(), "\"" + serverAddress + "\""
+        variant.buildConfigField "String", "SERVER_ADDRESS_OFFLINE".toString(), "\"" + serverAddressOffline + "\""
+        variant.buildConfigField "String", "SERVER_ADDRESS_ONLINE_HOME".toString(), "\"" + serverAddressOnlineHome + "\""
+        variant.buildConfigField "String", "SERVER_ADDRESS_ONLINE_ABOARD".toString(), "\"" + serverAddressOnlineAboard + "\""
+        variant.buildConfigField "String", "SERVER_ADDRESS_ONLINE_TEST".toString(), "\"" + serverAddressOnlineTest + "\""
+
+        variant.buildConfigField "String", "SERVER_ADDRESS_PAY".toString(), "\"" + payServerAddress + "\""
+        variant.buildConfigField "String", "SERVER_ADDRESS_PAY_OFFLINE".toString(), "\"" + payServerAddressOffline + "\""
+        variant.buildConfigField "String", "SERVER_ADDRESS_PAY_ONLINE_HOME".toString(), "\"" + payServerAddressOnlineHome + "\""
+        variant.buildConfigField "String", "SERVER_ADDRESS_PAY_ONLINE_ABOARD".toString(), "\"" + payServerAddressOnlineAboard + "\""
+        variant.buildConfigField "String", "SERVER_ADDRESS_PAY_ONLINE_TEST".toString(), "\"" + payServerAddressOnlineTest + "\""
+
+        variant.buildConfigField "String", "CARD_REPLAY_ADDRESS".toString(), "\"" + cardReplayAddress + "\""
+        variant.buildConfigField "String", "CARD_REPLAY_ADDRESS_OFFLINE".toString(), "\"" + cardReplayAddressOffline + "\""
+        variant.buildConfigField "String", "CARD_REPLAY_ADDRESS_ONLINE_HOME".toString(), "\"" + cardReplayAddressOnlineHome + "\""
+        variant.buildConfigField "String", "CARD_REPLAY_ADDRESS_ONLINE_ABOARD".toString(), "\"" + cardReplayAddressOnlineAboard + "\""
+        variant.buildConfigField "String", "CARD_REPLAY_ADDRESS_ONLINE_TEST".toString(), "\"" + cardReplayAddressOnlineTest + "\""
+
+        variant.buildConfigField "String", "UPLOAD_BASE_ADDRESS".toString(), "\"" + uploadAddressBase + "\""
+        variant.buildConfigField "String", "UPLOAD_BASE_ADDRESS_OFFLINE".toString(), "\"" + uploadAddressBaseOffline + "\""
+        variant.buildConfigField "String", "UPLOAD_BASE_ADDRESS_ONLINE_HOME".toString(), "\"" + uploadAddressBaseOnlineHome + "\""
+        variant.buildConfigField "String", "UPLOAD_BASE_ADDRESS_ONLINE_ABOARD".toString(), "\"" + uploadAddressBaseOnlineAbroad + "\""
+        variant.buildConfigField "String", "UPLOAD_BASE_ADDRESS_ONLINE_TEST".toString(), "\"" + uploadAddressBaseOnlineTest + "\""
+
+        variant.buildConfigField "String", "UPLOAD_HEAD_ADDRESS".toString(), "\"" + uploadHeadAddress + "\""
+        variant.buildConfigField "String", "UPLOAD_HEAD_OFFLINE".toString(), "\"" + uploadHeadAddressOffline + "\""
+        variant.buildConfigField "String", "UPLOAD_HEAD_ONLINE_HOME".toString(), "\"" + uploadHeadAddressOnlineHome + "\""
+        variant.buildConfigField "String", "UPLOAD_HEAD_ONLINE_ABOARD".toString(), "\"" + uploadHeadAddressOnlineAboard + "\""
+        variant.buildConfigField "String", "UPLOAD_HEAD_ONLINE_TEST".toString(), "\"" + uploadHeadAddressOnlineTest + "\""
+
+        variant.buildConfigField "String", "HTTP_API_SERVER_BASE".toString(), "\"" + httpApiServerBase + "\""
+        variant.buildConfigField "String", "HTTP_API_SERVER_BASE_OFFLINE".toString(), "\"" + httpApiServerBaseOffline + "\""
+        variant.buildConfigField "String", "HTTP_API_SERVER_BASE_ONLINE_HOME".toString(), "\"" + httpApiServerBaseOnlineHome + "\""
+        variant.buildConfigField "String", "HTTP_API_SERVER_BASE_ONLINE_ABOARD".toString(), "\"" + httpApiServerBaseOnlineAboard + "\""
+        variant.buildConfigField "String", "HTTP_API_SERVER_BASE_ONLINE_TEST".toString(), "\"" + httpApiServerBaseOnlineTest + "\""
+
+        variant.buildConfigField "String", "GLOBAL_WAP_PASS_DOMAIN_HOME".toString(), "\"" + globalWapPassDomainHome + "\""
+        variant.buildConfigField "String", "GLOBAL_WAP_PASS_DOMAIN_ABROAD".toString(), "\"" + globalWapPassDomainAbroad + "\""
+        variant.buildConfigField "String", "GLOBAL_WAP_PASS_DOMAIN_NORTH_AMERICAN".toString(),
+                "\"" + globalWapPassDomainNorthAmerica + "\""
+        variant.buildConfigField "boolean", "IS_ABOARD_VERSION", aboardVersion.toString()
+        variant.buildConfigField "String", "DEFAULT_ENV_NAME", "\"" + envConfig + "\""
+
+        variant.buildConfigField "String", "UTS_REPORT_ADDRESS".toString(), "\"" + utsReportBase + "\""
+        variant.buildConfigField "String", "UTS_REPORT_ADDRESS_OFFLINE".toString(), "\"" + utsReportOffline + "\""
+        variant.buildConfigField "String", "UTS_REPORT_ADDRESS_ONLINE_HOME".toString(), "\"" + utsReportOnline + "\""
+        variant.buildConfigField "String", "UTS_REPORT_ADDRESS_ONLINE_ABOARD".toString(), "\"" + utsReportOnline + "\""
+        variant.buildConfigField "String", "UTS_REPORT_ADDRESS_ONLINE_TEST".toString(), "\"" + utsReportOffline + "\""
+
+        println("Server_Address:" + serverAddress)
+        println("Server_Pay_Address:" + payServerAddress)
+        println("HTTP_API_SERVER_BASE:" + httpApiServerBase)
+        println("Server_Card_Replay_Address:" + cardReplayAddress)
+        println("Upload_Head_Address:" + uploadHeadAddress)
+
+
+    }
+
+    dependencies {
+        compile fileTree(dir: 'libs', include: ['*.jar'])
+        androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+            exclude group: 'com.android.support', module: 'support-annotations'
+        })
+
+        compile project(path: ':themvp')
+
+        compile project(path: ':paylib')
+
+        compile rootProject.ext.dependencies["appcompat-v7"]
+
+        compile rootProject.ext.dependencies["support-v4"]
+
+        compile rootProject.ext.dependencies["cardview-v7"]
+
+        compile rootProject.ext.dependencies["permissions"]
+
+        compile rootProject.ext.dependencies["xlog"]
+
+        compile rootProject.ext.dependencies["lottie"]
+
+        compile rootProject.ext.dependencies["multidex"]
+
+        compile rootProject.ext.dependencies["retrofit2"]
+
+        compile rootProject.ext.dependencies["rx-android"]
+
+        compile rootProject.ext.dependencies["bindingcollectionadapter"]
+
+        compile rootProject.ext.dependencies["bindingcollectionadapter-recyclerview"]
+
+        compile rootProject.ext.dependencies["javax-inject"]
+
+        compile rootProject.ext.dependencies["treasure"]
+
+        annotationProcessor rootProject.ext.dependencies["treasure-compiler"]
+
+        compile rootProject.ext.dependencies["utilcode"]
+
+        compile rootProject.ext.dependencies["retrofit2"]
+
+        compile rootProject.ext.dependencies["converter-gson"]
+
+        compile rootProject.ext.dependencies["adapter-rxjava"]
+
+        compile rootProject.ext.dependencies["rxlifecycle"]
+
+        compile rootProject.ext.dependencies["gson"]
+
+        compile(rootProject.ext.dependencies["twitter"]) {
+            transitive = true
+        }
+
+        compile rootProject.ext.dependencies["treasure"]
+
+        annotationProcessor  rootProject.ext.dependencies["treasure-compiler"]
+
+        compile rootProject.ext.dependencies["dagger"]
+
+        provided rootProject.ext.dependencies["dagger-compiler"]
+
+        compile rootProject.ext.dependencies["crabsdk"]
+
+        compile rootProject.ext.dependencies["crabndk"]
+
+        testCompile 'junit:junit:4.12'
+    }
+}

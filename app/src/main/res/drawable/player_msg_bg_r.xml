@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/player_msg_call_r" android:maxLevel="2" />
+    <item android:drawable="@drawable/player_msg_raise_r" android:maxLevel="3" />
+    <item android:drawable="@drawable/player_msg_all_in_r" android:maxLevel="4" />
+    <item android:drawable="@drawable/player_msg_check_r" android:maxLevel="5" />
+    <item android:drawable="@drawable/player_msg_fold_r" android:maxLevel="6" />
+    <item android:drawable="@drawable/player_msg_wait_r" android:maxLevel="8" />
+    <item android:drawable="@drawable/player_msg_straddle_r" android:maxLevel="13" />
+    <item android:drawable="@drawable/player_msg_fold_r" android:maxLevel="14" />
+    <item android:drawable="@drawable/player_msg_fold_r" android:maxLevel="15" />
+</level-list>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.poseidon.pokers.ui.viewmodel.page.RegisterViewModel">
+
+        </variable>
+    </data>
+
+    <LinearLayout
+        android:id="@+id/root_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#121212"
+        android:orientation="vertical">
+
+        <com.poseidon.pokers.ui.view.TitlebarView
+            android:id="@+id/titlebar_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+                <EditText
+                    android:id="@+id/et_country"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@null"
+                    android:focusable="false"
+                    android:hint="@string/country"
+                    android:text="@={viewModel.country}"
+                    android:longClickable="false"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/set_color"
+                    android:textSize="@dimen/font_16" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="3dp"
+                    android:src="@drawable/register_country" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginRight="10dp"
+                    android:clickable="true"
+                    android:padding="10dp"
+                    android:src="@drawable/register_country_list" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="40dp"
+                    android:background="#414142" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp">
+
+                <EditText
+                    android:id="@+id/et_phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@null"
+                    android:gravity="center_vertical"
+                    android:hint="@string/login_account_hint"
+                    android:maxEms="15"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="75dp"
+                    android:paddingTop="10dp"
+                    android:text="@={viewModel.phoneNumber}"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/set_color"
+                    android:textSize="@dimen/font_16" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="3dp"
+                    android:src="@drawable/register_phone" />
+
+                <TextView
+                    android:id="@+id/tv_country_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center_vertical"
+                    android:text="@={viewModel.countryCode}"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_16" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="40dp"
+                    android:background="#414142" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp">
+
+                <EditText
+                    android:id="@+id/et_captcha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@null"
+                    android:maxEms="10"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="40dp"
+                    android:text="@={viewModel.captcha}"
+                    android:paddingTop="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/set_color"
+                    android:textSize="@dimen/font_14" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="3dp"
+                    android:src="@drawable/register_verifycode" />
+
+
+                <TextView
+                    android:id="@+id/textViewSendCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginBottom="2dp"
+                    android:background="@drawable/login_register_selecter"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="8dp"
+                    android:text="@string/send_verification_code"
+                    android:textColor="@color/register_send_color_selector"
+                    android:textSize="@dimen/font_16" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="40dp"
+                    android:background="#414142" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/layout_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp">
+
+                <EditText
+                    android:id="@+id/et_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@null"
+                    android:text="@={viewModel.pwd}"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/set_color"
+                    android:textSize="@dimen/font_16" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="3dp"
+                    android:src="@drawable/icon_password" />
+
+                <ImageView
+                    android:id="@+id/iv_show_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginRight="10dp"
+                    android:clickable="true"
+                    android:padding="10dp"
+                    android:src="@drawable/icon_show_password_selector" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="40dp"
+                    android:background="#414142" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/register_error_infor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:text="@={viewModel.registerErrorInfo}"
+                android:textColor="@color/darkred"
+                android:textSize="12sp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btn_enter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/enter_btn_selector"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/register_new_account"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</layout>

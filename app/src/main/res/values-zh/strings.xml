@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, WelcomeActivity!</string>
+    <string name="app_name">皇家德州圈</string>
+    <string name="standup">站起</string>
+    <string name="keep_seat">留座离桌</string>
+    <string name="owner_option">房主功能</string>
+    <string name="back">返回</string>
+    <string name="share_room_code">分享房间</string>
+    <string name="win_card_type">牌型提示</string>
+    <string name="menu_mute_on">开启静音</string>
+    <string name="menu_mute_off">关闭静音</string>
+    <string name="operation1">弃或让</string>
+    <string name="operation2">让牌</string>
+    <string name="operation3">跟任何注</string>
+    <string name="startgame">开局</string>
+    <string name="menu_option_tip">操作提示</string>
+    <string name="menu_manager">比赛管理</string>
+
+    <string name="welcome_loginqq">QQ账号登录</string>
+    <string name="welcome_loginwechat">微信登录</string>
+    <string name="welcome_loginxina">新浪微博登录</string>
+    <string name="welcome_loginvisitor">游客账号登录</string>
+    <string name="welcome_help">帮助</string>
+    <string name="welcome_set">设置</string>
+
+    <string name="share_to_title">分享到</string>
+    <string name="share_to_wechat_friends">微信</string>
+    <string name="share_to_wechat_moments">朋友圈</string>
+    <string name="share_to_clipboard">复制链接</string>
+    <string name="share_to_clipboard_done">已复制</string>
+    <string name="share_roomcode_detail1">【皇家德州圈 - 熟人间的德州扑克】打开皇家德州圈，输入房间号 %s，一起切磋牌技！www.kingpokers.com</string>
+    <string name="share_roomcode_detail2">【皇家德州圈 - 熟人间的德州扑克】我的房间号是 %s，复制这条消息，打开皇家德州圈，一起切磋牌技！www.kingpokers.com</string>
+    <string name="wechat_not_support">请安装微信客户端</string>
+    <string name="share_app_name">皇家德州圈</string>
+    <string name="entered_clipboard_roomcode">已进入粘贴板里的房间号</string>
+
+    <string name="commit_error">服务器错误，请稍后重试</string>
+
+    <string name="set_gameset">游戏设置</string>
+    <string name="set_gamevoice">声音</string>
+    <string name="set_gamesound">音效</string>
+    <string name="set_sitdownset">进入房间自动坐下</string>
+    <string name="set_clearcache">清除缓存</string>
+    <string name="set_newversioncheck">自动检测新版本</string>
+    <string name="gamerule">游戏规则</string>
+    <string name="about">关于我们</string>
+    <string name="current_version">版本号</string>
+    <string name="disclaimer">免责声明</string>
+
+    <string name="personal_data">个人资料</string>
+    <string name="personal_alter_avatar">点击修改头像</string>
+    <string name="personal_nick">昵称:</string>
+    <string name="personal_gender">性别:</string>
+    <string name="personal_brithday">生日:</string>
+    <string name="personal_property">资产:</string>
+    <string name="personal_level">等级:</string>
+    <string name="personal_winlose">战绩:</string>
+    <string name="personal_winrate">胜率:</string>
+    <string name="personal_maxcards">最大手牌:</string>
+    <string name="personal_gametines">已玩局数:</string>
+    <string name="personal_maxown">最高拥有:</string>
+    <string name="personal_maxwin">最大赢取:</string>
+    <string name="addavater1">相册</string>
+    <string name="addavater2">拍照</string>
+    <string name="sex1">男</string>
+    <string name="sex2">女</string>
+    <string name="Wordonline">字数已达到上限</string>
+    <string name="nickisnull">昵称不能为空</string>
+    <string name="birthday_empty">生日不能为空</string>
+    <string name="nowin">未取得一次胜利</string>
+    <string name="alter_fail">修改失败</string>
+    <string name="update_head_pic_fail">上传头像失败</string>
+    <string name="alter_success">修改成功</string>
+    <string name="leave_tip">是否保存修改？</string>
+    <string name="SDCardIsFull">SDCard 空间不足</string>
+    <string name="nick_illegal">昵称不合法</string>
+    <string name="save_modify">保存</string>
+    <string name="default_nick_name">昵称</string>
+    <string name="personal_setting">设置</string>
+    <string name="personal_server_switch">切换服务器</string>
+    <string name="get_the_rewards">领取奖励</string>
+    <string name="rewards_already">已领取</string>
+
+    <string name="recharge">充值</string>
+    <string name="recharge_convert">兑换</string>
+    <string name="recharge_convert_rule">兑换及充值规则</string>
+    <string name="recharge_idou_convert_chip">钻石→德州币</string>
+    <string name="recharge_chip_convert_idou">德州币→钻石</string>
+    <string name="recharge_idou">钻石</string>
+    <string name="recharge_chip">德州币</string>
+    <string name="recharge_chip1">620德州币</string>
+    <string name="recharge_chip2">3200德州币</string>
+    <string name="recharge_chip3">13800德州币</string>
+    <string name="recharge_chip4">36800德州币</string>
+    <string name="recharge_chip1_dec">包含600德州币，额外赠送20德州币</string>
+    <string name="recharge_chip2_dec">包含3000德州币，额外赠送200德州币</string>
+    <string name="recharge_chip3_dec">包含12800德州币，额外赠送1000德州币</string>
+    <string name="recharge_chip4_dec">包含32800德州币，额外赠送4000德州币</string>
+    <string name="recharge_1">X 60</string>
+    <string name="recharge_2">X 300</string>
+    <string name="recharge_3">X 1,280</string>
+    <string name="recharge_4">X 3,280</string>
+    <string name="recharge_5">X 6,180</string>
+    <string name="recharge_6">X 11,980</string>
+    <string name="recharge_7">X 19,980</string>
+    <string name="recharge_money_1">$0.99</string>
+    <string name="recharge_money_2">$4.99</string>
+    <string name="recharge_money_3">$19.99</string>
+    <string name="recharge_money_4">$49.99</string>
+    <string name="recharge_money_5">$94.99</string>
+    <string name="recharge_money_6">$179.99</string>
+    <string name="recharge_money_7">$299.99</string>
+
+    <string name="convert_fail">兑换失败</string>
+    <string name="convert_success">兑换成功</string>
+    <string name="convert_chips">单组德州币：</string>
+    <string name="convert_idou">单组钻石：</string>
+    <string name="convert_price">单价：</string>
+    <string name="convert_amount">数量：</string>
+    <string name="convert_total">总价：</string>
+    <string name="convert_balance">账户余额：</string>
+    <string name="convert_unallowed">抱歉，你的德州币数低于10w，不能进行此项操作。</string>
+    <string name="confirm">确认</string>
+    <string name="tip">提示</string>
+    <string name="buy">购买</string>
+    <string name="sit">坐下</string>
+    <string name="none">空位</string>
+    <string name="isbuy">是否花费</string>
+    <string name="selectpay">您选择充值</string>
+    <string name="needpay">，需要支付</string>
+    <string name="paymode">选择支付方式</string>
+    <string name="pay_title_wechat">微信支付</string>
+    <string name="pay_title_alipay">支付宝</string>
+    <string name="pay_title_baidu">百度钱包</string>
+    <string name="convert_lessidou">钻石余额不足，请立刻充值</string>
+    <string name="convert_lesschips">德州币余额不足，请选择合适的钻石数量进行兑换</string>
+    <string name="needmoney">应付金额：</string>
+    <string name="payway">支付方式：</string>
+    <string name="gamepaytitle">充值卡、游戏点卡充值</string>
+    <string name="rmb">元</string>
+    <string name="card_type">卡类型：</string>
+    <string name="input_cardmoney">请输入面额</string>
+    <string name="input_cardnumber">请输入卡号</string>
+    <string name="input_cardpwd">请输入密码</string>
+    <string name="add_other_card">添加同类型卡</string>
+    <string name="ibeans">%1$d 钻石</string>
+    <string name="cancelrecharge">确定要取消充值?</string>
+    <string name="confirmrecharge">确认充值</string>
+    <string name="buysuccessful">恭喜您成功购买%1$s 钻石</string>
+    <string name="buyipeafailed">充值失败</string>
+    <string name="repayselect">请重新选择充值金额</string>
+    <string name="filenotload">文件无法加载</string>
+    <string name="paychecking">正在检测安全支付服务版本&#8230;</string>
+    <string name="confirm_install_hint">"安装提示"</string>
+    <string name="confirm_install">"为保证您的交易安全，需要您安装支付宝安全支付服务，才能进行付款。\n\n点击确定，立即安装"</string>
+    <string name="confirm_info">缺少partner或者seller</string>
+    <string name="confirm_paying">正在支付&#8230;</string>
+    <string name="check_sign_failed">您的订单信息已被非法篡改</string>
+    <string name="check_sys_time">请检查系统时间是否正确</string>
+    <string name="warningring">提示音</string>
+
+    <string name="find_new_version">发现新版本</string>
+    <string name="update">升级</string>
+    <string name="no_update">退出</string>
+    <string name="msg_personal">个人动态</string>
+    <string name="msg_system">系统消息</string>
+    <string name="msg_activity">活动信息</string>
+
+    <string name="rank_wealth">财富排行榜</string>
+    <string name="rank_level">级</string>
+
+    <string name="feedback">意见反馈</string>
+    <string name="feedback_hint">在此输入您的反馈，仅限140字。</string>
+    <string name="feedback_tip">您也可以通过以下方式与我们取得联系：</string>
+    <string name="feedback_tell">客服电话：123456</string>
+    <string name="feedback_email">email：xxx@xxx.com</string>
+    <string name="feedback_send">发送</string>
+    <string name="feedback_null">反馈内容不能为空</string>
+    <string name="feedback_fail">反馈失败</string>
+    <string name="feedback_success">感谢您对乐乐德州扑克的大力支持</string>
+
+    <string name="share_tencent_microblog">腾讯微博</string>
+    <string name="share_sina_microblog">新浪微博</string>
+    <string name="share_renren">人人网</string>
+    <string name="share_sms">信息</string>
+    <string name="share">分享</string>
+    <string name="share_weibo_come">玩扑克赢话费，还有这等好事存在？兄弟们速度来体验。下载地址：http://www.o-popo.com/</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_failed">分享失败,请稍后重试</string>
+    <string name="share_invite">分享</string>
+    <string name="share_warning">发出分享会发送一条短信</string>
+    <string name="share_selectall">全选</string>
+    <string name="share_smsnum1">您将发送短信</string>
+    <string name="share_smsnum2">条</string>
+    <string name="share_selectcontact">请选择需要分享的联系人</string>
+    <string name="share_sendover">发送完成</string>
+    <string name="share_dosend">确认分享</string>
+    <string name="share_insertsim">"请插入SIM卡"</string>
+    <string name="share_sending">分享中，请稍候&#8230;</string>
+    <string name="share_alreadyinvite">已分享</string>
+
+    <string name="main_no_operation">请使用正式账号购买商城物品或者钻石</string>
+    <string name="main_quickplay">快速开始</string>
+    <string name="main_playfield">游戏场</string>
+    <string name="main_competitionfield">比赛场</string>
+    <string name="main_learn">开始教学</string>
+    <string name="main_onlinenumber">当前在线人数:</string>
+    <string name="main_logout">注销</string>
+    <string name="main_recharge">充值</string>
+    <string name="main_id">ID:</string>
+    <string name="main_levellabel">等\t\t\t&#160;级:</string>
+    <string name="main_times">战 \t\t\t&#160;绩:</string>
+    <string name="main_levellabel_240">等\t\t&#160;级:</string>
+    <string name="main_times_240">战 \t\t&#160;绩:</string>
+    <string name="main_levellabel_320">等\t\t级:</string>
+    <string name="main_times_320">战 \t\t绩:</string>
+    <string name="main_maxcard">最大手牌</string>
+    <string name="main_maxwin">最大赢取:</string>
+    <string name="main_level1">平民</string>
+    <string name="main_win">胜</string>
+    <string name="main_lose">败</string>
+    <string name="main_menu_message">消息</string>
+    <string name="main_menu_recommend">兑换</string>
+    <string name="main_menu_rank">排行榜</string>
+    <string name="main_menu_share">分享</string>
+    <string name="main_menu_faq">FAQ</string>
+    <string name="main_menu_task">任务</string>
+    <string name="level_name">等级名称</string>
+    <string name="level_score">积分区间</string>
+    <string name="level_need">升级需要积分</string>
+    <string name="download">下载：</string>
+    <string name="download1">下载</string>
+    <string name="req_fail">请求失败</string>
+    <string name="club_unlimited_game_exceed">俱乐部最高只能创建两个不同大小盲的不限时长牌局。如需继续创建牌局，请更改牌局时长。</string>
+    <string name="club_unlimited_game_exists">俱乐部最高只能创建两个不同大小盲的不限时长牌局。如需继续创建牌局，请更改大小盲。</string>
+    <string name="club_unlimited_game_permission_deny">只有创建者或管理员才能创建无限牌局</string>
+    <string name="update_fail">更新数据失败</string>
+    <string name="get_freechips1">您的德州币太少，系统赠送您%1$d德州币，</string>
+    <string name="get_freechips2">您今天还有%1$d次领取机会。</string>
+    <string name="get_freechips3">本次是今天最后一次领取。</string>
+    <string name="game_msg_isnull">聊天信息不能为空</string>
+    <string name="normalgame_gamelobby">游戏大厅</string>
+    <string name="normalgame_speed">速度</string>
+    <string name="normalgame_speed_normal">普通</string>
+    <string name="normalgame_speed_quick">快速</string>
+    <string name="normalgame_id">ID</string>
+    <string name="normalgame_id_and_speed">ID/速度</string>
+    <string name="normalgame_blind">小/大盲注</string>
+    <string name="normalgame_carry">最小/大携带</string>
+    <string name="normalgame_players">在玩人数</string>
+    <string name="normalgame_servicecharge">每局服务费</string>
+    <string name="normalgame_mode_new">新手场</string>
+    <string name="normalgame_mode_primary">初级场</string>
+    <string name="normalgame_mode_middle">中级场</string>
+    <string name="normalgame_mode_advanced">高级场</string>
+    <string name="normalgame_chips_not_enough">您的德州币不足，无法进入该房间，马上去充值？</string>
+    <string name="free">免费</string>
+
+    <string name="chips_limit">德州币区间</string>
+    <string name="match_gmelobby">比赛大厅</string>
+    <string name="match_ready">准备中</string>
+    <string name="match_going">进行中</string>
+    <string name="match_show">显示</string>
+    <string name="match_hide">隐藏</string>
+    <string name="match_roomID">ID/难度</string>
+    <string name="match_bonus">一/二名奖金</string>
+    <string name="match_status">状态</string>
+    <string name="match_entry_fee">参赛费</string>
+    <string name="match_tip10">你需支付</string>
+    <string name="match_tip11">德州币</string>
+    <string name="match_tip12">参与本次比赛，</string>
+    <string name="match_tip2">结束或退出比赛不再返还。</string>
+    <string name="match_tip3">本次比赛前2名的玩家所得奖励如下：</string>
+    <string name="match_bonuschips2">第二名：%1$d德州币,比赛积分+2</string>
+    <string name="match_bonuschips1">第一名：%1$d德州币,比赛积分+3</string>
+    <string name="match_giveup">放弃</string>
+    <string name="match_sitdown">参赛</string>
+    <string name="search_fail">未搜索到该房间，请核对房间ID是否正确！</string>
+    <string name="cost_chips">已消耗 %d 德州币</string>
+    <string name="not_enough_chips">很抱歉你的德州币不足！</string>
+    <string name="out_room">确定要离开本房间？</string>
+    <string name="playing_out_room">退出游戏，在这手牌结束后将自动站起。</string>
+    <string name="match_out_room">比赛进行中，现在离开房间视为自动放弃比赛，确定要退出？</string>
+    <string name="playing_stand_up">确定要站起吗？你的下注德州币将被扣除！</string>
+    <string name="match_stand_up">你正在牌局比赛中，如果现在离开房间被视为放弃比赛。你确定要离开吗？</string>
+
+    <string name="search_hint">搜索房间ID</string>
+    <string name="search">搜索</string>
+    <string name="search_tip">房间ID不能为空</string>
+    <string name="enter_room_fail">进入房间失败,请稍后重试</string>
+    <string name="enter_room_wait">正在进入房间，请稍后&#8230;</string>
+    <string name="out_room_wait">正在退出房间，请稍后&#8230;</string>
+    <string name="reconect_room_wait">网络重连中，请稍后&#8230;</string>
+
+    <string name="yes">确定</string>
+    <string name="exit">确定要退出游戏？</string>
+    <string name="levelrule">等级规则</string>
+
+    <string name="game_bet">下注</string>
+    <string name="game_call">跟注</string>
+    <string name="game_fold">弃牌</string>
+    <string name="game_foldorcheck">弃或让</string>
+    <string name="game_check">让牌</string>
+    <string name="game_raise">加注</string>
+    <string name="game_muck">盖牌</string>
+    <string name="game_raise_confirm">确定</string>
+    <string name="game_allin">全下</string>
+    <string name="game_callany">跟任何注</string>
+    <string name="game_up">站起</string>
+    <string name="game_big">大盲注</string>
+    <string name="game_small">小盲注</string>
+    <string name="game_wait">等待下一局</string>
+
+    <string name="game_sit_out">留座%ds</string>
+    <string name="game_sit_in">回桌</string>
+
+    <string name="game_view_next_card">查看</string>
+    <string name="game_view_next_card_flop">翻牌</string>
+    <string name="game_view_next_card_river">河牌</string>
+    <string name="game_view_next_card_turn">转牌</string>
+    <string name="game_view_next_card_notification_preflop">"%s"查看翻牌圈的牌</string>
+    <string name="game_view_next_card_notification_flop">"%s"查看转牌圈的牌</string>
+    <string name="game_view_next_card_notification_turn">"%s"查看河牌圈的牌</string>
+    <string name="game_view_next_card_notification_expired">已过操作时间</string>
+
+    <string name="game_notification_time_extend">房主已延长牌局时间:%d分钟</string>
+    <string name="game_notification_take_in_rate_changed">房主已修改带入倍数为:%1$d~%2$d倍</string>
+
+    <string name="game_no_sitdown_no_msg">未坐下玩家不能发送信息</string>
+    <string name="game_shotcut1">全下！全下！</string>
+    <string name="game_shotcut2">大家好！</string>
+    <string name="game_shotcut3">站起</string>
+    <string name="game_msgsend">发送</string>
+
+    <string name="searchdialog">搜索中&#8230;</string>
+    <string name="loadingdialog">请稍候&#8230;</string>
+    <string name="update_data">正在同步信息，请稍后&#8230;</string>
+    <string name="login_data">正在登录，请稍候&#8230;</string>
+    <string name="check_version">正在检测新版本，请稍后&#8230;</string>
+    <string name="load_data">正在加载用户信息，请稍后&#8230;</string>
+    <string name="share_data">分享中，请稍后&#8230;</string>
+    <string name="sendInfoFailed">提交失败</string>
+    <string name="connect_error">无法连接网络</string>
+    <string name="connect_server_fail">连接服务器失败</string>
+    <string name="fail_load_data">加载用户信息失败，请重试</string>
+    <string name="get_orderid_fail">获取订单失败</string>
+    <string name="orderid_error">订单号错误</string>
+    <string name="create_orderid">正在创建订单...</string>
+
+    <string name="req_ranking_fail">请求排行榜数据失败</string>
+    <string name="req_msg_fail">请求信息数据失败</string>
+    <string name="req_app_fail">请求推荐应用数据失败</string>
+    <string name="about1">皇家德州圈</string>
+    <string name="about2">版本：V1.0</string>
+    <string name="about3">Copyright©2016. All Rights Reserved</string>
+    <string name="about4">专注于朋友间的专业德州扑克</string>
+    <string name="send_package_fail">请求失败</string>
+    <string name="updowned">已下载</string>
+    <string name="updowning">下载中，请稍候</string>
+    <string name="loadhide">后台下载</string>
+    <string name="loadcancel">取消下载</string>
+    <string name="downed">新版本下载完成,是否安装？</string>
+    <string name="isdownload">是否下载</string>
+    <string name="tipinstall">下载完成,是否安装？</string>
+    <string name="install_text">安装</string>
+    <string name="apksize">大小：</string>
+    <string name="apkversion">版本：</string>
+    <string name="loadfaile">下载失败</string>
+    <string name="newmsg">你有新消息了</string>
+    <string name="offline">您与服务器的连接已断开</string>
+    <string name="offline_gameserver">您与房间服务器的连接已断开</string>
+    <string name="otherlogin">该账号已在其他地方登录</string>
+    <string name="outRoom">离开房间</string>
+    <string name="backlogin">返回登录</string>
+    <string name="getorderfaile">获取订单号失败</string>
+    <string name="chips">德州币:</string>
+    <string name="score">积分:</string>
+    <string name="match_score">比赛积分:</string>
+    <string name="data_count">统计</string>
+    <string name="playerdata_zhan">战</string>
+    <string name="playerdata_ji">绩:</string>
+    <string name="playerdata_sheng">胜</string>
+    <string name="playerdata_lv">率:</string>
+    <string name="have_chips">拥有德州币:</string>
+    <string name="add_chips">添加德州币:</string>
+    <string name="max_add">最大添加:</string>
+    <string name="min_add">最小添加:</string>
+    <string name="most">以上</string>
+    <string name="matchtype1">入门</string>
+    <string name="matchtype2">进阶</string>
+    <string name="matchtype3">高级</string>
+    <string name="chipmore">请选择适合您德州币数的房间进行游戏</string>
+    <string name="levle_tip1">1.积分说明:</string>
+    <string name="levle_tip2">2.等级对应表:</string>
+    <string name="fap1">Q：如何修改昵称？</string>
+    <string name="fap1_1">A：昵称代表您向别人展示的名字，如果您使用的是QQ帐号或者新浪微博帐号登录，昵称与头像将使用您QQ或新浪微博的昵称与头像。您也可以自己修改头像和昵称并保存下来。</string>
+    <string name="fap2">Q：如何升级？</string>
+    <string name="fap2_1">A：游戏内的等级与积分挂钩，您在游戏中每赢得1德州币就可以获得一个积分，每输掉一个德州币将减少1积分。随着积分的变化，您的等级也将变化。积分是可以为负值的。</string>
+    <string name="fap3">Q：如何才能进入更高级的游戏场地？</string>
+    <string name="fap3_1">A：乐乐德州扑克游戏场地的进场需求与您身上拥有的德州币数量相关，您可以先在低级别的比赛场地赢得足够德州币后再进入高级场地。</string>
+    <string name="fap4">Q：如何才能进入我朋友所在的房间？</string>
+    <string name="fap4_1">A：您可以通过搜索房间ID功能找到您朋友所在的房间并进入（前提是您需要符合该房间的进入条件）</string>
+    <string name="fap5">Q：如何获得更多的德州币？</string>
+    <string name="fap5_1">A：您可以在合适的游戏场地通过智慧赢得足够的德州币，也可以通过充值获得德州币、完成每日任务也能获得很多德州币。</string>
+    <string name="fap6">Q：如何联系客服？</string>
+    <string name="fap6_1">联系方式xxx@xxx.com</string>
+    <string name="logout">确定要退出该账号？</string>
+    <string name="msgtip">您还没有消息！</string>
+    <string name="not_login">请先登录再进行反馈</string>
+    <string name="taskcenter">任务中心</string>
+    <string name="task_title1">签到有礼金</string>
+    <string name="task_title2">在线赚德州币</string>
+    <string name="task_title3">为胜利干杯</string>
+    <string name="task_title4">为坚持喝彩</string>
+    <string name="desc1">每天首次登录</string>
+    <string name="desc2">游戏%1$d分钟</string>
+    <string name="desc3">赢得%1$d局</string>
+    <string name="desc4">对战%1$d局</string>
+    <string name="gethonus">领取奖励</string>
+    <string name="hasget">已领取</string>
+    <string name="taskgetchips">恭喜您获得%1$d德州币</string>
+    <string name="quick_play_limit">德州币太少，去商城逛逛吧</string>
+    <string name="match_tuisai">退赛</string>
+    <string name="get_honus_faile">领取奖励失败，请稍后重试</string>
+    <string name="msg_tip">完成新手教学奖励%1$d德州币</string>
+    <string name="msg_tip1">每天首次登录奖励%1$d德州币</string>
+    <string name="msg_tip2">恭喜您，完成了</string>
+    <string name="msg_tip3">，奖励%2$d德州币</string>
+    <string name="msg_tip4">%1$d钻石成功兑换%2$d德州币</string>
+    <string name="msg_tip5">任务</string>
+
+    <string name="weibo_share_title">微博分享送德州币</string>
+    <string name="weibo_share_pic">发送截图</string>
+    <string name="weibo_share_txt">发微博送德州币了，快来领取吧</string>
+    <string name="weibo_share_exit">取消</string>
+    <string name="weibo_share_send">发送</string>
+    <string name="weibo_share_preview">预览</string>
+    <string name="login_honus_1">第1天</string>
+    <string name="login_honus_2">第2天</string>
+    <string name="login_honus_3">第3天</string>
+    <string name="login_honus_4">第4天</string>
+    <string name="login_honus_5">第5天</string>
+    <string name="login_honus_6">第6天</string>
+    <string name="login_honus_7">第7天</string>
+    <string name="login_honus_vip">立即成为会员</string>
+    <string name="login_honus_addvip">延长会员时限</string>
+
+    <string name="gift_chips">赠送德州币</string>
+    <string name="statistics_title">本轮输赢提示</string>
+    <string name="statistics_pre">之前德州币:</string>
+    <string name="statistics_now">现在德州币:</string>
+    <string name="statistics_pro">购买道具:</string>
+    <string name="statistics_winlose">德州币增加:</string>
+    <string name="statistics_lose">德州币减少:</string>
+    <string name="store_store">商城</string>
+    <string name="store_bag">背包</string>
+    <string name="store_recharge">充值</string>
+    <string name="store_convert">兑换</string>
+    <string name="store_goods_use">使用</string>
+    <string name="store_goods_inuse">使用中</string>
+    <string name="teach_share">完成新手教学，是否分享到微博，有奖励哦？</string>
+    <string name="game_sit">坐下</string>
+
+    <string name="goods_more">更多商品</string>
+    <string name="expression_buy">您的表情使用次数为零，是否购买表情包？</string>
+    <string name="room_to_store">确定离开游戏房间，前往商城？</string>
+    <string name="good_chips_buy">德州币不足，立即购买德州币？</string>
+    <string name="toteach_1">欢迎来到乐乐德州扑克！</string>
+    <string name="toteach_2">完成新手教程可以获得</string>
+    <string name="toteach_3">德州币奖励！</string>
+    <string name="toteach_4">我了解玩法</string>
+    <string name="toteach_5">开始教学</string>
+    <string name="beans_convert_rate">可兑换金豆数量：%1$d</string>
+    <string name="beans_convert_tip">注：每天只能申请兑换%1$s次，每次最低兑换%2$s金豆。</string>
+
+    <!--pay string-->
+    <string name="pay_game_store">游戏商城</string>
+    <string name="pay_common_member">普通会员</string>
+    <string name="pay_vip_member">vip会员</string>
+    <string name="pay_buy_success">购买成功</string>
+    <string name="pay_buy_fail">购买失败</string>
+    <string name="pay_buy_success_and_check">购买成功，请去背包查看</string>
+    <string name="pay_buy_fail_and_nocharge">很抱歉，暂时无法进行充值或购买物品</string>
+    <string name="pay_dialog_text1">购买确认</string>
+    <string name="pay_dialog_text2">您确认要购买该商品吗？</string>
+    <string name="pay_not_enough_chips">很抱歉你的钻石不足！</string>
+    <string name="pay_buy_btn">获取钻石</string>
+    <string name="pay_loading">正在充值，请稍候...</string>
+    <string name="pay_success">支付成功</string>
+    <string name="pay_failed">支付失败</string>
+    <string name="pay_cancel">支付取消</string>
+    <string name="pay_buy_jewel">钻石充值</string>
+
+    <!--poker text-->
+    <string name="group_input_code">快速牌局</string>
+    <string name="group_input_code_des1">输入验证码和朋友一起切磋</string>
+    <string name="group_input_code_des2">成为牌局的发起者，邀请好友入局</string>
+    <string name="group_input_edit_hint">房间验证码</string>
+    <string name="group_start_name">牌局名称(少于10个汉字)</string>
+    <string name="group_start_blind">小盲/大盲</string>
+    <string name="group_start_chips">带入德州币</string>
+    <string name="group_start_control_chips">控制玩家带入</string>
+    <string name="group_insurance_control_desc">保险</string>
+    <string name="group_person_chips">德州币:</string>
+    <string name="group_start_charge">记录费:</string>
+    <string name="group_start_button">现在开局</string>
+    <string name="group_set_title">组局设置</string>
+    <string name="group_create_error1">牌局名称不能为空！</string>
+    <string name="group_create_error2">您的德州币不足，请充值！</string>
+    <string name="group_create_error3">无法连接服务器（错误码：3）！</string>
+    <string name="group_create_error4">创建房间失败，一个人只能创建一个房间！</string>
+    <string name="group_create_error5">房间不存在！</string>
+    <string name="group_create_error6">房间人数已满</string>
+    <string name="group_create_error7">请求数据失败！</string>
+    <string name="group_create_error8">您的钻石不足，请购买钻石！</string>
+    <string name="group_create_error9">只有管理员能创建房间</string>
+    <string name="group_invalid_room_name">牌局名称含有不合法字符</string>
+    <string name="group_start_button2">现在开始</string>
+    <string name="group_pending_home">首页</string>
+    <string name="group_pending_dismiss">解散</string>
+    <string name="group_pending_dismiss_text">您确定要解散牌局？</string>
+    <string name="group_pending_dismiss1">退出</string>
+    <string name="group_pending_dismiss_text1">您确定要退出牌局？</string>
+    <string name="group_set_title_text">小/大盲设置</string>
+    <string name="group_set_time_text">牌局时长</string>
+    <string name="group_set_unlimited_time">不限</string>
+    <string name="group_pending_success_text">成功创建牌局</string>
+    <string name="group_pending_share_text">分享房间号</string>
+    <string name="group_pending_minutes">分钟</string>
+    <string name="group_pending_start_text">现在开始</string>
+    <string name="group_pending_organize_text">我要组局</string>
+    <string name="group_pending_enter_text">确定入局</string>
+    <string name="group_set_chips_text">德州币:</string>
+    <string name="group_set_cost_text">记录费:</string>
+    <string name="group_set_advanced_text1">高级设置</string>
+    <string name="group_set_advanced_text2">(牌局时间和带入倍数)</string>
+    <string name="group_set_advanced_text3">带入倍数</string>
+    <string name="group_set_advanced_text4">游戏中设置</string>
+    <string name="group_set_jewel_text">钻石:</string>
+    <string name="group_switch_on_text">开</string>
+    <string name="group_switch_off_text">关</string>
+    <string name="group_tab_common_text">普通牌局</string>
+    <string name="group_tab_mtt_text">MTT比赛</string>
+    <string name="group_name">牌局名称</string>
+    <string name="group_input_code_loading">未连接</string>
+    <string name="group_set_people_title">牌桌人数设置</string>
+
+    <!--game end-->
+    <string name="group_exit_tip">房间已解散</string>
+    <string name="game_end_title_text">个人游戏记录</string>
+    <string name="game_end_hands_text">总手数</string>
+    <string name="game_end_richer_text">土豪</string>
+    <string name="game_end_shark_text">MVP</string>
+    <string name="game_end_fish_text">大鱼</string>
+    <string name="game_end_list_nick">昵称</string>
+    <string name="game_end_list_buy">带入</string>
+    <string name="game_end_list_p_l">盈亏</string>
+    <string name="game_end_total_biggestpot">最大底池</string>
+    <string name="game_end_total_allbuy">总带入</string>
+    <string name="game_end_score">本局战绩</string>
+
+    <string name="table_room_id">房间号:%d</string>
+    <string name="table_blinds">大小盲:%1$d/%2$d</string>
+    <string name="table_pot">底池: %s</string>
+    <string name="table_insurance_on">保险已开启</string>
+    <string name="table_ip_restrict">IP限制已开启</string>
+    <string name="table_gps_restrict">GPS限制已开启</string>
+    <string name="sng_table_ip_restrict">IP限制已开启</string>
+    <string name="table_ip_gps_restrict">IP和GPS限制已开启</string>
+
+    <string name="winner">赢</string>
+
+    <string name="hall_all">全部</string>
+    <string name="hall_new">新的</string>
+    <string name="hall_junior">初级</string>
+    <string name="hall_adv">高级</string>
+    <string name="hall_pro">专业</string>
+    <string name="tab_item_play">组局</string>
+    <string name="tab_item_message">消息</string>
+    <string name="tab_item_discover">发现</string>
+    <string name="tab_item_record">战绩</string>
+    <string name="tab_item_mine">我的</string>
+
+    <string name="fold">弃牌</string>
+    <string name="call">跟牌</string>
+    <string name="raise">加注</string>
+    <string name="accurate_raise">精确加注</string>
+    <string name="accurate_raise_del">回删</string>
+    <string name="accurate_raise_tip">最小加注额为</string>
+    <string name="accurate_raise_tip_max">最大加注额为</string>
+
+    <string name="login">登录</string>
+    <string name="take_in_failed">带入被拒绝.</string>
+    <string name="take_in_failed_owner_not_present">房主不在房间，带入被系统自动拒绝。</string>
+    <string name="take_in_countdown">等待房主审批补充带入申请… 180s</string>
+    <string name="seat_take_in_countdown">等待房主审批入座申请… 180s</string>
+    <string name="take_in_no_response">房主未及时处理你的补充带入申请，请稍后再试</string>
+    <string name="seat_take_in_no_response">房主未及时处理你的入座申请，请稍后再试</string>
+    <string name="back_seat_when_take_in_success">带入请求通过后将自动回桌</string>
+    <string name="take_in_pending">不能重复申请带入</string>
+    <string name="take_in_expired">已超时</string>
+    <string name="take_in_credit_not_enough">由于俱乐部信用限制，你无法再次补充带入，请联系管理员</string>
+    <string name="take_in_for_seat_credit_not_enough">由于俱乐部信用限制，你无法入座，请联系管理员</string>
+    <string name="take_in_exceed_credit_value">带入申请超出俱乐部信用限额，请联系管理员</string>
+    <string name="take_in_credit_value_limit">由于俱乐部信用限制，你只能补充带入%d，\n若有疑问，请联系管理员</string>
+    <string name="take_in_chips_to_fill">您必须带入与上次离桌时额度相等的筹码</string>
+    <string name="take_in_credit_settling_warning">您的刷新请求未被处理，无法在本俱乐部坐下打牌，请联系管理员尽快处理</string>
+    <string name="cannot_stand_up_because_playing">您正在游戏中，无法站起。请先弃牌或等待游戏结束</string>
+    <string name="forgot_password">忘记密码?</string>
+    <string name="find_password">重置密码</string>
+    <string name="send_verification_code">获取验证码</string>
+    <string name="register_new_account">注册</string>
+    <string name="other_login_methods">其他登录方式</string>
+    <string name="register_contacting_server">正在联系服务器...</string>
+    <string name="register_phone_not_registered">手机未注册</string>
+    <string name="register_phone_registered">手机已注册</string>
+    <string name="register_password_length_too_short">密码太短了</string>
+    <string name="register_phone_number_empty">请输入手机号</string>
+    <string name="register_phone_title">手机号注册</string>
+    <string name="register_empty_nick_name">请输入昵称</string>
+    <string name="register_invalid_nick_name">不合法的昵称</string>
+    <string name="register_nick_name_exits">该昵称已被注册</string>
+    <string name="reset_password_new_password">请输入新密码</string>
+    <string name="reset_password_title">重置密码</string>
+    <string name="login_account_hint">手机号</string>
+    <string name="login_pass_hint">密码</string>
+    <string name="login_failed">账号或密码不正确，请重新输入.</string>
+    <string name="set_password_hint">6位或以上</string>
+    <string name="enter">确定</string>
+    <string name="register_phone_number_title">验证码将会发送到以下手机</string>
+    <string name="cancel">取消</string>
+    <string name="retry">重试</string>
+    <string name="send">发送</string>
+    <string name="country">国家</string>
+    <string name="password">密码</string>
+    <string name="done">确定</string>
+    <string name="send_again">再次发送</string>
+    <string name="send_again_seconds">已发送(%ds)</string>
+    <string name="fill_captcha">输入验证码</string>
+    <string name="enter_captcha_hint">输入验证码</string>
+    <string name="incorrect_captcha">验证码不正确</string>
+    <string name="phone_reg_change_portrait">更换头像</string>
+    <string name="phone_reg_nick_name">昵称</string>
+    <string name="phone_reg_gender">性别</string>
+    <string name="phone_reg_birthday">生日</string>
+    <string name="phone_reg_tap_to_choose">点击选择</string>
+    <string name="phone_reg_edit_profile">编辑资料</string>
+    <string name="phone_reg_upload_pic_fail">上传头像至服务器时发生错误，请重试。</string>
+    <string name="talk_input_hint">输入心情</string>
+    <string name="room_waiting_for_start">等待房主开始</string>
+    <string name="room_take_in_switch">控制带入</string>
+    <string name="room_take_in_switch_on">控制带入打开</string>
+    <string name="room_take_in_switch_off">控制带入关闭</string>
+    <string name="room_user_request_take_in_chips_title">带入请求</string>
+    <string name="room_user_request_take_in_chips_message">玩家: %1$s 请求带入 %2$d.</string>
+    <string name="room_close_at_5_minutes">牌局将于5分钟后结束.</string>
+    <string name="room_close_at_5_minutes_restart">本牌局将于5分钟后结束，待APP升级后恢复。</string>
+    <string name="room_re_buy_in">补充带入</string>
+    <string name="room_owner_func">房主功能</string>
+    <string name="room_take_in_title">补充带入</string>
+    <string name="room_take_in_info">在下一手开始时，将为你补充所购的德州币</string>
+    <string name="room_take_in_info2">带入</string>
+    <string name="room_take_in_min">最小带入</string>
+    <string name="room_take_in_max">最大带入</string>
+    <string name="room_take_in_wealth">德州币:</string>
+    <string name="room_take_in_record">记录费:</string>
+    <string name="room_take_in_yes">确定</string>
+    <string name="room_sit_down_fail">坐下失败</string>
+    <string name="room_seat_has_been_taken">座位已被别人坐下</string>
+    <string name="room_take_in_accept">已同意玩家的申请</string>
+    <string name="room_take_in_reject">已拒绝玩家的申请</string>
+    <string name="room_sit_down_take_in_accepted">房主同意了你的入座申请</string>
+    <string name="room_sit_down_take_in_reject">房主拒绝了你的入座申请</string>
+    <string name="room_take_in_accepted">房主同意了你的补充带入申请</string>
+    <string name="room_take_in_rejected">房主拒绝了你的补充带入申请</string>
+    <string name="allow">同意</string>
+    <string name="deny">拒绝</string>
+    <string name="select_all">全选</string>
+    <string name="waiting_for_owner_permission">等待房主同意.</string>
+    <string name="login_mode">选择登录方式</string>
+    <string name="half_bottom">1/2</string>
+    <string name="two_of_three_bottom">2/3</string>
+    <string name="one_bottom">X1</string>
+    <string name="two_bb">X2</string>
+    <string name="three_bb">X3</string>
+    <string name="four_bb">X4</string>
+    <string name="pot">底池</string>
+    <string name="take_in_not_enough_title">德州币不足！</string>
+    <string name="take_in_not_enough_info">是否离开房间去商城购买德州币？</string>
+    <string name="take_in_item_0">请求带入&#160;</string>
+    <string name="take_in_item_1">&#160;筹码</string>
+    <string name="table_new_message_0">有</string>
+    <string name="table_new_message_1">条申请</string>
+    <string name="go_to_shop">去商城</string>
+    <string-array name="server_list">
+        <item>中国</item>
+        <item>全球</item>
+    </string-array>
+    <string-array name="server_env_name_list">
+        <item>onlineHome</item>
+        <item>onlineAbroad</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="country_code">
+        <item>cn</item>
+        <item>id</item>
+        <item>vn</item>
+        <item>th</item>
+        <item>jp</item>
+        <item>us</item>
+        <item>in</item>
+        <item>ca</item>
+    </string-array>
+    <string-array name="country_area_code">
+        <item>+86</item>
+        <item>+62</item>
+        <item>+84</item>
+        <item>+66</item>
+        <item>+81</item>
+        <item>+1</item>
+        <item>+91</item>
+        <item>+1</item>
+    </string-array>
+    <string-array name="country_name">
+        <item>中国</item>
+        <item>印尼</item>
+        <item>越南</item>
+        <item>泰国</item>
+        <item>日本</item>
+        <item>美国</item>
+        <item>印度</item>
+        <item>加拿大</item>
+    </string-array>
+
+    <string name="accout_change_tips">退出账号不会删除任何游戏信息?</string>
+    <string name="raise_tips">加注</string>
+    <string name="allin_tips">ALL IN</string>
+    <string name="check_tips">让牌</string>
+    <string name="fold_tips">弃牌</string>
+    <string name="trust_tips">托管</string>
+    <string name="follow_tips">跟牌</string>
+    <string name="win_type_1">皇家同花顺</string>
+    <string name="win_type_2">同花顺</string>
+    <string name="win_type_3">四条</string>
+    <string name="win_type_4">葫芦</string>
+    <string name="win_type_5">同花</string>
+    <string name="win_type_6">顺子</string>
+    <string name="win_type_7">三条</string>
+    <string name="win_type_8">两对</string>
+    <string name="win_type_9">一对</string>
+    <string name="win_type_10">高牌</string>
+    <string name="confirm_fold">确定弃牌?</string>
+    <string name="confirm_fold_text">你可以让牌而不需要任何德州币</string>
+    <string name="system_message">系统消息</string>
+    <string name="room_owner">房主:%1$s</string>
+    <string name="room_Waiting">等待</string>
+    <string name="game_time">%1$dh%2$dm</string>
+    <string name="game_time_unlimited">不限时</string>
+    <string name="real_time_situation">实时战况</string>
+    <string name="pumping_title">每手基金</string>
+    <string name="pumping_total">总基金</string>
+    <string name="last_card_pumping_title">本手基金</string>
+    <string name="watcher">观众</string>
+    <string name="players">玩家</string>
+    <string name="no_more_jewel">钻石不足!</string>
+    <string name="no_more">不足</string>
+    <string name="lack">不足</string>
+    <string name="add_time_pot">%1$dPOT</string>
+    <string name="auto_fold_text">自动弃牌</string>
+    <string name="auto_check">自动看牌</string>
+    <string name="auto_call">自动跟注</string>
+    <string name="wait_tips">过庄</string>
+    <string name="post_tips">补盲</string>
+    <string name="post_message">当前局若不是大盲位，你将在扣至大盲数额的德州币后，加入牌局回合，详见操作提示。</string>
+    <string name="wait_message">为了更加公平，需要等你是大盲时才能加入牌局</string>
+    <string name="wait_message_2">为保证公平，您将在下一手牌进入游戏。</string>
+    <string name="room_seat_action_exit">您已被管理员移出俱乐部</string>
+
+    <!--insurance-->
+    <string name="insurance_capital_protected">保本</string>
+    <string name="insurance_free_buy">购买</string>
+    <string name="insurance_cancel">不买</string>
+    <string name="insurance_insurer">赔付额</string>
+    <string name="insurance_insure_amount">投保额</string>
+    <string name="insurance_insure_rate">赔率</string>
+    <string name="insurance_public_cards">公共牌</string>
+    <string name="insurance_selected">已选择</string>
+    <string name="insurance_select">点击选择</string>
+    <string name="insurance_insurer_short">赔付</string>
+    <string name="insurance_insure_pay">支付</string>
+    <string name="insurance_insure_select_title">请点击购买</string>
+    <string name="insurance_whole_pot">全池底</string>
+    <string name="insurance_mode_on">保险开启</string>
+    <string name="insurance_remain_time">购买中%ds</string>
+    <string name="insurance_give_up">放弃</string>
+    <string name="insurance_bought">投保%d</string>
+    <string name="insurance_paid">赔付%d</string>
+    <string name="insurance_mode">保险模式</string>
+    <string name="insurance_trigger_fail">OUTS&gt;16 或 OUTS=0，不能购买保险</string>
+    <string name="insurance_pool">保险池</string>
+    <string name="insurance_force">系统自动背保险，购买%d德州币</string>
+    <string name="insurance_not_allow_select">这一轮你必须购买所有OUTS</string>
+    <string name="insurance_force_buy">剩余OUTS%1$d张，赔率%2$s，自动投保额%3$d</string>
+    <string name="insurance_buying">购买保险中</string>
+    <string name="insurance_buy_title">购买保险</string>
+    <string name="insurance_count_down">倒计时: %d秒</string>
+    <string name="insurance_pool_put">投入: %d</string>
+    <string name="insurance_self">自己</string>
+
+    <string name="situation_title">比赛概况</string>
+    <string name="situation_list_tab1">排名</string>
+    <string name="situation_list_tab2">盲注</string>
+    <string name="situation_list_tab3">奖励</string>
+    <string name="situation_list_tab1_text1">名次</string>
+    <string name="situation_list_tab1_text2">用户</string>
+    <string name="situation_list_tab1_text3">现有记分牌</string>
+    <string name="situation_list_tab1_text4">你的当前排名</string>
+    <string name="situation_list_tab2_text1">级别</string>
+    <string name="situation_list_tab2_text2">盲注</string>
+    <string name="situation_list_tab2_text3">前注</string>
+    <string name="situation_list_tab2_text4">升盲时间</string>
+    <string name="situation_list_tab2_text5">你的当前级别</string>
+    <string name="situation_list_tab3_text1">冠军</string>
+    <string name="situation_list_tab3_text2">亚军</string>
+    <string name="situation_list_tab3_text3">季军</string>
+    <string name="situation_list_tab3_text4">总奖池</string>
+    <string name="table_start_text1">本场共有</string>
+    <string name="table_start_text2">名玩家参加</string>
+    <string name="table_start_text3">请耐心等待系统分桌</string>
+    <string name="table_start_text4">为了比赛公平，我们将为您重新分桌，还请你稍后</string>
+
+    <!--discover-->
+    <string name="discover_record_empty_des1">当前没有您可加入的牌局</string>
+    <string name="discover_record_empty_des2">快来组局和小伙伴一起切磋吧</string>
+    <string name="discover_room_info">房间号:%1$s | 房主:%2$s</string>
+    <string name="discover_club_info">%1$s 俱乐部</string>
+    <string name="discover_tab_common_text">加入牌局(PM)</string>
+    <string name="discover_tab_mmt_text">加入MTT(PM)</string>
+    <string name="discover_chips">前注:%1$d</string>
+    <string name="discover_room_title_my">我的牌局</string>
+    <string name="discover_room_title_relate">推荐牌局</string>
+    <string name="my_poker_title">我的比赛</string>
+    <string name="my_create_poker_title">我创建的比赛</string>
+    <string name="my_join_title">我加入的比赛</string>
+    <string name="recommend_title">推荐比赛</string>
+
+    <!--im-->
+    <string name="im_font">Segoe UI Regular</string>
+    <string name="im_send">发送</string>
+    <string name="im_voice_message_too_short">说话时间太短</string>
+    <string name="im_poker_group_pending_record">按住说话</string>
+    <string name="im_voice_record_tip1">松开结束</string>
+    <string name="im_game_voice_record_progress_tip">上滑取消发送</string>
+    <string name="im_game_voice_record_progress_tip2">松开取消发送</string>
+    <string name="im_game_voice_record_permission_denied_tip">请打开录音权限</string>
+
+    <!--record-->
+    <string name="txt_games_time">时间</string>
+    <string name="txt_games_profit_loss">盈亏</string>
+    <string name="txt_games_num">局数</string>
+    <string name="txt_incoming">盈利</string>
+    <string name="txt_hand_num">手数</string>
+    <string name="txt_average_incoming">平均百手盈利</string>
+    <string name="txt_average_big_bild">平均百手赢大盲</string>
+    <string name="txt_show_hand_incoming">平均摊牌盈利</string>
+    <string name="txt_win_rate_computer">胜率统计</string>
+    <string name="txt_total_win_rate">总胜率</string>
+    <string name="txt_show_down_win_rate">摊牌胜率</string>
+    <string name="txt_show_hand_win_rate">看翻牌胜率</string>
+    <string name="txt_show_hand_after_win_rate">翻牌前胜率</string>
+    <string name="txt_pool_win_rate">入池胜率</string>
+    <string name="txt_show_down_add_chips">翻牌前加注</string>
+    <string name="txt_get_blind_rate">偷盲率</string>
+    <string name="txt_continue_add_chips">持续下注</string>
+
+    <string name="total_data">总体</string>
+    <string name="recent_seven_days">近七天</string>
+    <string name="recent_one_month">近一个月</string>
+    <string name="total_lose_hands_num">失利手数</string>
+    <string name="total_win_hands_num">胜利手数</string>
+    <string name="total_allin_num">总All-in数</string>
+    <string name="total_allin_data">累计Allin盈利</string>
+    <string name="allin_data">ALLIN数据</string>
+    <string name="incoming_data">盈利数据</string>
+    <string name="total_incoming">总盈利</string>
+    <string name="total_series">总局数</string>
+    <string name="total_hands">总手数</string>
+    <string name="entry_rate">入池率</string>
+    <string name="win_rate">胜率</string>
+    <string name="hands_time_length">牌局时长</string>
+    <string name="total_entry">总带入</string>
+    <string name="data_statistics">数据统计</string>
+    <string name="record_statistics">战绩统计</string>
+    <string name="life_statistics">生涯合计</string>
+    <string name="total_score">总积分</string>
+    <string name="play_time_sec1">小时</string>
+    <string name="play_time_sec1_end">小时</string>
+    <string name="play_time_sec2">分钟</string>
+    <string name="listview_loading">加载中&#8230;</string>
+    <string name="room_detail_bring">带入</string>
+    <string name="record_last_info_title">近5局数据</string>
+    <string name="record_more_date">更多数据</string>
+    <string name="record_return_back">返回</string>
+    <string name="data_record_pool_rate">牌局入池率</string>
+    <string name="data_record_win_rate">胜率走势</string>
+    <string name="data_record_incoming_rate">营收走势</string>
+
+    <string name="record_common_poker">普通局战绩</string>
+    <string name="record_match_poker">比赛战绩</string>
+
+    <string name="record_room">房间号:</string>
+    <string name="record_founder">&#160;| 房主:</string>
+    <string name="record_detail_room">&#160;房间号:</string>
+    <string name="record_detail_founder">&#160;| 房主:</string>
+
+
+    <!--setting-->
+    <string name="logout_account">退出登录</string>
+    <string name="setting_text">设置</string>
+    <string name="setting_sound">游戏音效</string>
+    <string name="silence_sound">静音</string>
+
+    <!--mine-->
+    <string name="mine_edit_profile">编辑资料</string>
+    <string name="label_personal_sign">个性签名:</string>
+    <string name="mine_invalid_sign">个性签名含有不合法的字符</string>
+    <string name="record_pull_to_refresh">下拉可以刷新</string>
+    <string name="record_release_to_refresh">松开可以刷新</string>
+    <string name="record_load_full">没有更多数据了</string>
+    <string name="mine_nick_tips">不超过12个汉字或字母</string>
+    <string name="mine_chip_spend">消耗</string>
+    <string name="mine_chip_left">剩余</string>
+    <string name="mine_nick_spend_tips">首次更改免费，之后每次消耗300钻</string>
+    <string name="mine_chip_poor_tips">您没有足够的钻石，请先购买钻石</string>
+    <string name="mine_chip_buy">去够买钻石</string>
+    <string name="mine_chip_tip">提示：</string>
+    <string name="mine_modify_nick">修改昵称</string>
+    <string name="chips_get">德州币 + 100</string>
+    <string name="chips_get_failed">领取失败</string>
+    <string name="mine_collect_spectrum">您收藏了%d个牌谱</string>
+    <string name="spectrum_collect">收藏</string>
+    <string name="spectrum_cancel">取消收藏</string>
+    <string name="spectrum_edit_name">编辑名称</string>
+    <string name="spectrum_edit_title">编辑牌谱名称</string>
+    <string name="spectrum_edit_des">收藏此牌谱</string>
+    <string name="spectrum_edit_hint">不超过12个汉字或字母</string>
+    <string name="spectrum_collect_success_tip">已收藏</string>
+    <string name="spectrum_collect_fail_tip">取消收藏</string>
+    <string name="spectrum_collect_share_title">【皇家德州圈】</string>
+    <string name="spectrum_collect_share_content">牌局如人生，运气借助于努力才能成功！</string>
+    <string name="spectrum_collect_fail_tip1">牌谱已满</string>
+
+    <!--Owner option-->
+    <string name="owner_function">房主功能</string>\
+    <string name="owner_buyin_des">设置玩家可以带入德州币的倍数</string>
+    <string name="owner_byin_set">设置</string>
+    <string name="owner_buyin_control">控制带入</string>
+    <string name="owner_pause">暂停游戏</string>
+    <string name="game_pause">暂停游戏</string>
+    <string name="group_set_pumping">每手基金</string>
+    <string name="group_bet_title">前注</string>
+    <string name="group_setting_bet">前注:%1$d</string>
+    <string name="owner_delay_game">牌局延时(分钟)</string>
+    <string name="owner_delay_cost">花费:</string>
+    <string name="owner_delay_jewel_remain">钻石:</string>
+
+    <!--last card -->
+    <string name="last_card">上局回顾</string>
+    <string name="last_card_set_favorite_fail">收藏牌谱超出最大限制</string>
+    <string name="last_card_empty">暂无牌局信息</string>
+    <string name="last_card_fold">弃牌</string>
+    <string name="last_card_check">过牌</string>
+    <string name="last_card_check_fold">过牌弃牌</string>
+    <string name="last_card_follow"><![CDATA[跟注<font color="#FEDF9D">%d</font>]]></string>
+    <string name="last_card_follow_then_fold"><![CDATA[跟注<font color="#FEDF9D">%d</font>弃牌]]></string>
+    <string name="last_card_raise_with_chips"><![CDATA[加注<font color="#FEDF9D">%d</font>]]></string>
+    <string name="last_card_raise_with_chips_then_fold"><![CDATA[加注<font color="#FEDF9D">%d</font>弃牌]]></string>
+    <string name="last_card_all_in"><![CDATA[<font color="#FEDF9D">ALL IN %d</font>]]></string>
+
+    <!--data record-->
+    <string name="data_record_card_spectrum">查看本局牌谱</string>
+    <string name="data_record_data_statistics">查看本局数据</string>
+    <string name="data_record_data_series">参与/局</string>
+    <string name="data_record_data_hands">总共/手</string>
+
+    <string name="data_statistics_flop_rate">翻牌率</string>
+    <string name="data_statistics_flop_win_rate">翻牌胜率</string>
+    <string name="data_statistics_turn_rate">转牌率</string>
+    <string name="data_statistics_turn_win_rate">转牌胜率</string>
+    <string name="data_statistics_river_rate">河牌率</string>
+    <string name="data_statistics_river_win_rate">河牌胜率</string>
+    <string name="data_statistics_showdown_rate">摊牌率</string>
+    <string name="data_statistics_showdown_win_rate">摊牌胜率</string>
+    <string name="tip_no_enough_coin_prex">很抱歉，您的德州币不足！您需要</string>
+    <string name="tip_no_enough_coin_fix">德州币加入牌局</string>
+    <string name="add_friend">加为好友</string>
+    <string name="mute_is_on">静音已开始</string>
+    <string name="mute_is_off">静音已关闭</string>
+
+    <string name="data_spectrum_total_hand">总手数</string>
+    <string name="data_spectrum_take_in">带入</string>
+    <string name="data_spectrum_score">积分</string>
+    <string name="data_spectrum_detail">每手明细</string>
+    <string name="data_spectrum_title">总共%d手</string>
+    <string name="data_record_all_card_spectrum">我的牌谱</string>
+    <string name="data_spectrum_hand_ordinal">第%s手</string>
+    <string name="data_club_name">%1$s 俱乐部</string>
+
+    <!--Take Picture-->
+    <string name="lack_required_permission">程序缺少必要的权限！</string>
+
+    <string name="help_vpip">翻牌前主动往底池里投钱的频率，玩家主动向底池投入德州币的比例。</string>
+    <string name="help_per">翻牌前主动加注的频率，体现翻牌前加注的牌的范围。</string>
+    <string name="help_3bet">翻牌前对一个一次加注的底池进行再次加注的频率。</string>
+    <string name="help_f3bet">翻牌前面对3bet弃牌的频率。</string>
+    <string name="help_steal">偷盲率 在劫位/庄位/小盲位加注偷盲的频率。</string>
+    <string name="help_resteal">反偷盲率 大盲或小盲玩家面对偷盲行为就行反加注的频率。</string>
+    <string name="help_cbet_flop">在翻牌前有加注行为的玩家在翻牌圈第一个下注的频率。</string>
+
+    <string name="data_record_personnal_count_pre">总计</string>
+    <string name="data_record_personnal_count_fix">手</string>
+
+
+    <!--login -->
+    <string name="login_other_way">使用其他方式登录</string>
+    <string name="sign_hint_string">填写你的个性签名</string>
+
+    <!-- 进行中的牌局 -->
+    <string name="ongoing_game">游戏进行中</string>
+
+
+    <string name="win_rate_name">其中胜率</string>
+    <string name="data_record_datafaq">
+        <u>数据说明>></u>
+    </string>
+
+    <string name="month_name_Jan">1月</string>
+    <string name="month_name_Feb">2月</string>
+    <string name="month_name_Mar">3月</string>
+    <string name="month_name_Apr">4月</string>
+    <string name="month_name_May">5月</string>
+    <string name="month_name_Jun">6月</string>
+    <string name="month_name_Jul">7月</string>
+    <string name="month_name_Aug">8月</string>
+    <string name="month_name_Sep">9月</string>
+    <string name="month_name_Oct">10月</string>
+    <string name="month_name_Nov">11月</string>
+    <string name="month_name_Dec">12月</string>
+
+    <string name="showpoker_tip_1">不亮牌</string>
+    <string name="showpoker_tip_2">结束时亮 </string>
+
+    <string name="data_record_quickgame">的快速局</string>
+    <string name="data_record_introduce">入池率是扑克牌中一项重要的基础数据，通过玩家入局的频率，反映其打牌的松紧度。</string>
+
+    <string name="data_record_data_series_prex">参与</string>
+    <string name="data_record_data_series_fix">局</string>
+
+    <string name="data_record_data_handles_prex">共计</string>
+    <string name="data_record_data_handles_fix">手</string>
+
+    <string name="data_record_data_one_hands_prex">本局总计</string>
+    <string name="data_record_data_one_hands_fix">手</string>
+
+    <string name="record_create_poker">我要组局</string>
+    <string name="record_create_mtt_poker">创建MTT</string>
+    <string name="record_match_empty">当前没有您的比赛历史战绩</string>
+    <string name="record_common_empty">当前没有您的牌局历史战绩</string>
+    <string name="record_match_sort">获得名次</string>
+    <string name="record_match_score">获得奖金</string>
+    <string name="record_match_come_from">的比赛</string>
+    <string name="record_match_detail_sec1">初始积分牌:</string>
+    <string name="record_match_detail_sec2">报名费:</string>
+    <string name="record_match_detail_sec3">总奖池:</string>
+    <string name="record_match_detail_sec4">共</string>
+    <string name="record_match_detail_sec5">位用户参赛</string>
+    <string name="record_match_detail_sec6">, 重构</string>
+    <string name="record_match_detail_sec7">次</string>
+    <string name="record_match_detail_sec8">, 增购</string>
+
+    <string name="operate_success">设置成功</string>
+    <string name="operate_failed">设置失败</string>
+    <string name="no_date_tips">暂无数据</string>
+    <string name="can_not_enter_room">进入房间失败</string>
+
+    <string name="ip_tip_text1">IP 限制</string>
+    <string name="ip_tip_text2">已有相同IP玩家加入牌局</string>
+
+    <string name="gps_limit_title">GPS 限制</string>
+    <string name="gps_not_open">本局需开启定位权限才可参加，请先前往设置。</string>
+    <string name="gps_limit_do_not_play">本局设置了GPS限制，附近玩家不可再参与，请见谅。</string>
+
+    <string name="menu_wait_tip_text">玩家需要等到自己是大盲位时，才能加入牌局。</string>
+    <string name="menu_post_tip_text">下一手时玩家若不是大小盲位，将在扣除大盲数额的德州币后，立即加入牌局回合。小盲位玩家将在扣至大盲数额的德州币后，立即加入牌局回合，大盲位玩家将直接加入牌局回合。</string>
+    <string name="menu_wait_toast_text">已默认选择过庄模式，点击补盲可在下一手加入牌局。</string>
+    <string name="menu_post_toast_text">已选择补盲模式</string>
+
+
+    <string name="discover_item_today">今天</string>
+    <string name="discover_status_signup">报名中</string>
+    <string name="discover_status_counter">倒计时</string>
+    <string name="discover_status_playing">进行中</string>
+    <string name="discover_status_watting">等待开赛</string>
+    <string name="discover_status_join">立即进入</string>
+    <string name="discover_status_sign_over">报名截止</string>
+    <string name="discover_status_unchecked">等待审核</string>
+    <string name="discover_mtt_item_ower">来自:%1$s</string>
+    <string name="discover_mtt_item_initialCoin">报名费:%1$d+%2$d | 涨盲时间:%3$d秒</string>
+
+    <!--straddle text-->
+    <string name="straddle_btn_text">Straddle</string>
+    <string name="straddle_tips_text1">抓取倒计时</string>
+    <string name="straddle_tips_text2">倒计时</string>
+    <string name="straddle_tips_text3">消耗筹码 %d</string>
+    <string name="straddle_tips_text4">等待其它人抓取Straddle</string>
+    <string name="straddle_tips_text5">上家抓取成功后您的操作即生效</string>
+    <string name="straddle_tips_text6">抓取straddle成功</string>
+    <string name="straddle_tips_text7">抓取straddle失败</string>
+    <string name="straddle_toast_text1">抓取straddle成功</string>
+    <string name="straddle_toast_text2">上家未抓取，抓straddle失败</string>
+
+    <!--keep seat-->
+    <string name="keep_seat_next_hand">这手牌结束后进入留座离桌状态</string>
+    <string name="keep_seat_fail_to_sit">您在"%1$s"牌局中处于留座状态，无法加入本局游戏</string>
+
+    <!--trust text-->
+    <string name="trust_shortest_time">托管</string>
+    <string name="trust_shortest_time_cancel">回到座位</string>
+    <string name="trust_shortest_time_text">最短上桌时间</string>
+    <string name="trust_shortest_time_des">当房主开启最短打牌时间，玩家在牌局内的打牌时间必须满足该最短时间，否则系统将实行留盲代打的托管模式。</string>
+    <string name="trust_time_dialog_title">最短上桌时间</string>
+    <string name="trust_time_dialog_text"><![CDATA[房主设置玩家的最短打牌时间为<font color="#FF0000">%s小时</font>，玩家在此期间内不能离桌，否则将实行留盲代打的托管模式.]]></string>
+    <string name="trust_time_dialog_title1">最短上桌：%s小时</string>
+    <string name="trust_time_dialog_text1">您必须打完剩余牌局的时间%s，否则进入留盲代打的托管模式。</string>
+    <string name="trust_time_toast_title">上桌不满%s小时</string>
+    <string name="trust_time_toast_text">您还需要继续打牌%s。或者选择留盲代打的托管模式。</string>
+    <string name="trust_shortest_btn_text">知道了</string>
+    <string name="trust_shortest_fail">托管失败</string>
+    <string name="trust_shortest_btn_cancel">继续打牌</string>
+    <string name="trust_shortest_btn_confirm">托管模式</string>
+    <string name="trust_shortest_error_tip">您无法坐下，因为您在“%s”牌局中处于留盲代打的托管模式。</string>
+
+    <!--解散牌局-->
+    <string name="dismiss_tabel_party">解散牌局</string>
+    <string name="dismiss_dialog_content">确定解散牌局？</string>
+    <string name="dismiss_tip_content">房主提前结束牌局，当前这手牌结束后，牌局将解散.</string>
+    <string name="dismiss_toast_text">牌局即将解散，无法加入</string>
+    <string name="dismiss_fail_text">解散牌局失败</string>
+    <string name="dismiss_no_limit_text">俱乐部房间“%s”已被房主关闭，牌局结束</string>
+
+    <!-- MTT end text -->
+    <string name="data_record_rank">第%1$d名</string>
+    <string name="data_record_mttgame">的MTT比赛</string>
+    <string name="mtt_end_dialog_text1">在本次</string>
+    <string name="mtt_end_dialog_text2">获得</string>
+    <string name="mtt_end_dialog_text3">第</string>
+    <string name="mtt_end_dialog_text4">名</string>
+    <string name="mtt_end_dialog_text5">赢得</string>
+    <string name="mtt_end_dialog_text6">记分牌</string>
+    <string name="mtt_end_dialog_text7">分享战绩给好友</string>
+    <string name="mtt_end_data_text1">你在本次</string>
+    <string name="mtt_end_data_text2">的最终排名是:</string>
+    <string name="mtt_end_data_text3">抱歉未进入奖励圈，调整状态继续战斗</string>
+    <string name="mtt_end_data_text4">获得%d记分牌，祝你越战越勇！</string>
+    <string name="mtt_end_data_text5">本场比赛</string>
+    <string name="mtt_end_data_text6">共</string>
+    <string name="mtt_end_data_text7">人</string>
+    <string name="mtt_end_data_text8">你总共淘汰</string>
+    <string name="mtt_end_data_button">留下观战</string>
+    <string name="mtt_re_buy_content">花费%1$d德州币，重购%2$d记分牌</string>
+    <string name="mtt_re_buy_time">剩余次数: %d次</string>
+    <string name="mtt_re_buy_success">重购成功</string>
+    <string name="mtt_re_buy_fail">重购失败</string>
+    <string name="mtt_re_buy_next">下一手</string>
+    <string name="mtt_re_buy_result">将为你增加%d记分牌</string>
+    <string name="mtt_re_buy_fail2">当前记分牌大于初始记分牌，不能进行重购</string>
+    <string name="mtt_re_buy_fail3">德州币不足</string>
+    <string name="mtt_re_buy_fail4">重购次数不足</string>
+    <string name="mtt_re_buy_fail5">上一个重购申请房主还未处理，请稍后再试</string>
+    <string name="mtt_re_buy_fail6">重购失败，钻石不足</string>
+    <string name="mtt_re_buy_store1">花费</string>
+    <string name="mtt_re_buy_store2">购买%d记分牌</string>
+    <string name="mtt_re_buy_store3">购买钻石</string>
+    <string name="mtt_get_all_people">获取参赛人员数据失败!</string>
+
+    <!--mtt-->
+    <string name="btn_create_mtt_text">创建MTT</string>
+    <string name="dialog_create_mtt_tips">MTT比赛名称不能为空!</string>
+    <string name="remind_later_btn">稍后</string>
+    <string name="remind_enter_btn">立刻进入</string>
+    <string name="remind_mtt_msg">%s比赛在1分钟后开赛，快进入赛场准备吧！祝你手气长虹，大胜而归！</string>
+    <string name="notice_mtt_title">%s比赛还有1分钟开始，赶快进入赛场准备吧！</string>
+    <string name="notice_mtt_content">点击进入比赛详情.</string>
+
+    <string name="mtt_invite_friend">邀请好友</string>
+    <string name="mtt_pending_tab_summary">概况</string>
+    <string name="mtt_pending_tab_record">实况</string>
+    <string name="mtt_pending_tab_blind">盲注</string>
+    <string name="mtt_pending_tab_reward">奖励</string>
+    <string name="mtt_pending_control_open">玩家报名时需要得到创建者同意，同时在比赛过程中产生的重购/增购行为也需事前得到创建者同意。为了比赛公平，控制带入打开时，房主无法参加自己创建的比赛。</string>
+    <string name="mtt_pending_control_close">控制玩家带入关闭时，玩家报名及在比赛中产生的重购/增购不需要得到房主的同意可以直接生效。</string>
+    <string name="mtt_rule_title">MTT规则</string>
+    <string name="mtt_what_is_mtt_title">什么是MTT？</string>
+    <string name="mtt_what_is_mtt">MTT（Multiply table tournament）是德州扑克的一种定时多桌的比赛玩法。所有玩家在比赛开始后以同样的记分牌开始比赛，在比赛进行中盲注会不断提升，比赛只剩下最后一个人有仇吗时，冠军产生，比赛结束。</string>
+    <string name="mtt_rule_text1">1.当参赛人数小于2人时，比赛将被取消。报名费会退还给玩家。到决赛局后，不能进入比赛。</string>
+    <string name="mtt_rule_text2">2.控制玩家带入开启时，玩家报名和在比赛中产生重购/增购都需要经过房主的同意。为了保证公平，控制玩家带入开启时，房主不能参与本场比赛。</string>
+    <string name="mtt_rule_text3">3.每场比赛玩家会获得用来计数的记分牌，该记分牌只用于本场比赛的计数。（记分牌不同于德州币）</string>
+    <string name="mtt_rule_text4">4.重购记分牌（rebuy）：在配置了可重购的比赛中，在某个盲注级别前，当玩家手里记分牌≤初始记分牌时，玩家可以点击重购按钮花费参赛费再次买入初始的记分牌值。不同的比赛可重购的次数不定，当玩家手里的记分牌为0时即将被淘汰，也可以通过重购复活。</string>
+    <string name="mtt_rule_text5">5.增购记分牌（add-on）：在配置了可增购的比赛中，在某个盲注级别时间段内，玩家可点击增购按钮花费参赛费再次买入1.5倍记分牌。当玩家手里记分牌为0即将被淘汰，也可以通过增购复活。</string>
+    <string name="mtt_rule_text6">6.前注（ante）：比赛进行中，每局开始前会强制每位玩家自动下注若干记分牌，即为前注。</string>
+    <string name="mtt_rule_text7">7.排名：按照玩家退出比赛顺序取名次，第一个记分牌输完的玩家即使最后一名，以此类推。如果有2位以上参赛者同时被淘汰，则一次按照牌型大、开始时记分牌定位名次，牌型大者排名在前，开始时记分牌多者排名在前。如仍旧出现并列，则评分对应名次奖励。如并列第二名，则评分第二及第三名奖励。</string>
+    <string name="mtt_rule_text8">8.当比赛里只剩下最后一名玩家时比赛结束，最后一名玩家即是冠军。</string>
+    <string name="mtt_playing_time">比赛时间：</string>
+    <string name="mtt_sign_up_fee">报名费：</string>
+    <string name="mtt_entry_fee">参赛费</string>
+    <string name="mtt_service_fee">服务费</string>
+    <string name="mtt_participants">报名人数：</string>
+    <string name="mtt_table_player">单桌人数：</string>
+    <string name="mtt_initial_coins">初始记分牌：</string>
+    <string name="mtt_prize_pool">奖池：</string>
+    <string name="mtt_rebuy">重购：</string>
+    <string name="mtt_can_rebuy">可重购比赛，次数%1$d，第%2$d个盲注级别及之前，可用%3$d德州币，重新购买%4$d记分牌</string>
+    <string name="mtt_addon">增购：</string>
+    <string name="mtt_can_addon">可增购比赛，次数1次</string>
+    <string name="mtt_control_buyin">控制带入：</string>
+    <string name="mtt_control_status_open">开启</string>
+    <string name="mtt_control_status_close">关闭</string>
+    <string name="mtt_game_started">比赛已进行：</string>
+    <string name="mtt_running_min">%1$d 分钟</string>
+    <string name="mtt_blind_level_title">当前盲注级别：</string>
+    <string name="mtt_blind_level_content">%1$d级（%2$d/%3$d）\n前注 %4$d</string>
+    <string name="mtt_blind_time">升盲时间：</string>
+    <string name="mtt_blind_time_content">%1$d 分钟</string>
+    <string name="mtt_remaining_player">剩余玩家：</string>
+    <string name="mtt_remaining_player_content">%1$d 人</string>
+    <string name="mtt_player_type">单桌人数：</string>
+    <string name="mtt_player_type_content">%1$d 人</string>
+    <string name="mtt_pool_make">奖池构成：</string>
+    <string name="mtt_pool_make_content">报名费：%1$d \n重购：%2$d位用户共筹够%3$d筹码\n增购：%4$d位用户共筹够%5$d筹码</string>
+    <string name="mtt_rebuy_add">增/重购明细</string>
+    <string name="mtt_time_min">分钟</string>
+    <string name="mtt_reward_hand">奖励圈/人</string>
+    <string name="mtt_signed_up">已报名/人</string>
+    <string name="mtt_rank">名次</string>
+    <string name="mtt_ratio">比例</string>
+    <string name="mtt_prize">奖励</string>
+    <string name="mtt_btn_manage">管理</string>
+    <string name="mtt_btn_sign_up">报名</string>
+    <string name="mtt_btn_enter">立即进入</string>
+    <string name="mtt_btn_ongoing">进行中</string>
+    <string name="mtt_btn_sign_up_deadline">报名截止</string>
+    <string name="mtt_btn_waiting_approval">等待审核</string>
+    <string name="mtt_btn_quit">退赛</string>
+    <string name="mtt_btn_waiting_start">等待开赛</string>
+    <string name="mtt_btn_end">已结束</string>
+
+    <string name="mtt_manage_manage_player">玩家管理</string>
+    <string name="mtt_manage_application">玩家申请</string>
+    <string name="mtt_manage_detail">R/A 明细</string>
+    <string name="mtt_manage_sign_up_player">已报名玩家：%1$d人</string>
+    <string name="mtt_manage_sign_up_player_gaming">比赛中/已报名玩家：%1$d/%2$d</string>
+    <string name="mtt_player">玩家</string>
+    <string name="mtt_coin">记分牌</string>
+    <string name="mtt_buy_in_request">控制玩家带入</string>
+    <string name="mtt_manage_no_ra_data">比赛未开始，暂无重购/增购数据</string>
+    <string name="blind_level">盲注级别</string>
+    <string name="rebuy_add_player">重购/增购用户</string>
+    <string name="times">次数</string>
+
+    <!--系统消息的提示语-->
+    <string name="mtt_system_notify_1">为了比赛更加公平，我们为您更换了房间，祝你手气长虹。</string>
+    <string name="mtt_system_notify_2">下一手盲注将变为</string>
+    <string name="mtt_system_notify_2_1">,前注为</string>
+    <string name="mtt_system_notify_2_2">,允许重购。</string>
+    <string name="mtt_system_notify_2_3">,允许增购。</string>
+    <string name="mtt_system_notify_3">现奖池已增加到%d德州币。</string>
+    <string name="mtt_system_notify_4">比赛已进行%1$d分钟，还剩%2$d玩家。</string>
+    <string name="mtt_system_notify_5">%s加入房间。</string>
+    <string name="mtt_system_notify_6">%s默默的离开了。</string>
+
+    <!--sng-->
+    <string name="sng_setting_tab_name">SNG</string>
+    <string name="sng_setting_signup_text">奖励分配</string>
+    <string name="sng_setting_people_set">人数设置</string>
+    <string name="sng_setting_buyin_set">买入金额</string>
+    <string name="sng_setting_match_set">模式设置</string>
+    <string name="sng_setting_quick_game">快速局</string>
+    <string name="sng_setting_standard_game">标准局</string>
+    <string name="sng_setting_blind_up_time">涨盲时间</string>
+    <string name="sng_setting_start_chip">起始积分</string>
+    <string name="sng_setting_check_common_table">查看通用盲注表 >></string>
+    <string name="sng_setting_other_set">其他设置</string>
+    <string name="sng_blind_table">盲注表</string>
+    <string name="sng_blind_table_level">级别</string>
+    <string name="sng_blind_table_chip">盲注</string>
+    <string name="sng_pending_title_text">比赛信息</string>
+    <string name="sng_pending_match_type">人</string>
+    <string name="sng_pending_match_cost">报名费用</string>
+    <string name="sng_pending_predict_time">预计耗时</string>
+    <string name="sng_pending_check_match_people">查看参赛玩家 (%1$d/%2$d) >></string>
+    <string name="sng_pending_immediately_apply">立即报名</string>
+    <string name="sng_pending_wait_audit">等待审核</string>
+    <string name="sng_pending_enter_game">进入比赛</string>
+    <string name="sng_match_people_title">参赛者 (%1$d/%2$d)</string>
+    <string name="sng_match_people_wait_text">虚位\n以待</string>
+    <string name="sng_fail_error_1">创建SNG失败！</string>
+    <string name="sng_fail_error_2">获取玩家信息失败！</string>
+    <string name="sng_fail_error_3">报名失败</string>
+    <string name="sng_fail_error_4">报名失败，该场比赛已开始</string>
+    <string name="sng_apply_chip_des">报名费 + 记录费\n报名费参与奖励分配\n记录费由系统回收</string>
+    <string name="sng_apply_result_text1">待房主审核，请稍后</string>
+    <string name="sng_apply_result_text2">报名失败，该场比赛已开始</string>
+    <string name="sng_apply_result_text3">房间不存在</string>
+    <string name="sng_table_room_id_text">| 邀请码:%d</string>
+    <string name="sng_situation_tab_ranking">实时战况</string>
+    <string name="sng_situation_tab_blind">盲注表</string>
+    <string name="sng_situation_ranking_level">名次</string>
+    <string name="sng_situation_ranking_nick">昵称</string>
+    <string name="sng_situation_ranking_coins">积分</string>
+    <string name="sng_situation_ranking_text1">当前盲注：</string>
+    <string name="sng_situation_ranking_text2">下轮盲注：</string>
+    <string name="sng_situation_ranking_text3">当前耗时：</string>
+    <string name="sng_situation_ranking_text4">当前手数：</string>y
+    <string name="sng_situation_ranking_text5">第%d手</string>
+    <string name="sng_situation_blind_level">级别</string>
+    <string name="sng_situation_blind_count">盲注</string>
+    <string name="sng_situation_blind_time">时间间隔</string>
+    <string name="sng_situation_loser_text">第%d手淘汰</string>
+    <string name="sng_notify_text1">报名成功，等待开赛 (%s)</string>
+    <string name="sng_notify_text2">下一手将涨盲至 (%s)</string>
+    <string name="sng_ranking_table_text1">当前：</string>
+    <string name="sng_ranking_table_text2">第%d名</string>
+    <string name="sng_game_end_model_text">模式设置：%s</string>
+    <string name="sng_game_end_master_text">房主：%s</string>
+    <string name="sng_game_end_time_text">耗时：%s</string>
+    <string name="sng_game_end_hand_text">总手数：第%d手</string>
+    <string name="sng_game_end_title_text">最终名称列表</string>
+    <string name="sng_game_end_ranking_text_1">第1名</string>
+    <string name="sng_game_end_ranking_text_2">第2名</string>
+    <string name="sng_game_end_ranking_text_3">第3名</string>
+    <string name="sng_game_end_ranking_list_1">排名</string>
+    <string name="sng_game_end_ranking_list_2">昵称</string>
+    <string name="sng_time_toast_text1">本手牌最后一次延时</string>
+    <string name="sng_time_toast_text2">本手牌已无延时机会</string>
+    <string name="sng_record_data_text1">模式：</string>
+    <string name="sng_record_data_text2">房主：</string>
+    <string name="sng_record_data_text3">耗时：</string>
+    <string name="sng_record_data_text4">手数：</string>
+    <string name="sng_record_data_text5">未参加</string>
+    <string name="sng_discover_apply_text1">可报名</string>
+    <string name="sng_discover_apply_text2">审核中</string>
+    <string name="sng_discover_apply_text3">已报名</string>
+    <string name="sng_discover_apply_text4">进行中</string>
+    <string name="sng_notice_message_text0">返回后，将进入系统托管模式；是否确认返回？</string>
+    <string name="sng_notice_message_text1">房主拒绝了您的报名（牌局：%s）</string>
+    <string name="sng_notice_message_text2">房主通过了您的报名（牌局：%s）</string>
+    <string name="sng_notice_message_text3">您报名的比赛已开赛，\n请尽快入座（牌局：%s）</string>
+    <string name="sng_notice_message_text4">由于长时间未开赛，您的比赛已解散（牌局：%s）</string>
+    <string name="sng_notice_message_text5">房主已解散比赛（牌局：%s）</string>
+    <string name="sng_notice_message_btn1">稍后入座</string>
+    <string name="sng_notice_message_btn2">立即入座</string>
+    <string name="sng_pending_room_id_text">邀请码:%d</string>
+    <string name="sng_error_toast_text1">报名失败，已有相同IP玩家报名</string>
+
+    <!--omaha-->
+    <string name="omaha_setting_tab_name">奥马哈</string>
+    <string name="omaha_record_common_text">普通场</string>
+    <string name="omaha_setting_text_tip">牌桌人数设置 (高于6人不可开启保险)</string>
+
+    <!--大菠萝-->
+    <string name="pa_table_blinds">盲注:%d</string>
+    <string name="pa_setting_mode">游戏模式</string>
+    <string name="pa_mode_normal">普通模式</string>
+    <string name="pa_mode_bloody">血战模式</string>
+    <string name="pa_mode_bloody_refantancy">血进血出</string>
+    <string name="pa_setting_tab_name">大菠萝</string>
+    <string name="pa_menu_type_des">牌型加分</string>
+    <string name="pa_menu_option_des">操作提示</string>
+    <string name="pa_sort_as_type">花色</string>
+    <string name="pa_sort_as_number">大小</string>
+    <string name="pa_card_type_royal_flush">皇\n同</string>
+    <string name="pa_card_type_straight_flush">同\n花\n顺</string>
+    <string name="pa_card_type_four_of_a_kind">四\n条</string>
+    <string name="pa_card_type_full_house">葫\n芦</string>
+    <string name="pa_card_type_flush">同\n花</string>
+    <string name="pa_card_type_straight">顺\n子</string>
+    <string name="pa_card_type_three_of_a_kind">三\n条</string>
+    <string name="pa_card_type_two_pair">两\n对</string>
+    <string name="pa_card_type_one_pair">一\n对</string>
+    <string name="pa_confirm_error_tip1">您还需要摆放%d张牌</string>
+    <string name="pa_confirm_error_tip2">本轮您最多可摆放2张牌</string>
+    <string name="pa_start_next_text">再来一局</string>
+    <string name="pa_bowl_card_text">爆牌</string>
+    <string name="pa_standup_dec_text1">当前有玩家触发Fantasy，无法站起。请完成本手牌或等待游戏结束。</string>
+    <string name="pa_standup_dec_text2">您正在游戏中，无法站起。请完成本手牌或等待游戏结束。</string>
+    <string name="pa_menu_dec_text1">头道</string>
+    <string name="pa_menu_dec_text2">中道</string>
+    <string name="pa_menu_dec_text3">尾道</string>
+    <string name="pa_menu_dec_text4">单道获胜得1分基础分；三道全胜得3分全胜分；摆出以上牌型将获得特殊牌型分。</string>
+    <string name="pa_error_tip_text1">您所剩余筹码不足最小带入的80%，请补充筹码后再加入牌局</string>
+</resources>

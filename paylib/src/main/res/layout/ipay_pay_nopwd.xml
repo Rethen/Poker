@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/ipay_page_bg">
+  <!-- 顶部标题栏 -->
+	<include
+		layout="@layout/ipay_common_topbar">
+	</include>
+	<ScrollView
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:scrollbars="none"
+	  android:fadingEdge="none"
+	  android:background="@null"
+	  android:layout_below="@id/topbar">
+	    <RelativeLayout 
+		    android:orientation="vertical"
+			android:paddingTop="22dp"
+			android:paddingLeft="12dp"
+			android:paddingRight="12dp" 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent"
+			android:layout_below="@id/topbar">	
+		    
+		    <LinearLayout 
+	    		android:id = "@+id/nopwdpay_middle_layout"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+		    	android:background="@drawable/ipay_white_panel"
+				android:paddingLeft="@dimen/ipay_common_content_left_padding" 
+		    	android:paddingRight="@dimen/ipay_common_content_left_padding"
+		    	android:paddingBottom="@dimen/ipay_smsinputpaycenter_toplayout_item_margin"
+		    	>
+		    	<LinearLayout 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal"
+		    	android:layout_marginTop="@dimen/ipay_nopwdpay_item_margin">
+	    			<TextView
+	    				android:id = "@+id/nopwdpaycenter_passport_id"
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:textSize="@dimen/ipay_fontsize_middle"
+						android:textColor="@color/ipay_black"
+						android:gravity="center_vertical" 
+						android:layout_gravity="center_vertical">
+					</TextView>
+		    	</LinearLayout>	
+			    
+			    <LinearLayout 
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+			    	android:layout_marginTop="@dimen/ipay_nopwdpay_item_margin">
+	    			<TextView
+	    				android:id="@+id/nopwdpaycenter_paymoney"
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/ipay_nopwd_paymoney"
+						android:textSize="@dimen/ipay_fontsize_middle"
+						android:textColor="@color/ipay_black"
+						android:gravity="center_vertical" 
+						android:layout_gravity="center_vertical">
+					</TextView>
+		    	</LinearLayout>	
+		    	
+			    <LinearLayout 
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="@dimen/ipay_nopwdpay_item_margin">
+		    			<TextView
+		    				android:id="@+id/nopwdpaycenter_accountmoney"
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:text="@string/ipay_account_balance"
+							android:textSize="@dimen/ipay_fontsize_middle"
+							android:textColor="@color/ipay_black"
+							android:gravity="center_vertical" 
+							android:layout_gravity="center_vertical">
+						</TextView>
+						
+						<TextView
+		    				android:id="@+id/nopwdpaycenter_accountmoney_insufficient"
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:layout_marginLeft="5dp"
+							android:text="@string/ipay_nopwd_accountmoney_insufficient"
+							android:textSize="@dimen/ipay_fontsize_middle"
+							android:textColor="@color/ipay_red"
+							android:gravity="center_vertical" 
+							android:layout_gravity="center_vertical"
+							android:visibility="gone">
+						</TextView>
+			    </LinearLayout>	
+	
+				<LinearLayout 
+					android:id="@+id/nopwdpaycenter_input_layout"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="@dimen/ipay_nopwdpay_item_margin">
+						<TextView
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:text="@string/ipay_pay_pwd"
+							android:textSize="@dimen/ipay_fontsize_middle"
+							android:textColor="@color/ipay_black"
+							android:gravity="center_vertical" 
+							android:layout_gravity="center_vertical">
+						</TextView>
+		    			<EditText
+				    		android:id = "@+id/nopwdpaycenter_password_edit"
+				    		android:layout_width="fill_parent" 
+							android:layout_height="@dimen/ipay_edit_height"
+							android:textSize="@dimen/ipay_fontsize_middle"
+							android:textColor="@color/ipay_black"
+							android:gravity="center" 
+							android:layout_gravity="center"
+							android:inputType="textPassword" 
+							android:imeOptions="actionDone"
+							android:background="@drawable/ipay_edit_small"
+							android:padding="@dimen/ipay_edit_padding"
+							android:layout_marginRight="28dp">
+						</EditText>
+			    </LinearLayout>	
+			    
+		    </LinearLayout>
+	
+			<View
+				android:id="@+id/nopwdpaycenter_devider"
+				android:layout_width="fill_parent"
+				android:layout_height="1px"
+				android:layout_marginTop="25dp"
+				android:background="@color/ipay_sms_rearge_page_line"
+				android:layout_below="@id/nopwdpay_middle_layout"
+			/>
+		    <LinearLayout 
+			    	android:id="@+id/nopwdpaycenter_btn_layout"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="16dp"
+					android:layout_below="@id/nopwdpaycenter_devider" >
+					<Button
+						android:id="@+id/nopwdpay_pay_btn"
+						android:layout_width="fill_parent"
+						android:layout_height="@dimen/ipay_common_button_height"
+						android:layout_gravity="center_horizontal"
+						android:text="@string/ipay_nopwd_submit"
+						android:textSize="@dimen/ipay_fontsize_middle_s"
+						android:textColor="@color/ipay_white"
+						android:gravity="center"
+						android:background="@drawable/ipay_red_btn_selector"
+						android:layout_below="@id/choosemoney_input_layout" 
+						android:layout_marginTop="@dimen/ipay_common_button_top_margin" />
+			</LinearLayout>
+	    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

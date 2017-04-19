@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  <RelativeLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content">
+	  	<TextView
+			android:id="@+id/choosemoney_gridview_item_btn"
+			android:layout_width="fill_parent"
+			android:layout_height="44dp"
+			android:layout_gravity="center_horizontal"
+			android:text="@string/ipay_input_money_ratio_btn"
+			android:textSize="@dimen/ipay_fontsize_small_s"
+			android:textColor="@color/ipay_griditem_btn"
+			android:background="@drawable/ipay_small_btn_red_selector"
+			android:gravity="center">
+		</TextView>	
+	
+		<ImageView
+		    android:id="@+id/iv_choosemoney_tip"
+		    android:layout_width="28dp"
+		    android:layout_height="28dp"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentTop="true"
+		    android:scaleType="fitCenter"
+		    android:visibility="gone"/>
+	</RelativeLayout>
+</LinearLayout>

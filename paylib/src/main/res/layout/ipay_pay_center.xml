@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ipay_page_bg"
+    >
+
+	<RelativeLayout
+		android:id="@+id/account_layout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:layout_marginTop="39dp" 
+	    android:fadingEdge="none" 
+	    android:background="@color/ipay_page_bg">
+	    <ImageView 
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:src="@drawable/bg_scroll" 
+	    	android:scaleType="fitXY" 
+	    	android:layout_alignParentTop="true" 
+	    	android:layout_marginTop="-53dp"/>
+	    <include
+	    	android:id="@+id/account_basic_info"
+			layout="@layout/ipay_account_basic_info"
+			>
+		</include>
+	</RelativeLayout>
+
+ 	<!-- 顶部标题栏 -->
+	<include
+		layout="@layout/ipay_common_topbar">
+	</include>
+	
+	<LinearLayout 
+    	android:id="@+id/paycenter_gridview_layout" 
+    	android:layout_marginTop="160dp" 
+    	android:layout_above="@+id/account_hint"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:paddingTop="16dp"
+		android:paddingLeft="0dp"
+		android:paddingRight="0dp"
+	    android:background="@color/ipay_page_bg"
+	    >		
+		<GridView
+			android:id="@+id/paycenter_gridview"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:columnWidth="@dimen/ipay_paycenter_gridview_item_width"
+			android:listSelector="@color/ipay_transparent"
+			android:numColumns="3"
+			android:verticalSpacing="@dimen/ipay_paycenter_gridview_verticalspace"
+			android:stretchMode="columnWidth"
+			android:gravity="center" 
+			android:scrollbars="none" 
+			android:horizontalSpacing="3dp"
+			android:fadingEdge="none"
+			android:background="@color/ipay_page_bg">
+		</GridView>
+	</LinearLayout>
+    
+    <TextView
+   		android:id="@+id/account_hint"
+   		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="@string/ipay_service_phone_detail"
+		android:textSize="@dimen/ipay_fontsize_x_small"
+		android:textColor="@color/ipay_gray"
+		android:gravity="center"
+		android:layout_alignParentBottom="true" 
+		android:layout_centerVertical="true" 
+		android:layout_centerInParent="true" 
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="10dp">
+	</TextView>
+</RelativeLayout>

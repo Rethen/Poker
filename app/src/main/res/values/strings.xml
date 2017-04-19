@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, WelcomActivity!</string>
+    <string name="app_name">Star Poker</string>
+    <string name="standup">Stand Up</string>
+    <string name="keep_seat">reservation</string>
+    <string name="owner_option">Options</string>
+    <string name="back">Exit game</string>
+    <string name="share_room_code">Share Room</string>
+    <string name="win_card_type">Poker ranks</string>
+    <string name="menu_mute_on">Mute</string>
+    <string name="menu_mute_off">Mute off</string>
+    <string name="operation1">Fold or check</string>
+    <string name="operation2">Check</string>
+    <string name="operation3">Call any</string>
+    <string name="startgame">Start</string>
+    <string name="menu_option_tip">Operation Tips</string>
+    <string name="menu_manager">MTT Management</string>
+
+    <string name="welcome_loginfb"
+            translatable="false">Facebook
+    </string>
+    <string name="welcome_logintt"
+            translatable="false">Twitter
+    </string>
+    <string name="welcome_loginqq">QQ login</string>
+    <string name="welcome_loginwechat">WeChat login</string>
+    <string name="welcome_loginxina">Weibo login</string>
+    <string name="welcome_loginvisitor">Guest login</string>
+    <string name="welcome_help">Help</string>
+    <string name="welcome_set">Settings</string>
+
+    <string name="share_to_title">SHARE TO</string>
+    <string name="share_to_wechat_friends">WeChat</string>
+    <string name="share_to_wechat_moments">Moments</string>
+    <string name="share_to_clipboard">Copy Link</string>
+    <string name="share_to_clipboard_done">Copy</string>
+    <string name="share_roomcode_detail1">【StarPoker - Professional Texas Poker between friends】Open app and input Room
+        Code %s, play with us! www.kingpokers.com
+    </string>
+    <string name="share_roomcode_detail2">【StarPoker - Professional Texas Poker between friends】Room Code %s, copy this
+        message and open app,play with us! www.kingpokers.com
+    </string>
+    <string name="wechat_not_support">Please install WeChat.</string>
+    <string name="share_app_name">StarPoker</string>
+    <string name="entered_clipboard_roomcode">Entered room code from clipboard!</string>
+
+    <string name="commit_error">Server error, please try again later</string>
+
+    <string name="set_gameset">Game Settings</string>
+    <string name="set_gamevoice">Voice</string>
+    <string name="set_gamesound">Sound</string>
+    <string name="set_sitdownset">Automatically sit down after entering the room</string>
+    <string name="set_clearcache">Clear cache</string>
+    <string name="set_newversioncheck">Detect new versions automatically</string>
+    <string name="gamerule">Game Rules</string>
+    <string name="about">About us</string>
+    <string name="current_version">Current Version</string>
+    <string name="disclaimer">Disclaimer</string>
+
+    <string name="personal_data">Profile</string>
+    <string name="personal_alter_avatar">Tap and change photo</string>
+    <string name="personal_nick">Nickname:</string>
+    <string name="personal_gender">Gender:</string>
+    <string name="personal_brithday">Birthday:</string>
+    <string name="personal_property">Assets:</string>
+    <string name="personal_level">Level:</string>
+    <string name="personal_winlose">Record:</string>
+    <string name="personal_winrate">Win ratio:</string>
+    <string name="personal_maxcards">Best hand:</string>
+    <string name="personal_gametines">Hands played:</string>
+    <string name="personal_maxown">Max owned:</string>
+    <string name="personal_maxwin">Biggest pot won in one single hand:</string>
+    <string name="addavater1">Album</string>
+    <string name="addavater2">Take a photo</string>
+    <string name="sex1">Male</string>
+    <string name="sex2">Female</string>
+    <string name="Wordonline">Word count has reached its limit</string>
+    <string name="nickisnull">Nicknames cannot be empty</string>
+    <string name="birthday_empty">Birthday can not be empty</string>
+    <string name="nowin">No hands won</string>
+    <string name="alter_fail">Modification failed</string>
+    <string name="update_head_pic_fail">Failed to upload avatar</string>
+    <string name="alter_success">Modified</string>
+    <string name="leave_tip">Do you want to save modification?</string>
+    <string name="SDCardIsFull">Insufficient SDCard space</string>
+    <string name="nick_illegal">Illegal nickname</string>
+    <string name="save_modify">Save</string>
+    <string name="default_nick_name">User name</string>
+    <string name="personal_setting">Settings</string>
+    <string name="personal_server_switch">Switch server</string>
+    <string name="get_the_rewards">Daily Rewards</string>
+    <string name="rewards_already">Collected</string>
+
+    <string name="recharge">Recharge</string>
+    <string name="recharge_convert">Redeem</string>
+    <string name="recharge_convert_rule">Rules of exchange and recharge</string>
+    <string name="recharge_idou_convert_chip">Gold → Chip</string>
+    <string name="recharge_chip_convert_idou">Chip → Gold</string>
+    <string name="recharge_idou">Gold</string>
+    <string name="recharge_chip">Chips</string>
+    <string name="recharge_chip1">620 Chips</string>
+    <string name="recharge_chip2">3200 Chips</string>
+    <string name="recharge_chip3">13800 Chips</string>
+    <string name="recharge_chip4">36800 Chips</string>
+    <string name="recharge_chip1_dec">Includes 600 chips and extra 20 for free</string>
+    <string name="recharge_chip2_dec">Includes 3000 chips and extra 200 for free</string>
+    <string name="recharge_chip3_dec">Includes 12800 chips and extra 1000 for free</string>
+    <string name="recharge_chip4_dec">Includes 32800 chips and extra 4000 for free</string>
+    <string name="recharge_1">X 60</string>
+    <string name="recharge_2">X 300</string>
+    <string name="recharge_3">X 1,280</string>
+    <string name="recharge_4">X 3,280</string>
+    <string name="recharge_5">X 6,180</string>
+    <string name="recharge_6">X 11,980</string>
+    <string name="recharge_7">X 19,980</string>
+    <string name="recharge_money_1">$0.99</string>
+    <string name="recharge_money_2">$4.99</string>
+    <string name="recharge_money_3">$19.99</string>
+    <string name="recharge_money_4">$49.99</string>
+    <string name="recharge_money_5">$94.99</string>
+    <string name="recharge_money_6">$179.99</string>
+    <string name="recharge_money_7">$299.99</string>
+
+    <string name="convert_fail">Exchange failed</string>
+    <string name="convert_success">Exchanged</string>
+    <string name="convert_chips">A single set of chips:</string>
+    <string name="convert_idou">A single set of golds:</string>
+    <string name="convert_price">Unit price:</string>
+    <string name="convert_amount">Quantity:</string>
+    <string name="convert_total">Total price:</string>
+    <string name="convert_balance">Account balance:</string>
+    <string name="convert_unallowed">Sorry, you can\'t do this as the quantity of your chips is lower than 100k.
+    </string>
+    <string name="confirm">Confirm</string>
+    <string name="tip">Notice</string>
+    <string name="buy">Purchase</string>
+    <string name="sit">Sit</string>
+    <string name="none">None</string>
+    <string name="isbuy">Do you want to spend</string>
+    <string name="selectpay">You chose to recharge</string>
+    <string name="needpay">, you need to pay</string>
+    <string name="paymode">Please select a payment method</string>
+    <string name="pay_title_wechat">WeChat Pay</string>
+    <string name="pay_title_alipay">Alipay</string>
+    <string name="pay_title_baidu">Baidupay</string>
+    <string name="convert_lessidou">You don\'t have enough Golds, please recharge</string>
+    <string name="convert_lesschips">You don\'t have enough chips, please exchange Golds for more chips</string>
+    <string name="needmoney">Amount due:</string>
+    <string name="payway">Payment method:</string>
+    <string name="gamepaytitle">Game Cards, recharge with Game Cards</string>
+    <string name="rmb">RMB</string>
+    <string name="card_type">Card type:</string>
+    <string name="input_cardmoney">Please enter a denomination</string>
+    <string name="input_cardnumber">Please enter the card number</string>
+    <string name="input_cardpwd">Please enter the password</string>
+    <string name="add_other_card">Add the same type cards</string>
+    <string name="ibeans">%1$d Gems</string>
+    <string name="cancelrecharge">Are you sure you want to cancel the recharge?</string>
+    <string name="confirmrecharge">Confirm recharge</string>
+    <string name="buysuccessful">Congrats! you purchased %1$s golds</string>
+    <string name="buyipeafailed">Recharge failed</string>
+    <string name="repayselect">Please reselect the recharge amount</string>
+    <string name="filenotload">File could not be loaded</string>
+    <string name="paychecking">Detecting secure payment service version ...</string>
+    <string name="confirm_install_hint">"Installation tips"</string>
+    <string name="confirm_install">"In order to ensure the security of your transactions, you need to install Alipay
+        secure payment service. \n\n Tap Confirm and install immediately"
+    </string>
+    <string name="confirm_info">Lack of partners or sellers</string>
+    <string name="confirm_paying">Being paid ...</string>
+    <string name="check_sign_failed">Your order information has been illegally changed</string>
+    <string name="check_sys_time">Please check if the system time is correct</string>
+    <string name="warningring">Warning tone</string>
+
+    <string name="find_new_version">A new version was found</string>
+    <string name="update">Update</string>
+    <string name="no_update">Later</string>
+    <string name="msg_personal">Individual trends</string>
+    <string name="msg_system">System message</string>
+    <string name="msg_activity">Event information</string>
+
+    <string name="rank_wealth">Treasure rankings</string>
+    <string name="rank_level">Level</string>
+
+    <string name="feedback">Feedback</string>
+    <string name="feedback_hint">Please enter your feedback here (140 characters upper limit).</string>
+    <string name="feedback_tip">You can also contact us in the following ways:</string>
+    <string name="feedback_tell">It\'s greatly appreciated!</string>
+    <string name="feedback_email">email: service@o-popo.com</string>
+    <string name="feedback_send">Send</string>
+    <string name="feedback_null">Feedback content cannot be empty</string>
+    <string name="feedback_fail">Feedback failed</string>
+    <string name="feedback_success">Thank you very much for your support!</string>
+
+    <string name="share_tencent_microblog">Tencent Micro Blog</string>
+    <string name="share_sina_microblog">Sina Micro Blog</string>
+    <string name="share_renren">Renren Net</string>
+    <string name="share_sms">Information</string>
+    <string name="share">Share</string>
+    <string name="share_weibo_come">Play poker and win phone charges. Really? Come and play. Download:
+        http://www.o-popo.com/
+    </string>
+    <string name="share_success">Share Success</string>
+    <string name="share_failed">Sharing failed, Please try again later</string>
+    <string name="share_invite">Share</string>
+    <string name="share_warning">A text message will be sent after sharing</string>
+    <string name="share_selectall">Select all</string>
+    <string name="share_smsnum1">You will be sending</string>
+    <string name="share_smsnum2">text messages</string>
+    <string name="share_selectcontact">Select contacts for sharing</string>
+    <string name="share_sendover">Sent</string>
+    <string name="share_dosend">Confirm sharing</string>
+    <string name="share_insertsim">"Insert SIM card"</string>
+    <string name="share_sending">Sharing, please wait ...</string>
+    <string name="share_alreadyinvite">It has been shared</string>
+
+    <string name="main_no_operation">Please login a standard account to purchase Golds or items from the store</string>
+    <string name="main_quickplay">Quick start</string>
+    <string name="main_playfield">Game field</string>
+    <string name="main_competitionfield">Match field</string>
+    <string name="main_learn">Start tutorial</string>
+    <string name="main_onlinenumber">Online players:</string>
+    <string name="main_logout">Log off</string>
+    <string name="main_recharge">Recharge</string>
+    <string name="main_id">ID:</string>
+    <string name="main_levellabel">\t\t\t level:</string>
+    <string name="main_times">\t\t\t records:</string>
+    <string name="main_levellabel_240">\t\t level:</string>
+    <string name="main_times_240">\t\t records:</string>
+    <string name="main_levellabel_320">\t\t level:</string>
+    <string name="main_times_320">\t\t records:</string>
+    <string name="main_maxcard">Best hand</string>
+    <string name="main_maxwin">Biggest pot won in one single hand:</string>
+    <string name="main_level1">Civilians</string>
+    <string name="main_win">Won</string>
+    <string name="main_lose">Defeated</string>
+    <string name="main_menu_message">Messages</string>
+    <string name="main_menu_recommend">Redeem</string>
+    <string name="main_menu_rank">Leaderboard</string>
+    <string name="main_menu_share">Share</string>
+    <string name="main_menu_faq">FAQ</string>
+    <string name="main_menu_task">Mission</string>
+    <string name="level_name">Level names</string>
+    <string name="level_score">Point intervals</string>
+    <string name="level_need">Level-up requires points</string>
+    <string name="download">Download:</string>
+    <string name="download1">Download</string>
+    <string name="req_fail">Request failed</string>
+    <string name="club_unlimited_game_exceed">The club can at most create two unlimited-duration games with
+        different big/small blinds. If you need to continue to create a game, please change the game duration.</string>
+    <string name="club_unlimited_game_exists">The club can at most create two unlimited-duration games with different
+        big/small blinds. If you wish to continue to create a game, please change the blind.</string>
+    <string name="club_unlimited_game_permission_deny">Only creator or adm can create nonstop game</string>
+    <string name="update_fail">Failed to update the data</string>
+    <string name="get_freechips1">Due to insufficient chips, the system sent you %1$d chips,</string>
+    <string name="get_freechips2">you still have %1$d times to get free chips today.</string>
+    <string name="get_freechips3">This is the last time to get free chips today.</string>
+    <string name="game_msg_isnull">Chat message cannot be empty</string>
+    <string name="normalgame_gamelobby">Game lobby</string>
+    <string name="normalgame_speed">Agility</string>
+    <string name="normalgame_speed_normal">Normal</string>
+    <string name="normalgame_speed_quick">Fast</string>
+    <string name="normalgame_id">ID</string>
+    <string name="normalgame_id_and_speed">ID/speed</string>
+    <string name="normalgame_blind">Small/big blinds</string>
+    <string name="normalgame_carry">Min/Max Buy-in</string>
+    <string name="normalgame_players">Active players</string>
+    <string name="normalgame_servicecharge">Hand service fee</string>
+    <string name="normalgame_mode_new">Novice field</string>
+    <string name="normalgame_mode_primary">Primary field</string>
+    <string name="normalgame_mode_middle">Intermediate field</string>
+    <string name="normalgame_mode_advanced">Advanced field</string>
+    <string name="normalgame_chips_not_enough">You can\'t enter the room due to insufficient chips, go and
+        recharge?
+    </string>
+    <string name="free">Free</string>
+
+    <string name="chips_limit">Chip intervals</string>
+    <string name="match_gmelobby">Match lobby</string>
+    <string name="match_ready">Preparing</string>
+    <string name="match_going">In progress</string>
+    <string name="match_show">Show</string>
+    <string name="match_hide">Hide</string>
+    <string name="match_roomID">ID/difficulty</string>
+    <string name="match_bonus">Premium for 1st/2nd place</string>
+    <string name="match_status">Status</string>
+    <string name="match_entry_fee">Entry fee</string>
+    <string name="match_tip10">You need to pay</string>
+    <string name="match_tip11">Chips</string>
+    <string name="match_tip12">to attend the match,</string>
+    <string name="match_tip2">the chips will not be returned when the match is over or if you leave the match.</string>
+    <string name="match_tip3">Prizes for the top 2 players of the match are as follow:</string>
+    <string name="match_bonuschips2">2nd place: %1$d chips, match points +2</string>
+    <string name="match_bonuschips1">1st place: %1$d chips, match points +3</string>
+    <string name="match_giveup">Abandon</string>
+    <string name="match_sitdown">Attend</string>
+    <string name="search_fail">The room was not found, please check if the room ID is correct!</string>
+    <string name="cost_chips">Cost %d chips</string>
+    <string name="not_enough_chips">Sorry you don\'t have enough chips!</string>
+    <string name="out_room">Do you want to leave the room?</string>
+    <string name="playing_out_room">Exit the game, you will stand up after this hand ends.</string>
+    <string name="match_out_room">You are in the match, if you leave the room now, you will be taken as abandoning the
+        match. Are you sure you want to leave?
+    </string>
+    <string name="playing_stand_up">Do you want to stand up? Your bet chips will be deducted if you stand up!</string>
+    <string name="match_stand_up">You are in the match, if you leave the room now, you will be taken as abandoning
+        the match. Are you sure you want to leave?
+    </string>
+
+    <string name="search_hint">Search room ID</string>
+    <string name="search">Search</string>
+    <string name="search_tip">Room ID cannot be empty</string>
+    <string name="enter_room_fail">Failed to enter the room, please try again later</string>
+    <string name="enter_room_wait">You are entering the room, please wait ...</string>
+    <string name="out_room_wait">Exiting the room ...</string>
+    <string name="reconect_room_wait">Network is reconnecting, please wait ...</string>
+
+    <string name="yes">Confirm</string>
+    <string name="exit">Are you sure you want to leave the game?</string>
+    <string name="levelrule">Rules of levels</string>
+
+    <string name="game_bet">Bet</string>
+    <string name="game_call">Call</string>
+    <string name="game_fold">Fold</string>
+    <string name="game_foldorcheck">Fold or check</string>
+    <string name="game_check">Check</string>
+    <string name="game_raise">Raise</string>
+    <string name="game_muck">Muck</string>
+    <string name="game_raise_confirm">OK</string>
+    <string name="game_allin">All in</string>
+    <string name="game_callany">Call any</string>
+    <string name="game_up">Stand up</string>
+    <string name="game_big">Big blind</string>
+    <string name="game_small">Small blind</string>
+    <string name="game_wait">Please wait for the next hand</string>
+    <string name="game_count_down_seconds"
+            translatable="false">%ds
+    </string>
+    <string name="game_sit_out">Sit out %ds</string>
+    <string name="game_sit_in">Sit in</string>
+    <string name="game_view_next_card">See</string>
+    <string name="game_view_next_card_flop">Flop</string>
+    <string name="game_view_next_card_river">River</string>
+    <string name="game_view_next_card_turn">Turn</string>
+    <string name="game_view_next_card_notification_preflop">"%s" sees cards on flop</string>
+    <string name="game_view_next_card_notification_flop">"%s" sees cards on turn</string>
+    <string name="game_view_next_card_notification_turn">"%s" sees cards on river</string>
+    <string name="game_view_next_card_notification_expired">Time out</string>
+
+    <string name="game_notification_time_extend">Creator prolonged the game by: %1$d min</string>
+    <string name="game_notification_take_in_rate_changed">Creator changed buy-in to: %1$d〜%2$d folds</string>
+
+    <string name="game_no_sitdown_no_msg">You need to sit down before you can send a message</string>
+    <string name="game_shotcut1">All in! All in!</string>
+    <string name="game_shotcut2">Greetings!</string>
+    <string name="game_shotcut3">Stand up</string>
+    <string name="game_msgsend">Send</string>
+
+    <string name="searchdialog">Searching ...</string>
+    <string name="loadingdialog">Please wait ...</string>
+    <string name="update_data">Synchronizing information, please wait ...</string>
+    <string name="login_data">Logging, please wait ...</string>
+    <string name="check_version">Detecting new versions, please wait ...</string>
+    <string name="load_data">Loading user information, please wait ...</string>
+    <string name="share_data">Sharing, please wait ...</string>
+    <string name="sendInfoFailed">Submission failed</string>
+    <string name="connect_error">Unable to connect to the network</string>
+    <string name="connect_server_fail">Failed to connect to server</string>
+    <string name="fail_load_data">Load user information failed!</string>
+    <string name="get_orderid_fail">Get orderid failed!</string>
+    <string name="orderid_error">Orderid error</string>
+    <string name="create_orderid">Creating order...</string>
+
+    <string name="req_ranking_fail">Failed to request ranking data</string>
+    <string name="req_msg_fail">Failed to request information data</string>
+    <string name="req_app_fail">Failed to request recommended app data</string>
+    <string name="about1">Star Poker</string>
+    <string name="about2">Version: 1.0</string>
+    <string name="about3">Copyright©2016. All Rights Reserved.</string>
+    <string name="about4">Professional Texas Poker between friends.</string>
+    <string name="send_package_fail">Request failed</string>
+    <string name="updowned">Downloaded</string>
+    <string name="updowning">Downloading, please wait ...</string>
+    <string name="loadhide">Download in background</string>
+    <string name="loadcancel">Cancel download</string>
+    <string name="downed">The new version has been downloaded, do you want to install it?</string>
+    <string name="isdownload">Do you want to download it?</string>
+    <string name="tipinstall">Download completed, do you want to install it?</string>
+    <string name="install_text">Install</string>
+    <string name="apksize">Size:</string>
+    <string name="apkversion">Version:</string>
+    <string name="loadfaile">Download failed</string>
+    <string name="newmsg">You have a new message</string>
+    <string name="offline">You have been disconnected from the server</string>
+    <string name="offline_gameserver">You have been disconnected from the room server</string>
+    <string name="otherlogin">The account has logged in elsewhere</string>
+    <string name="outRoom">Leave the room</string>
+    <string name="backlogin">Back to login</string>
+    <string name="getorderfaile">Failed to get the order number</string>
+    <string name="chips">Chips:</string>
+    <string name="score">Points:</string>
+    <string name="match_score">Match points:</string>
+    <string name="data_count">Statistics</string>
+    <string name="playerdata_zhan">Fight</string>
+    <string name="playerdata_ji">record:</string>
+    <string name="playerdata_sheng">Won</string>
+    <string name="playerdata_lv">Ratio:</string>
+    <string name="have_chips">Owned chips:</string>
+    <string name="add_chips">Add chips:</string>
+    <string name="max_add">Max added:</string>
+    <string name="min_add">Min added:</string>
+    <string name="most">Above</string>
+    <string name="matchtype1">Beginner</string>
+    <string name="matchtype2">Upgrade</string>
+    <string name="matchtype3">Senior</string>
+    <string name="chipmore">Please select a room that suits your chip number</string>
+    <string name="levle_tip1">1. Points description:</string>
+    <string name="levle_tip2">2. Level table:</string>
+    <string name="fap1">Q: How do I modify the nickname?</string>
+    <string name="fap1_1">A: Nickname is the name you show to others. If you login with a QQ account or Sina micro blog
+        account, your QQ and Sina nicknames and avatars will be displayed. You can also modify the avatar and nickname,
+        and save the changes.
+    </string>
+    <string name="fap2">Q: How do I level up?</string>
+    <string name="fap2_1">A: Your level is affected by your points. You get one point for each chip you win, and lose
+        one point for each chip you lose. With the change of your points, your level will also change. Points can also
+        be negative.
+    </string>
+    <string name="fap3">Q: How do I get into high level game fields?</string>
+    <string name="fap3_1">A: In Le Le Texas Hold\'em, the entry requirements are related to your chip amount, you can
+        gather enough chips in the lower level fields before you enter high level fields.
+    </string>
+    <string name="fap4">Q: How can I enter my friend\'s room?</string>
+    <string name="fap4_1">A: You can find your friend\'s room by searching the room ID, and enter (if you meet the
+        room entry requirements)
+    </string>
+    <string name="fap5">Q: How do I get more chips?</string>
+    <string name="fap5_1">A: You can get chips by defeating other players in the game fields, through recharge, or daily
+        quests.
+    </string>
+    <string name="fap6">Q: How do I contact customer service?</string>
+    <string name="fap6_1">A: Texas Hold\'em customer service contacts:</string>
+    <string name="logout">Do you want to log out of the account?</string>
+    <string name="msgtip">You have no messages!</string>
+    <string name="not_login">Please login before you submit feedbacks</string>
+    <string name="taskcenter">Quest center</string>
+    <string name="task_title1">Login gifts</string>
+    <string name="task_title2">Earn chips by staying online</string>
+    <string name="task_title3">Cheers for the victory!</string>
+    <string name="task_title4">Cheers for the perseverance!</string>
+    <string name="desc1">Daily first login</string>
+    <string name="desc2">Game %1$d minutes</string>
+    <string name="desc3">Won %1$d hands</string>
+    <string name="desc4">Played %1$d hands</string>
+    <string name="gethonus">Receive Rewards</string>
+    <string name="hasget">Received</string>
+    <string name="taskgetchips">Congrats! You got %1$d chips</string>
+    <string name="quick_play_limit">You don\'t have enough chips, please buy some from the store</string>
+    <string name="match_tuisai">Leave the match</string>
+    <string name="get_honus_faile">Failed to claim rewards, please try again later</string>
+    <string name="msg_tip">Complete the novice tutorial and get %1$d chips as a reward</string>
+    <string name="msg_tip1">First login of each day rewards %1$d chips</string>
+    <string name="msg_tip2">Congrats! you completed</string>
+    <string name="msg_tip3">, and got %2$d chips</string>
+    <string name="msg_tip4">%1$d golds are exchanged for %2$d chips</string>
+    <string name="msg_tip5">Mission</string>
+
+    <string name="weibo_share_title">Get chips by sharing in micro blogs</string>
+    <string name="weibo_share_pic">Send screenshots</string>
+    <string name="weibo_share_txt">Get chips by sharing in micro blogs, let\'s do it now</string>
+    <string name="weibo_share_exit">Cancel</string>
+    <string name="weibo_share_send">Send</string>
+    <string name="weibo_share_preview">Preview</string>
+    <string name="login_honus_1">1st day</string>
+    <string name="login_honus_2">2nd day</string>
+    <string name="login_honus_3">3rd day</string>
+    <string name="login_honus_4">4th day</string>
+    <string name="login_honus_5">5th day</string>
+    <string name="login_honus_6">6th day</string>
+    <string name="login_honus_7">7th day</string>
+    <string name="login_honus_vip">Become a member now</string>
+    <string name="login_honus_addvip">Extend membership period</string>
+
+    <string name="gift_chips">Send chips</string>
+    <string name="statistics_title">Results of the round</string>
+    <string name="statistics_pre">Previous chips amount:</string>
+    <string name="statistics_now">Current chips amount:</string>
+    <string name="statistics_pro">Purchase items:</string>
+    <string name="statistics_winlose">Chips increase:</string>
+    <string name="statistics_lose">Chips decrease:</string>
+    <string name="store_store">Topup Store</string>
+    <string name="store_bag">Bag</string>
+    <string name="store_recharge">Recharge</string>
+    <string name="store_convert">Redeem</string>
+    <string name="store_goods_use">Use</string>
+    <string name="store_goods_inuse">In use</string>
+    <string name="teach_share">Novice tutorial is completed. Get rewards by sharing in the Micro Blogs?</string>
+    <string name="game_sit">Sit down</string>
+
+    <string name="goods_more">More goods</string>
+    <string name="expression_buy">You have run out of chances of using emoticons, go and buy an Emoticon Pack?</string>
+    <string name="room_to_store">Do you want to leave the room and go to the store?</string>
+    <string name="good_chips_buy">Insufficient chips, go and buy some from the store?</string>
+    <string name="toteach_1">Welcome to Texas Hold\'em!</string>
+    <string name="toteach_2">Complete the novice tutorial and get</string>
+    <string name="toteach_3">chip rewards!</string>
+    <string name="toteach_4">I know the game play</string>
+    <string name="toteach_5">Start tutorial</string>
+    <string name="beans_convert_rate">Exchangeable Gold Beans: %1$d</string>
+    <string name="beans_convert_tip">Note: You can only exchange %1$s times each day, and %2$s Gold Beans each time.
+    </string>
+
+    <!--pay string-->
+    <string name="pay_game_store">Store</string>
+    <string name="pay_common_member">Normal member</string>
+    <string name="pay_vip_member">vip member</string>
+    <string name="pay_buy_success">Purchase success</string>
+    <string name="pay_buy_fail">Purchase failed</string>
+    <string name="pay_buy_success_and_check">Purchase success, please go to backpack</string>
+    <string name="pay_buy_fail_and_nocharge">Sorry, temporarily unable to recharge or purchase items</string>
+    <string name="pay_dialog_text1">Purchase Confirmation</string>
+    <string name="pay_dialog_text2">Sure to purchase?</string>
+    <string name="pay_not_enough_chips">Gem is not enough, please buy gems.</string>
+    <string name="pay_buy_btn">GET MORE GEMS</string>
+    <string name="pay_loading">Charging, please wait ...</string>
+    <string name="pay_success">Pay Success</string>
+    <string name="pay_failed">Pay Failed</string>
+    <string name="pay_cancel">Pay Canceled</string>
+    <string name="pay_buy_jewel">Gems recharge</string>
+
+    <!--poker text-->
+    <string name="group_input_code">QUICK GAME</string>
+    <string name="group_input_code_des1">Enter the room code Play with friends</string>
+    <string name="group_input_code_des2">Start a game and invite friends</string>
+    <string name="group_input_edit_hint">Room code</string>
+    <string name="group_start_name">Name your room</string>
+    <string name="group_start_blind">Small/Big blind</string>
+    <string name="group_start_chips">Buy-In</string>
+    <string name="group_start_control_chips">Buy-In request</string>
+    <string name="group_insurance_control_desc">Insurance mode</string>
+    <string name="group_person_chips">Chips:</string>
+    <string name="group_start_charge">Fee:</string>
+    <string name="group_start_button">START NOW</string>
+    <string name="group_set_title">Room Setting</string>
+    <string name="group_create_error1">Room name can not be empty!</string>
+    <string name="group_create_error2">Chips is not enough, please recharge!</string>
+    <string name="group_create_error3">Failed to connect to server (code: 3)</string>
+    <string name="group_create_error4">Create room fail, one player only can create one room.</string>
+    <string name="group_create_error5">The room does not exist!</string>
+    <string name="group_create_error6">The room is full.</string>
+    <string name="group_create_error7">Request data failed!</string>
+    <string name="group_create_error8">Gems is not enough, please buy Gems!</string>
+    <string name="group_create_error9">Only the manager can start game</string>
+    <string name="group_invalid_room_name">Room Name Contains\n Illegal Chars!</string>
+    <string name="group_start_button2">START NOW</string>
+    <string name="group_pending_home">HOME</string>
+    <string name="group_pending_dismiss">DISMISS</string>
+    <string name="group_pending_dismiss_text">Sure to dismiss?</string>
+    <string name="group_pending_dismiss1">EXIT</string>
+    <string name="group_pending_dismiss_text1">Sure to quit？</string>
+    <string name="group_set_title_text">Small/Big blind setting</string>
+    <string name="group_set_time_text">Game Length</string>
+    <string name="group_set_unlimited_time">Nonstop</string>
+    <string name="group_pending_success_text">The game created successfully</string>
+    <string name="group_pending_share_text">Share room code</string>
+    <string name="group_pending_minutes">min</string>
+    <string name="group_pending_start_text">START NOW</string>
+    <string name="group_pending_organize_text">Create</string>
+    <string name="group_pending_enter_text">ENTER</string>
+    <string name="group_set_chips_text">Chips:</string>
+    <string name="group_set_cost_text">Fee:</string>
+    <string name="group_set_advanced_text1">Options</string>
+    <string name="group_set_advanced_text2">(Game length and Buy-in amount)</string>
+    <string name="group_set_advanced_text3">Buy-in amount</string>
+    <string name="group_set_advanced_text4">Set in games</string>
+    <string name="group_set_jewel_text">Gems:</string>
+    <string name="group_switch_on_text">ON</string>
+    <string name="group_switch_off_text">OFF</string>
+    <string name="group_tab_common_text">Poker game</string>
+    <string name="group_tab_mtt_text">MTT match(PM)</string>
+    <string name="group_name">Name</string>
+    <string name="group_input_code_loading">Not Connected</string>
+    <string name="group_set_people_title">Table players number setting</string>
+
+    <!--game end-->
+    <string name="group_exit_tip">The room is dismiss</string>
+    <string name="game_end_title_text">PERSONAL RECORD OF SERIES</string>
+    <string name="game_end_hands_text">HANDS</string>
+    <string name="game_end_richer_text">RICHER</string>
+    <string name="game_end_shark_text">SHARK</string>
+    <string name="game_end_fish_text">FISH</string>
+    <string name="game_end_list_nick">NickName</string>
+    <string name="game_end_list_buy">Buy-In</string>
+    <string name="game_end_list_p_l">P&amp;L</string>
+    <string name="game_end_total_biggestpot">Biggest pot</string>
+    <string name="game_end_total_allbuy">Total Buy-In</string>
+    <string name="game_end_score">Records</string>
+
+    <string name="table_room_id">ROOM:%d</string>
+    <string name="table_blinds">BLINDS:%1$d/%2$d</string>
+    <string name="table_pot">POT:%s</string>
+    <string name="table_insurance_on">INSURANCE MODE</string>
+    <string name="table_ip_restrict">IP RESTRICTIONS</string>
+    <string name="table_gps_restrict">GPS restrictions</string>
+    <string name="sng_table_ip_restrict">IP Restrictions</string>
+    <string name="table_ip_gps_restrict">IP and GPS restrictions</string>
+
+    <string name="winner">WINNER</string>
+
+    <string name="hall_all">All</string>
+    <string name="hall_new">New</string>
+    <string name="hall_junior">Junior</string>
+    <string name="hall_adv">Advance</string>
+    <string name="hall_pro">Professional</string>
+    <string name="tab_item_play">PLAY</string>
+    <string name="tab_item_message">MESSAGE</string>
+    <string name="tab_item_discover">DISCOVER</string>
+    <string name="tab_item_record">RECORD</string>
+    <string name="tab_item_mine">MINE</string>
+
+    <string name="fold">FOLD</string>
+    <string name="call">CALL</string>
+    <string name="raise">RAISE</string>
+    <string name="accurate_raise">Raise</string>
+    <string name="accurate_raise_del">DEL</string>
+    <string name="accurate_raise_tip">The minimum amount</string>
+    <string name="accurate_raise_tip_max">The maximum amount</string>
+
+    <string name="login">LOGIN</string>
+    <string name="take_in_failed">Take in denied.</string>
+    <string name="take_in_failed_owner_not_present">Taking in failed because of the room owner\'s absence.</string>
+    <string name="take_in_countdown">Waiting for the room owner to accept your request to add bring-in… 180s</string>
+    <string name="seat_take_in_countdown">Waiting for the room owner to accept your sitting request… 180s</string>
+    <string name="take_in_no_response">The room owner did not respond to your request to add bring-in, please retry
+        later
+    </string>
+    <string name="seat_take_in_no_response">The room owner did not respond to your sitting request,
+        please retry later</string>
+    <string name="back_seat_when_take_in_success">Sit in after the request passed.</string>
+    <string name="take_in_pending">You have pending take in request.</string>
+    <string name="take_in_expired">Expired</string>
+    <string name="take_in_credit_not_enough">Due to club credit limit, you can not buy in, please contact the
+        administrator
+    </string>
+    <string name="take_in_for_seat_credit_not_enough">Due to club credit limit, you can not play, please contact the
+        administrator
+    </string>
+    <string name="take_in_exceed_credit_value">Buy in exceeds the club credit limit, please contact the administrator
+    </string>
+    <string name="take_in_credit_value_limit">Due to club credit limit, you can only buy in %d, \n any questions, please
+        contact the administrator
+    </string>
+    <string name="take_in_chips_to_fill">您必须带入与上次离桌时额度相等的筹码(PM)</string>
+    <string name="take_in_credit_settling_warning">Your refresh request hasn\'t been handled. Can\'t play in club,
+        please contact the admin to handle.</string>
+    <string name="cannot_stand_up_because_playing">Still in game, can\'t stand up. Please fold or wait for the
+        end.</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="find_password">Reset password</string>
+    <string name="send_verification_code">Send</string>
+    <string name="register_new_account">Register</string>
+    <string name="other_login_methods">Other ways</string>
+    <string name="register_contacting_server">Contacting server...</string>
+    <string name="register_phone_not_registered">This phone number is not registered.</string>
+    <string name="register_phone_registered">This phone number has been registered before.</string>
+    <string name="register_password_length_too_short">The password is too short.</string>
+    <string name="register_phone_number_empty">Please input the phone number</string>
+    <string name="register_phone_title">Phone number register</string>
+    <string name="register_empty_nick_name">Please enter your name</string>
+    <string name="register_invalid_nick_name">Illegal name</string>
+    <string name="register_nick_name_exits">The nickname has been registered</string>
+    <string name="reset_password_new_password">New password</string>
+    <string name="reset_password_title">Reset password</string>
+    <string name="login_account_hint">Phone number</string>
+    <string name="login_pass_hint">Password</string>
+    <string name="login_failed">Account or password is incorrect, please enter again.</string>
+    <string name="set_password_hint">6 or more characters</string>
+    <string name="enter">ENTER</string>
+    <string name="register_phone_number_title">Verification code will be sent to the phone number below</string>
+    <string name="cancel">Cancel</string>
+    <string name="retry">Retry</string>
+    <string name="send">Send</string>
+    <string name="country">Country</string>
+    <string name="password">Password</string>
+    <string name="done">Done</string>
+    <string name="send_again">Send again</string>
+    <string name="send_again_seconds">Send(%ds)</string>
+    <string name="fill_captcha">Enter the verification code</string>
+    <string name="enter_captcha_hint">Enter the verification code here</string>
+    <string name="incorrect_captcha">Verification code is incorrect</string>
+    <string name="phone_reg_change_portrait">Change photo</string>
+    <string name="phone_reg_nick_name">Nickname</string>
+    <string name="phone_reg_gender">Gender</string>
+    <string name="phone_reg_birthday">Birthday</string>
+    <string name="phone_reg_tap_to_choose">Tap to choose</string>
+    <string name="phone_reg_edit_profile">Edit profile</string>
+    <string name="phone_reg_upload_pic_fail">Error happened when uploading your head portrait, your profile
+        may be wrong.
+    </string>
+    <string name="talk_input_hint">ENTER YOUR THOUGHTS</string>
+    <string name="room_waiting_for_start">Waiting for the owner to start.</string>
+    <string name="room_take_in_switch">Buy-In Control</string>
+    <string name="room_take_in_switch_on">Buy-In Control is on</string>
+    <string name="room_take_in_switch_off">Buy-In Control is off</string>
+    <string name="room_user_request_take_in_chips_title">Buy-In request</string>
+    <string name="room_user_request_take_in_chips_message">User: %1$s request for taking %2$d in.</string>
+    <string name="room_close_at_5_minutes">The game will end in 5 minutes.</string>
+    <string name="room_close_at_5_minutes_restart">The game will end in 5 minutes, and will resume after updating.</string>
+    <string name="room_re_buy_in">Buy-in</string>
+    <string name="room_owner_func">Options</string>
+    <string name="room_take_in_title">Buy-in</string>
+    <string name="room_take_in_info">We\'ll add the chips for you next hands.</string>
+    <string name="room_take_in_info2">Buy-In Amount</string>
+    <string name="room_take_in_min">min</string>
+    <string name="room_take_in_max">max</string>
+    <string name="room_take_in_wealth">Chips:</string>
+    <string name="room_take_in_record">Fee:</string>
+    <string name="room_take_in_yes">Save</string>
+    <string name="room_sit_down_take_in_accepted">The room owner accepted your sitting request</string>
+    <string name="room_sit_down_take_in_reject">The room owner rejected your sitting request</string>
+    <string name="room_take_in_accepted">The room owner accepted your request to add bring-in</string>
+    <string name="room_take_in_rejected">The room owner rejected your request to add bring-in</string>
+    <string name="room_sit_down_fail">Seat is not available!</string>
+    <string name="room_seat_has_been_taken">Seat has been taken!</string>
+    <string name="room_take_in_accept">You accepted the player\'s request</string>
+    <string name="room_take_in_reject">You rejected the player\'s request</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+    <string name="select_all">Select all</string>
+    <string name="waiting_for_owner_permission">Waiting for owner\'s response.</string>
+    <string name="login_mode">SELECT LOGIN MODE</string>
+    <string name="half_bottom">1/2</string>
+    <string name="two_of_three_bottom">2/3</string>
+    <string name="one_bottom">X1</string>
+    <string name="two_bb">X2</string>
+    <string name="three_bb">X3</string>
+    <string name="four_bb">X4</string>
+    <string name="pot">POT</string>
+    <string name="take_in_not_enough_title">Not enough chips!</string>
+    <string name="take_in_not_enough_info">Do you want to leave the room and buy some chips?</string>
+    <string name="take_in_item_0">Add bring-in&#160;</string>
+    <string name="take_in_item_1">&#160;chips</string>
+    <string name="table_new_message_0">You have&#160;</string>
+    <string name="table_new_message_1">&#160;requests</string>
+    <string name="go_to_shop">Go to shop</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="server_list"><!--与下面的ENV一一对应-->
+        <item>China</item>
+        <item>Global</item>
+    </string-array>
+    <string-array name="server_env_name_list">
+        <item>onlineHome</item>
+        <item>onlineAbroad</item>
+    </string-array>
+    <string-array name="country_code">
+        <item>cn</item>
+        <item>id</item>
+        <item>vn</item>
+        <item>th</item>
+        <item>jp</item>
+        <item>us</item>
+        <item>in</item>
+        <item>ca</item>
+    </string-array>
+    <string-array name="country_area_code">
+        <item>+86</item>
+        <item>+62</item>
+        <item>+84</item>
+        <item>+66</item>
+        <item>+81</item>
+        <item>+1</item>
+        <item>+91</item>
+        <item>+1</item>
+    </string-array>
+    <string-array name="country_name">
+        <item>China</item>
+        <item>Indonesia</item>
+        <item>Vietnam</item>
+        <item>Thailand</item>
+        <item>Japan</item>
+        <item>United States</item>
+        <item>India</item>
+        <item>Canada</item>
+    </string-array>
+
+    <string name="accout_change_tips">Any history data won\'t be deleted after logout.</string>
+    <string name="raise_tips">RAISE</string>
+    <string name="allin_tips">ALL IN</string>
+    <string name="check_tips">CHECK</string>
+    <string name="fold_tips">FOLD</string>
+    <string name="trust_tips">TRUST</string>
+    <string name="follow_tips">CALL</string>
+    <string name="win_type_1">Royal flush</string>
+    <string name="win_type_2">Straight flush</string>
+    <string name="win_type_3">Four of a kind</string>
+    <string name="win_type_4">Full house</string>
+    <string name="win_type_5">Flush</string>
+    <string name="win_type_6">Straight</string>
+    <string name="win_type_7">Three of a kind</string>
+    <string name="win_type_8">Two pairs</string>
+    <string name="win_type_9">One pair</string>
+    <string name="win_type_10">High card</string>
+    <string name="confirm_fold">Are you sure to fold?</string>
+    <string name="confirm_fold_text">You can check without any chips</string>
+    <string name="system_message">System Message</string>
+    <string name="room_owner">Founder:%1$s</string>
+    <string name="room_Waiting">Waiting</string>
+    <string name="game_time">%1$dh%2$dm</string>
+    <string name="game_time_unlimited">Nonstop</string>
+    <string name="real_time_situation">Live Record</string>
+    <string name="watcher">Spectators</string>
+    <string name="pumping_title">Fund from pot</string>
+    <string name="pumping_total">Fund from pot</string>
+    <string name="last_card_pumping_title">Fund from pot</string>
+    <string name="players">Players</string>
+    <string name="no_more_jewel">Gems is not enough!</string>
+    <string name="no_more">Not enough</string>
+    <string name="lack">Lack</string>
+    <string name="add_time_pot">%1$dPOT</string>
+    <string name="auto_fold_text">Auto fold</string>
+    <string name="auto_check">Auto check</string>
+    <string name="auto_call">Auto call</string>
+    <string name="wait_tips">Waiting</string>
+    <string name="post_tips">Posting</string>
+    <string name="post_message">If you are not at the big blind, you will join the game after the amount of big blind
+        chips is deducted. For more details, please refer to the operation tips.
+    </string>
+    <string name="wait_message">To be more equitable，you need to wait for the big blind.</string>
+    <string name="wait_message_2">In order to ensure fairness, you will join the game in the next round.</string>
+    <string name="room_seat_action_exit">You have been moved out of the club</string>
+
+    <!--insurance-->
+    <string name="insurance_capital_protected">Secure</string>
+    <string name="insurance_free_buy">Buy</string>
+    <string name="insurance_cancel">Pass</string>
+    <string name="insurance_insurer">Claim</string>
+    <string name="insurance_insure_amount">Insure</string>
+    <string name="insurance_insure_rate">Odds</string>
+    <string name="insurance_outs" translatable="false">OUTS</string>
+    <string name="insurance_public_cards">Community Cards</string>
+    <string name="insurance_selected">Selected</string>
+    <string name="insurance_select">Tap select</string>
+    <string name="insurance_insurer_short">Claim</string>
+    <string name="insurance_insure_pay">Insure</string>
+    <string name="insurance_insure_select_title">Tap to buy</string>
+    <string name="insurance_whole_pot">Full\ncover</string>
+    <string name="insurance_mode_on">Insurance</string>
+    <string name="insurance_remain_time">Purchasing %ds</string>
+    <string name="insurance_give_up">Pass</string>
+    <string name="insurance_bought">Insure %d</string>
+    <string name="insurance_paid">Claim %d</string>
+    <string name="insurance_mode">Insurance</string>
+    <string name="insurance_trigger_fail">OUTS&gt;16 or OUTS=0，can not purchase insurance.</string>
+    <string name="insurance_pool">Sum assured</string>
+    <string name="insurance_force">Mandatory purchase of insurance fee %d coins</string>
+    <string name="insurance_not_allow_select">Purchase of the entire outs is required in this round</string>
+    <string name="insurance_force_buy">%1$d outs not insured, Odds %2$s, automatically insured %3$d</string>
+    <string name="insurance_outs_count" translatable="false">outs=%d</string>
+    <string name="insurance_buying">Purchasing</string>
+    <string name="insurance_buy_title">Insurance</string>
+    <string name="insurance_count_down">Countdown: %ds</string>
+    <string name="insurance_pool_put">Investment: %d</string>
+    <string name="insurance_self">Myself</string>
+    <string name="insurance_outs_partial" translatable="false">OUTS: %1$d/%2$d</string>
+
+    <string name="situation_title">MTT Intro</string>
+    <string name="situation_list_tab1">Leader Board</string>
+    <string name="situation_list_tab2">Blind</string>
+    <string name="situation_list_tab3">Reward</string>
+    <string name="situation_list_tab1_text1">Rank</string>
+    <string name="situation_list_tab1_text2">User</string>
+    <string name="situation_list_tab1_text3">Coins</string>
+    <string name="situation_list_tab1_text4">Your Rank</string>
+    <string name="situation_list_tab2_text1">Level</string>
+    <string name="situation_list_tab2_text2">Blind</string>
+    <string name="situation_list_tab2_text3">Ante</string>
+    <string name="situation_list_tab2_text4">Blind Raise Time</string>
+    <string name="situation_list_tab2_text5">Your Level</string>
+    <string name="situation_list_tab3_text1">1st Prize</string>
+    <string name="situation_list_tab3_text2">2nd Prize</string>
+    <string name="situation_list_tab3_text3">3rd Prize</string>
+    <string name="situation_list_tab3_text4">Prize Pool</string>
+    <string name="table_start_text1">The MTT has</string>
+    <string name="table_start_text2">players</string>
+    <string name="table_start_text3">The system is finding a table for you</string>
+    <string name="table_start_text4">For the fair of the game, we are going to find another table for you. Please
+        wait.
+    </string>
+
+    <!--discover-->
+    <string name="discover_record_empty_des1">No match to join for you</string>
+    <string name="discover_record_empty_des2">Create one to play with your friends</string>
+    <string name="discover_room_info">ROOM:%1$s | Founder:%2$s</string>
+    <string name="discover_club_info">%1$s club</string>
+    <string name="discover_tab_common_text">Add poker(PM)</string>
+    <string name="discover_tab_mmt_text">Add MTT(PM)</string>
+    <string name="discover_chips">Ante:%1$d</string>
+    <string name="discover_room_title_my">My game</string>
+    <string name="discover_room_title_relate"> Recommended game</string>
+    <string name="my_poker_title">mypoker(pm)</string>
+    <string name="my_create_poker_title">create(pm)</string>
+    <string name="my_join_title">join(pm)</string>
+    <string name="recommend_title">recommend(pm)</string>
+
+    <!--im-->
+    <string name="im_font">Segoe UI Regular</string>
+    <string name="im_send">Send</string>
+    <string name="im_voice_message_too_short">Message too short</string>
+    <string name="im_poker_group_pending_record">Hold to talk</string>
+    <string name="im_voice_record_tip1">Release to send</string>
+    <string name="im_game_voice_record_progress_tip">Slide up to cancel</string>
+    <string name="im_game_voice_record_progress_tip2">Release up to cancel</string>
+    <string name="im_game_voice_record_permission_denied_tip">Please turn on the recording permission</string>
+
+    <!--record-->
+    <string name="txt_games_time">time</string>
+    <string name="txt_games_profit_loss">profit</string>
+    <string name="txt_games_num">Games</string>
+    <string name="txt_incoming">Profit</string>
+    <string name="txt_hand_num">Hands</string>
+    <string name="txt_average_incoming">per 100 hands</string>
+    <string name="txt_average_big_bild">BB/100</string>
+    <string name="txt_show_hand_incoming">Win $ at showdown</string>
+    <string name="txt_win_rate_computer">Win rate</string>
+    <string name="txt_total_win_rate">Total Winning</string>
+    <string name="txt_show_down_win_rate">Winning at showdown</string>
+    <string name="txt_show_hand_win_rate">Winning after flop</string>
+    <string name="txt_show_hand_after_win_rate">Winning at pre-flop</string>
+    <string name="txt_pool_win_rate">WINNING</string>
+    <string name="txt_show_down_add_chips">PFR</string>
+    <string name="txt_get_blind_rate">STEAL</string>
+    <string name="txt_continue_add_chips">C-BET</string>
+
+    <string name="total_data">total</string>
+    <string name="recent_seven_days">Last week</string>
+    <string name="recent_one_month">Last month</string>
+    <string name="total_lose_hands_num">Hands of Failure</string>
+    <string name="total_win_hands_num">Hands of Winning</string>
+    <string name="total_allin_num">Total Hands</string>
+    <string name="total_allin_data">All in Profit</string>
+    <string name="allin_data">All IN</string>
+    <string name="incoming_data">Profit</string>
+    <string name="total_incoming">Total Profit</string>
+    <string name="total_series">Series</string>
+    <string name="total_hands">Hands</string>
+    <string name="entry_rate">VP</string>
+    <string name="win_rate">Winning</string>
+    <string name="hands_time_length">Length</string>
+    <string name="total_entry">Total Buy-in</string>
+    <string name="data_statistics">Statistics</string>
+    <string name="record_statistics">Record</string>
+    <string name="life_statistics">Total</string>
+    <string name="total_score">Chips</string>
+    <string name="play_time_sec1">h</string>
+    <string name="play_time_sec1_end">h</string>
+    <string name="play_time_sec2">m</string>
+    <string name="listview_loading">Loading&#8230;</string>
+    <string name="room_detail_bring">Buy-In</string>
+    <string name="record_last_info_title">Last 5 games</string>
+    <string name="record_more_date">More date</string>
+    <string name="record_return_back">Back</string>
+    <string name="data_record_pool_rate">VP</string>
+    <string name="data_record_win_rate">WIN</string>
+    <string name="data_record_incoming_rate">P&amp;L</string>
+
+    <string name="record_common_poker">Common</string>
+    <string name="record_match_poker">Match</string>
+
+    <string name="record_room">ROOM:</string>
+    <string name="record_founder">&#160;| Founder:</string>
+    <string name="record_detail_room">&#160;ROOM:</string>
+    <string name="record_detail_founder">&#160;| Founder:</string>
+
+
+    <!--setting-->
+    <string name="logout_account">Logout</string>
+    <string name="setting_text">Settings</string>
+    <string name="website"
+            translatable="false">http://www.kingpokers.com
+    </string>
+    <string name="setting_sound">Game Sound</string>
+    <string name="silence_sound">Silence</string>
+
+    <!--mine-->
+    <string name="mine_edit_profile">Edit profile</string>
+    <string name="label_personal_sign">What\'s up:</string>
+    <string name="mine_invalid_sign">Signature contains illegal characters</string>
+    <string name="record_pull_to_refresh">Slide down to refresh</string>
+    <string name="record_release_to_refresh">Release to refresh</string>
+    <string name="record_load_full">No more data</string>
+    <string name="mine_nick_tips">Less than 12 characters</string>
+    <string name="mine_chip_spend">Cost</string>
+    <string name="mine_chip_left">Left</string>
+    <string name="mine_nick_spend_tips">Name changes after the first time costs 300 Gems</string>
+    <string name="mine_chip_poor_tips">You don\'t have enough Gems</string>
+    <string name="mine_chip_buy">Get Gems</string>
+    <string name="mine_chip_tip">Tips:</string>
+    <string name="mine_modify_nick">Change nick</string>
+    <string name="chips_get">chips + 100</string>
+    <string name="chips_get_failed">Collecte failed</string>
+    <string name="mine_collect_spectrum">%d saved hands</string>
+    <string name="spectrum_collect">Save</string>
+    <string name="spectrum_cancel">Removed</string>
+    <string name="spectrum_edit_name">Edit name</string>
+    <string name="spectrum_edit_title">Edit name</string>
+    <string name="spectrum_edit_des">Saved</string>
+    <string name="spectrum_edit_hint">Less than 12 characters</string>
+    <string name="spectrum_collect_success_tip">Saved</string>
+    <string name="spectrum_collect_fail_tip">Removed</string>
+    <string name="spectrum_collect_share_title">[StarPoker]</string>
+    <string name="spectrum_collect_share_content">Poker is like life, luck can be successful by hard word!</string>
+    <string name="spectrum_collect_fail_tip1">colletcion quantity limited</string>
+
+    <!--Owner option-->
+    <string name="owner_function">Options</string>
+    <string name="owner_buyin_des">Set Buy-in amount</string>
+    <string name="owner_byin_set">Save</string>
+    <string name="owner_buyin_control">Buy-In request</string>
+    <string name="owner_pause">Pause</string>
+    <string name="game_pause">GAME PAUSE</string>
+    <string name="group_set_pumping">Fund from pot</string>
+    <string name="group_bet_title">Ante</string>
+    <string name="group_setting_bet">Ante:%1$d</string>
+    <string name="group_setting_bet_1"
+            translatable="false">0BB
+    </string>
+    <string name="group_setting_bet_2"
+            translatable="false">0.5BB
+    </string>
+    <string name="group_setting_bet_3"
+            translatable="false">1BB
+    </string>
+    <string name="group_setting_bet_n"
+            translatable="false">%1$sBB
+    </string>
+    <string name="owner_delay_game">Prolanged the game</string>
+    <string name="owner_delay_cost">Cost:</string>
+    <string name="owner_delay_jewel_remain">Gems:</string>
+
+    <!--last card -->
+    <string name="last_card">Review last hand</string>
+    <string name="last_card_set_favorite_fail">Over the limit</string>
+    <string name="last_card_empty">No Information</string>
+    <string name="last_card_fold">Fold</string>
+    <string name="last_card_check">Check</string>
+    <string name="last_card_check_fold">Fold after Check</string>
+    <string name="last_card_follow"><![CDATA[Call <font color="#FEDF9D">%d</font>]]></string>
+    <string name="last_card_follow_then_fold"><![CDATA[Call <font color="#FEDF9D">%d</font> Fold]]></string>
+    <string name="last_card_raise_with_chips"><![CDATA[Raise <font color="#FEDF9D">%d</font>]]></string>
+    <string name="last_card_raise_with_chips_then_fold"><![CDATA[Raise <font color="#FEDF9D">%d</font> Fold]]></string>
+    <string name="last_card_all_in"><![CDATA[<font color="#FEDF9D">ALL IN %d</font>]]></string>
+
+    <!--data record-->
+    <string name="data_record_card_spectrum">Card spectrum</string>
+    <string name="data_record_data_statistics">Data statistics</string>
+    <string name="data_record_data_series">Series</string>
+    <string name="data_record_data_hands">Hands</string>
+    <string name="data_statistics_flop_rate">Flop</string>
+    <string name="data_statistics_flop_win_rate">Won</string>
+    <string name="data_statistics_turn_rate">Turn</string>
+    <string name="data_statistics_turn_win_rate">Won</string>
+    <string name="data_statistics_river_rate">River</string>
+    <string name="data_statistics_river_win_rate">Won</string>
+    <string name="data_statistics_showdown_rate">WSTD</string>
+    <string name="data_statistics_showdown_win_rate">Won</string>
+    <string name="tip_no_enough_coin_prex">Sorry，your chips is not enough. You need</string>
+    <string name="tip_no_enough_coin_fix">chips to join the game.</string>
+
+    <string name="data_spectrum_total_hand">Total hands</string>
+    <string name="data_spectrum_take_in">Buy-in</string>
+    <string name="data_spectrum_score">Score</string>
+    <string name="data_spectrum_detail">Detail of each hand</string>
+    <string name="data_spectrum_title">TOTAL %d HANDS</string>
+    <string name="data_record_all_card_spectrum">My card spectrum</string>
+    <string name="data_spectrum_hand_ordinal">%s hand</string>
+    <string name="data_club_name">%1$s club</string>
+    <string name="data_record_personnal_count_pre"></string>
+    <string name="data_record_personnal_count_fix">hand</string>
+    <string name="add_friend">Add friend</string>
+    <string name="mute_is_on">Mute is on</string>
+    <string name="mute_is_off">Mute is off</string>
+
+
+    <!--Take Picture-->
+    <string name="lack_required_permission">Star Poker lack of required permissions.</string>
+
+    <string name="help_vpip">VPIP stands for Voluntarily Put $ In Pot. This stat shows the percentage of time you make
+        calls or raises before the flop
+    </string>
+    <string name="help_per">PFR stands for Pre Flop Raise. This stat shows the percentage of the time a player raises
+        before the flop.
+    </string>
+    <string name="help_3bet">A 3-bet as most players use the term means the act of putting in the third bet, technically
+        the second “raise”, the “3-bet” during any given round of action.
+    </string>
+    <string name="help_f3bet">F-3bet stands for 3bet flod. This stat shows the percentage of the time a player fold
+        after the 3bet.
+    </string>
+    <string name="help_steal">Steal is a term used in poker for when a player in late position raises pre-flop in an
+        attempt to win the uncontested blinds.
+    </string>
+    <string name="help_resteal">When a player makes a steal attempt, restealing means raising back into the original
+        raiser as a bluff.
+    </string>
+    <string name="help_cbet_flop">The percentage of the time that a player bet the Flop given that he had a chance to do
+        so and he made the last raise preflop.
+    </string>
+
+
+    <!--login -->
+    <!-- 其他方式登录 -->
+    <string name="login_other_way">Other login types</string>
+
+    <!-- 进行中的牌局 -->
+    <string name="ongoing_game">Playing Game</string>
+
+
+    <string name="sign_hint_string">Write down your words</string>
+
+    <string name="win_rate_name">Win rate</string>
+    <string name="data_record_datafaq">
+        <u>Data description>></u>
+    </string>
+
+    <string name="month_name_Jan">Jan</string>
+    <string name="month_name_Feb">Feb</string>
+    <string name="month_name_Mar">Mar</string>
+    <string name="month_name_Apr">Apr</string>
+    <string name="month_name_May">May</string>
+    <string name="month_name_Jun">Jun</string>
+    <string name="month_name_Jul">Jul</string>
+    <string name="month_name_Aug">Aug</string>
+    <string name="month_name_Sep">Sep</string>
+    <string name="month_name_Oct">Oct</string>
+    <string name="month_name_Nov">Nov</string>
+    <string name="month_name_Dec">Dec</string>
+
+    <!--card character-->
+    <string name="cardnumber_2"
+            translatable="false">2
+    </string>
+    <string name="cardnumber_3"
+            translatable="false">3
+    </string>
+    <string name="cardnumber_4"
+            translatable="false">4
+    </string>
+    <string name="cardnumber_5"
+            translatable="false">5
+    </string>
+    <string name="cardnumber_6"
+            translatable="false">6
+    </string>
+    <string name="cardnumber_7"
+            translatable="false">7
+    </string>
+    <string name="cardnumber_8"
+            translatable="false">8
+    </string>
+    <string name="cardnumber_9"
+            translatable="false">9
+    </string>
+    <string name="cardnumber_10"
+            translatable="false">10
+    </string>
+    <string name="cardnumber_j"
+            translatable="false">J
+    </string>
+    <string name="cardnumber_q"
+            translatable="false">Q
+    </string>
+    <string name="cardnumber_k"
+            translatable="false">K
+    </string>
+    <string name="cardnumber_1"
+            translatable="false">A
+    </string>
+
+    <string name="showpoker_tip_1">No Showdown</string>
+    <string name="showpoker_tip_2">Showdown</string>
+
+    <string name="data_record_quickgame">\'s quick game</string>
+    <string name="data_record_introduce">% of times player puts money into pot.</string>
+
+    <string name="data_record_data_series_prex"></string>
+    <string name="data_record_data_series_fix">games</string>
+
+    <string name="data_record_data_handles_prex"></string>
+    <string name="data_record_data_handles_fix">hands</string>
+
+    <string name="data_record_data_one_hands_prex">Total hands:</string>
+    <string name="data_record_data_one_hands_fix"></string>
+
+    <string name="record_create_poker">我要组局</string>
+    <string name="record_create_mtt_poker">创建MTT</string>
+    <string name="record_match_empty">There is no race record currently.</string>
+    <string name="record_common_empty">There is no historical record currently.</string>
+    <string name="record_match_sort">获得名次</string>
+    <string name="record_match_score">获得奖金</string>
+    <string name="record_match_come_from">的比赛</string>
+    <string name="record_match_detail_sec1">初始积分牌</string>
+    <string name="record_match_detail_sec2">报名费:</string>
+    <string name="record_match_detail_sec3">总奖池:</string>
+    <string name="record_match_detail_sec4">共</string>
+    <string name="record_match_detail_sec5">位用户参赛</string>
+    <string name="record_match_detail_sec6">，重构</string>
+    <string name="record_match_detail_sec7">次</string>
+    <string name="record_match_detail_sec8">，增购</string>
+
+    <string name="operate_success">Settting success</string>
+    <string name="operate_failed">Settting failed</string>
+    <string name="no_date_tips">No data yet</string>
+    <string name="can_not_enter_room">Enter room failed</string>
+
+    <string name="ip_tip_text1">IP restrictions</string>
+    <string name="ip_tip_text2">Exist the same IP players</string>
+
+    <string name="gps_limit_title">GPS restrictions</string>
+    <string name="gps_not_open">Location services must be turned on to join this game. Go and set!</string>
+    <string name="gps_limit_do_not_play">GPS restrictions have been set in this game, please note that players nearby
+        can not join together.</string>
+
+    <string name="menu_wait_tip_text">Player will join the game when at the big blind.</string>
+    <string name="menu_post_tip_text">If not at the big blind or small blind, player will join the game after the amount
+        of big blind chips is deducted. If at the small blind, you will join the game after the extra amount of small
+        blind is deducted.If at the big blind, you will join the game immediately.
+    </string>
+    <string name="menu_wait_toast_text">Waiting mode is selected by default, Click posting to join the game in the next
+        round.
+    </string>
+    <string name="menu_post_toast_text">Selected posting mode</string>
+
+    <string name="discover_item_today">Today</string>
+    <string name="discover_status_signup">Signing Up</string>
+    <string name="discover_status_counter">CD</string>
+    <string name="discover_status_playing">Ongoing</string>
+    <string name="discover_status_watting">Waitting</string>
+    <string name="discover_status_join">Enter</string>
+    <string name="discover_status_sign_over">Sign-up Closed</string>
+    <string name="discover_status_unchecked">approvaling</string>
+    <string name="discover_mtt_item_ower">来自:%1$s</string>
+    <string name="discover_mtt_item_initialCoin">报名费:%1$d+%2$d | 涨盲时间:%3$d秒</string>
+
+    <!--straddle text-->
+    <string name="straddle_btn_text">Straddle</string>
+    <string name="straddle_tips_text1">countdown to purchase</string>
+    <string name="straddle_tips_text2">countdown</string>
+    <string name="straddle_tips_text3">cost chips %d</string>
+    <string name="straddle_tips_text4">waiting for other players to buy straddles</string>
+    <string name="straddle_tips_text5">Operation will work after the former player buy straddle successfully</string>
+    <string name="straddle_tips_text6">buy straddle successfully</string>
+    <string name="straddle_tips_text7">failed to buy straddle</string>
+    <string name="straddle_toast_text1">buy straddle successfully</string>
+    <string name="straddle_toast_text2">failed to buy straddle because the former player did not buy it</string>
+
+    <!--keep seat-->
+    <string name="keep_seat_next_hand">Sit out after this hand</string>
+    <string name="keep_seat_fail_to_sit">Cannot join this game, because you have kept a seat in Room %1$s</string>
+
+    <!--trust text-->
+    <string name="trust_shortest_time">Host\nmode</string>
+    <string name="trust_shortest_time_cancel">Sit in</string>
+    <string name="trust_shortest_time_text">Shortest playing time</string>
+    <string name="trust_shortest_time_des">When founder sets the shortest playing time, the players playing time in the game must meet the shortest time; otherwise the system will begin the blind-playing host mode. </string>
+    <string name="trust_time_dialog_title">Shortest playing time</string>
+    <string name="trust_time_dialog_text"><![CDATA[The room host has set the shortest playing time to be <font color="#FF0000">%s hrs</font>, Players cannot leave the table during this time, or the blind-playing host mode will begin.]]></string>
+    <string name="trust_time_dialog_title1">Shortest playing time: %s hrs</string>
+    <string name="trust_time_dialog_text1">After join the game, you need to finish remaining time %s, or the blind-playing host mode will begin.</string>
+    <string name="trust_time_toast_title">Less than %s hrs</string>
+    <string name="trust_time_toast_text">Please continue to play %s, or choose the blind-playing host mode. </string>
+    <string name="trust_shortest_btn_text">Understood</string>
+    <string name="trust_shortest_fail">Host mode fail</string>
+    <string name="trust_shortest_btn_cancel">Continue</string>
+    <string name="trust_shortest_btn_confirm">Host Mode</string>
+    <string name="trust_shortest_error_tip">You cannot join this game, because you have left the host mode as blind-playing in game "%s".</string>
+
+    <!--解散牌局-->
+    <string name="dismiss_tabel_party">Dismiss</string>
+    <string name="dismiss_dialog_content">Are you sure you want to end this table?</string>
+    <string name="dismiss_tip_content">The table is about to end after this round, because the owner ends it in advance.</string>
+    <string name="dismiss_toast_text">Can not join in, This table is about to end.</string>
+    <string name="dismiss_fail_text">End this table fail</string>
+    <string name="dismiss_no_limit_text">Room "%s" has been closed by the owner. </string>
+
+    <!-- MTT end text -->
+    <string name="data_record_rank">No.%1$d</string>
+    <string name="data_record_mttgame">的MTT比赛(PM)</string>
+    <string name="mtt_end_dialog_text1">在本次(PM)</string>
+    <string name="mtt_end_dialog_text2">获得(PM)</string>
+    <string name="mtt_end_dialog_text3">No.</string>
+    <string name="mtt_end_dialog_text4"></string>
+    <string name="mtt_end_dialog_text5">赢得(PM)</string>
+    <string name="mtt_end_dialog_text6">筹码(PM)</string>
+    <string name="mtt_end_dialog_text7">分享战绩给好友(PM)</string>
+    <string name="mtt_end_data_text1">You rank of this</string>
+    <string name="mtt_end_data_text2">is:</string>
+    <string name="mtt_end_data_text3">Sorry, you get no reward. We believe you will get better rank next time!</string>
+    <string name="mtt_end_data_text4">Get %d. Congrats!</string>
+    <string name="mtt_end_data_text5">本场比赛(PM)</string>
+    <string name="mtt_end_data_text6">共(PM)</string>
+    <string name="mtt_end_data_text7">人(PM)</string>
+    <string name="mtt_end_data_text8">你总共淘汰(PM)</string>
+    <string name="mtt_end_data_button">Watch</string>
+    <string name="mtt_re_buy_content">Spend %1$d chips to rebuy %2$d coins</string>
+    <string name="mtt_re_buy_time">Left Chance: %d</string>
+    <string name="mtt_re_buy_success">Rebuy Successfully</string>
+    <string name="mtt_re_buy_fail">Failed to rebuy</string>
+    <string name="mtt_re_buy_next">Next</string>
+    <string name="mtt_re_buy_result">You will get %d coins</string>
+    <string name="mtt_re_buy_fail2">Your coins are higher than the starting amount. Failed to rebuy</string>
+    <string name="mtt_re_buy_fail3">Need more chips</string>
+    <string name="mtt_re_buy_fail4">重购次数不足(PM)</string>
+    <string name="mtt_re_buy_fail5">The room owner has not handled your last rebuy request. Please try later.</string>
+    <string name="mtt_re_buy_fail6">Failed to rebuy, need more gems</string>
+    <string name="mtt_re_buy_store1">Spend</string>
+    <string name="mtt_re_buy_store2">to buy %d coins</string>
+    <string name="mtt_re_buy_store3">Buy Gem</string>
+    <string name="mtt_get_all_people">获取参赛人员数据失败!(PM)</string>
+
+    <!--mtt-->
+    <string name="btn_create_mtt_text">Create MTT</string>
+    <string name="dialog_create_mtt_tips">MTT name can not be empty!</string>
+    <string name="remind_later_btn">Not Now</string>
+    <string name="remind_enter_btn">Enter Now</string>
+    <string name="remind_mtt_msg">%s tournament is going to start in 1 minute. Please enter the room and be prepared!
+        Wish you good luck!
+    </string>
+    <string name="notice_mtt_title">%s tournament is going to start in 1 minute. Go get seated!</string>
+    <string name="notice_mtt_content">Touch to tournament detail.</string>
+
+    <string name="mtt_invite_friend">Invite Friend</string>
+    <string name="mtt_pending_tab_summary">Brief</string>
+    <string name="mtt_pending_tab_record">Record</string>
+    <string name="mtt_pending_tab_blind">Blind</string>
+    <string name="mtt_pending_tab_reward">Reward</string>
+    <string name="mtt_pending_control_open">Only players approved by the creator could sign up. Players can\'t
+        rebuy/add-on unless the creator agrees. For the fair of the game, when Bring-in Control is on, the creator
+        can\'t play the game.
+    </string>
+    <string name="mtt_pending_control_close">When Buy-in request is off, players could sign up and rebuy/add-on
+        freely.
+    </string>
+    <string name="mtt_rule_title">MTT Rules</string>
+    <string name="mtt_what_is_mtt_title">What is MTT?</string>
+    <string name="mtt_what_is_mtt">MTT, Multiply table tournament, is comprised of many different tables, each with
+        several players who are all competing with the same coins. As the blind increases, the tournament proceeds until
+        one player has accumulated all the coins in play.
+    </string>
+    <string name="mtt_rule_text1">1. When there are less than 2 players, the MTT will be cancelled and sign-up fee will
+        be returned.During the final game, it\'s not allowed to enter anymore.
+    </string>
+    <string name="mtt_rule_text2">2. When Buy-in Request is on, players can\'t rebuy/add-on unless the room owner
+        agrees. For the fair of the game, when Buy-in Request is on, the room owner can\'t play the game.
+    </string>
+    <string name="mtt_rule_text3">3. Players will get coins in each game to calculate what they have earned in the
+        tournament. (Coins and chips are different)
+    </string>
+    <string name="mtt_rule_text4">4. Rebuy: In tournament that rebuy is not banned, players could buy an amount of coins
+        with chips when they have less than the initial amount before certain blind level. Each tournament has its rebuy
+        quota. Players with 0 coins will be knocked out or rebuy coins to continue.
+    </string>
+    <string name="mtt_rule_text5">5. Add-on: In tournament that add-on is not banned, players could tap "Add-on" to buy
+        1.5*coins with chips at a certain blind level. Players with 0 coin will be knocked out or could add-on to
+        continue.
+    </string>
+    <string name="mtt_rule_text6">6. Ante: A forced bet required of all players before the hand begins.</string>
+    <string name="mtt_rule_text7">7. Players will be ranked according to the order they leave the game. The first one
+        who loses all coins will be the last, etc. If more than 1 player are knocked out at the same time, those with
+        higher card ranking or more initial coins will get higher rank. If they have same card ranking and initial
+        coins, they split the prize of their rank. For example, if 2 players get No.2 at the same time, they split the
+        prize of No.2 and No.3 rank.
+    </string>
+    <string name="mtt_rule_text8">8. Play proceeds until one player has accumulated all the coins in play. The player
+        will be the champion.
+    </string>
+    <string name="mtt_playing_time">Playing Time:</string>
+    <string name="mtt_sign_up_fee">Sign-up Fee:</string>
+    <string name="mtt_entry_fee">Entry Fee</string>
+    <string name="mtt_service_fee">Service Fee</string>
+    <string name="mtt_participants">Participants:</string>
+    <string name="mtt_table_player">Player/Table:</string>
+    <string name="mtt_initial_coins">Initial Coins:</string>
+    <string name="mtt_prize_pool">Prize Pool:</string>
+    <string name="mtt_rebuy">Rebuy:</string>
+    <string name="mtt_can_rebuy">Rebuy Quota %1$d times，one can\'t buy %4$d coins with %3$d chips after %2$d blind
+        level
+    </string>
+    <string name="mtt_addon">Add-on:</string>
+    <string name="mtt_can_addon">Add-on Quota 1 times</string>
+    <string name="mtt_control_buyin">Buy-in Request:</string>
+    <string name="mtt_control_status_open">On</string>
+    <string name="mtt_control_status_close">Off</string>
+    <string name="mtt_game_started">The game has started:</string>
+    <string name="mtt_running_min">%1$d min</string>
+    <string name="mtt_blind_level_title">Current Blind Level:</string>
+    <string name="mtt_blind_level_content">%1$d Level（%2$d/%3$d）\nAnte %4$d</string>
+    <string name="mtt_blind_time">Blind Time:</string>
+    <string name="mtt_blind_time_content">%1$d min</string>
+    <string name="mtt_remaining_player">Remaining Player:</string>
+    <string name="mtt_remaining_player_content">%1$d player</string>
+    <string name="mtt_player_type">Player/Table:</string>
+    <string name="mtt_player_type_content">%1$d Player</string>
+    <string name="mtt_pool_make">Prize Pool Make-up:</string>
+    <string name="mtt_pool_make_content">Entry Fee: %1$d \nRebuy: %2$d players have spent %3$d chips to rebuy\nAdd-on:
+        %4$d players have spent %5$d chips to add-on
+    </string>
+    <string name="mtt_rebuy_add">Rebuy/Add-on Details</string>
+    <string name="mtt_time_min">min</string>
+    <string name="mtt_reward_hand">Reward Hand/Player</string>
+    <string name="mtt_signed_up">Signed Up/Player</string>
+    <string name="mtt_rank">Rank</string>
+    <string name="mtt_ratio">Ratio</string>
+    <string name="mtt_prize">Prize</string>
+    <string name="mtt_btn_manage">Manage</string>
+    <string name="mtt_btn_sign_up">Sign Up</string>
+    <string name="mtt_btn_enter">Enter Now</string>
+    <string name="mtt_btn_ongoing">Ongoing</string>
+    <string name="mtt_btn_sign_up_deadline">Sign-up Deadline</string>
+    <string name="mtt_btn_waiting_approval">Waiting for Approval</string>
+    <string name="mtt_btn_quit">Quit</string>
+    <string name="mtt_btn_waiting_start">Waiting for Start</string>
+    <string name="mtt_btn_end">Match is over</string>
+
+    <string name="mtt_manage_manage_player">Management</string>
+    <string name="mtt_manage_application">Application</string>
+    <string name="mtt_manage_detail">R/A Details</string>
+    <string name="mtt_manage_sign_up_player">Sign-up Player: %1$d</string>
+    <string name="mtt_manage_sign_up_player_gaming">Gaming/Sign-up Player: %1$d/%2$d</string>
+    <string name="mtt_player">Player</string>
+    <string name="mtt_coin">Coin</string>
+    <string name="mtt_buy_in_request">Buy-in Request</string>
+    <string name="mtt_manage_no_ra_data">比赛未开始，暂无重购/增购数据(PM)</string>
+    <string name="blind_level">Blind Level</string>
+    <string name="rebuy_add_player">Rebuy/Add-on Player</string>
+    <string name="times">Times</string>
+
+    <!--系统消息的提示语-->
+    <string name="mtt_system_notify_1">For the fair of the game, your room is changed. Wish you good luck.</string>
+    <string name="mtt_system_notify_2">Next Hand: Blind</string>
+    <string name="mtt_system_notify_2_1">, Ante</string>
+    <string name="mtt_system_notify_2_2">, Rebuy eligible.</string>
+    <string name="mtt_system_notify_2_3">, Add-on eligible.</string>
+    <string name="mtt_system_notify_3">The prize pool is added to %d chips.</string>
+    <string name="mtt_system_notify_4">The MTT has lasted %1$d minutes, There are %2$d players remaining.</string>
+    <string name="mtt_system_notify_5">%s has entered the room.</string>
+    <string name="mtt_system_notify_6">%s has left.</string>
+
+    <!--sng-->
+    <string name="sng_setting_tab_name">SNG</string>
+    <string name="sng_setting_signup_text">Prize Pool</string>
+    <string name="sng_setting_people_set">Players number setting</string>
+    <string name="sng_setting_buyin_set">Buy-in</string>
+    <string name="sng_setting_match_set">Modes</string>
+    <string name="sng_setting_quick_game">Quick Game</string>
+    <string name="sng_setting_standard_game">Standard Game</string>
+    <string name="sng_setting_blind_up_time">Blind Raise Time</string>
+    <string name="sng_setting_start_chip">Starting Score</string>
+    <string name="sng_setting_check_common_table">General Blind Schedule >></string>
+    <string name="sng_setting_other_set">Others</string>
+    <string name="sng_blind_table">Blind Schedule</string>
+    <string name="sng_blind_table_level">Level</string>
+    <string name="sng_blind_table_chip">Blind</string>
+    <string name="sng_pending_title_text">Game Info</string>
+    <string name="sng_pending_match_type">P</string>
+    <string name="sng_pending_match_cost">Entry Fee</string>
+    <string name="sng_pending_predict_time">Estimated Time</string>
+    <string name="sng_pending_check_match_people">Participators (%1$d/%2$d) >></string>
+    <string name="sng_pending_immediately_apply">Join Now</string>
+    <string name="sng_pending_wait_audit">Waiting for Approval</string>
+    <string name="sng_pending_enter_game">Enter</string>
+    <string name="sng_match_people_title">Players (%1$d/%2$d)</string>
+    <string name="sng_match_people_wait_text">Vacant</string>
+    <string name="sng_fail_error_1">Failed to create SNG!</string>
+    <string name="sng_fail_error_2">Failed to get player info!</string>
+    <string name="sng_fail_error_3">Failed to apply!</string>
+    <string name="sng_fail_error_4">Failed to apply. The game has started!</string>
+    <string name="sng_apply_chip_des">Entry Fee + Record Fee\nEntry Fee will be added to the prize pool\nThe record fee will be taken by the system</string>
+    <string name="sng_apply_result_text1">Waiting for approval.</string>
+    <string name="sng_apply_result_text2">Failed to apply. The game has started!</string>
+    <string name="sng_apply_result_text3">The room does not exist.</string>
+    <string name="sng_table_room_id_text">| Invitation Code:%d</string>
+    <string name="sng_situation_tab_ranking">Live Record</string>
+    <string name="sng_situation_tab_blind">Blind Schedule</string>
+    <string name="sng_situation_ranking_level">Rank</string>
+    <string name="sng_situation_ranking_nick">Nick</string>
+    <string name="sng_situation_ranking_coins">Score</string>
+    <string name="sng_situation_ranking_text1">Current Blind：</string>
+    <string name="sng_situation_ranking_text2">Next Blind：</string>
+    <string name="sng_situation_ranking_text3">Elapsed Time：</string>
+    <string name="sng_situation_ranking_text4">Hands：</string>
+    <string name="sng_situation_ranking_text5">Hand %d</string>
+    <string name="sng_situation_blind_level">Level</string>
+    <string name="sng_situation_blind_count">Blind</string>
+    <string name="sng_situation_blind_time">Interval</string>
+    <string name="sng_situation_loser_text">Busted at Hand %d</string>
+    <string name="sng_notify_text1">Applied successfully (%s)</string>
+    <string name="sng_notify_text2">Next Hand Blind: %s</string>
+    <string name="sng_ranking_table_text1">Current：</string>
+    <string name="sng_ranking_table_text2">No.%d</string>
+    <string name="sng_game_end_model_text">Modes：%s</string>
+    <string name="sng_game_end_master_text">Founder：%s</string>
+    <string name="sng_game_end_time_text">Time Used：%s</string>
+    <string name="sng_game_end_hand_text">Hands：%d</string>
+    <string name="sng_game_end_title_text">Final Ranking</string>
+    <string name="sng_game_end_ranking_text_1">No.1</string>
+    <string name="sng_game_end_ranking_text_2">No.2</string>
+    <string name="sng_game_end_ranking_text_3">No.3</string>
+    <string name="sng_game_end_ranking_list_1">Rank</string>
+    <string name="sng_game_end_ranking_list_2">Nick</string>
+    <string name="sng_time_toast_text1">Last overtime of the hand</string>
+    <string name="sng_time_toast_text2">The hand has no overtime chance</string>
+    <string name="sng_record_data_text1">Mode：</string>
+    <string name="sng_record_data_text2">Founder：</string>
+    <string name="sng_record_data_text3">Time Used：</string>
+    <string name="sng_record_data_text4">Hands：</string>
+    <string name="sng_record_data_text5">Not Joined</string>
+    <string name="sng_discover_apply_text1">Available</string>
+    <string name="sng_discover_apply_text2">Approving</string>
+    <string name="sng_discover_apply_text3">Registered</string>
+    <string name="sng_discover_apply_text4">Processing</string>
+    <string name="sng_notice_message_text0">The system will play for you when you leave. Continue?</string>
+    <string name="sng_notice_message_text1">Your application is rejected (Room: %s）</string>
+    <string name="sng_notice_message_text2">Your application is approved (Room: %s）</string>
+    <string name="sng_notice_message_text3">The game you applied has started. Take a seat (Room: %s）</string>
+    <string name="sng_notice_message_text4">The game failed to start on time. It is cancelled (Room: %s）</string>
+    <string name="sng_notice_message_text5">The holder has cancelled the game (Room: %s）</string>
+    <string name="sng_notice_message_btn1">To be Seated</string>
+    <string name="sng_notice_message_btn2">Take a seat</string>
+    <string name="sng_pending_room_id_text">Invitation Code:%d</string>
+    <string name="sng_error_toast_text1">Failed to apply. Players of same IP detected</string>
+
+    <!--omaha-->
+    <string name="omaha_setting_tab_name">Omaha</string>
+    <string name="omaha_record_common_text">Common</string>
+    <string name="omaha_setting_text_tip">Table players number setting (insurance for ≤6 players only)</string>
+
+    <!--大菠萝-->
+    <string name="pa_table_blinds">BLINDS: %d</string>
+    <string name="pa_setting_mode">Game mode</string>
+    <string name="pa_mode_normal">Normal</string>
+    <string name="pa_mode_bloody">Bloody</string>
+    <string name="pa_mode_bloody_refantancy">BloodyRefantasy</string>
+    <string name="pa_setting_tab_name">OFCP</string>
+    <string name="pa_menu_type_des">Operation tips</string>
+    <string name="pa_menu_option_des">Scoring instructions</string>
+    <string name="pa_sort_as_type">color</string>
+    <string name="pa_sort_as_number">order</string>
+    <string name="pa_card_type_royal_flush">Royal\nFlush</string>
+    <string name="pa_card_type_straight_flush">Stra-\night\nFlush</string>
+    <string name="pa_card_type_four_of_a_kind">Four\nof\nKind</string>
+    <string name="pa_card_type_full_house">Full\nHouse</string>
+    <string name="pa_card_type_flush">Flush</string>
+    <string name="pa_card_type_straight">Stra-\night</string>
+    <string name="pa_card_type_three_of_a_kind">Three\nof\nKind</string>
+    <string name="pa_card_type_two_pair">Two\npairs</string>
+    <string name="pa_card_type_one_pair">One\nPair</string>
+    <string name="pa_confirm_error_tip1">you need to place %d cards.</string>
+    <string name="pa_confirm_error_tip2">you can only put 2 cards in this round</string>
+    <string name="pa_start_next_text">once more</string>
+    <string name="pa_bowl_card_text">Fouling</string>
+    <string name="pa_standup_dec_text1">Can not stand up when palyer enter the fantasyland. Please wait for the end.</string>
+    <string name="pa_standup_dec_text2">Still in game, can not stand up. Please wait for the end.</string>
+    <string name="pa_menu_dec_text1">Front</string>
+    <string name="pa_menu_dec_text2">Middle</string>
+    <string name="pa_menu_dec_text3">Back</string>
+    <string name="pa_menu_dec_text4">Players receive 1 unit for each hand they win and 3 bonus units if they win all three hands. Extra units will be awarded to players with particularly strong hands.</string>
+    <string name="pa_error_tip_text1">Your remaining chips less than 80% of the minimum requirements, please join the game again after added chip</string>
+</resources>

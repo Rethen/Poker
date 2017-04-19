@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="false" android:state_checked="true"
+		  android:drawable="@drawable/raise_thumb_btn_all_in_normal" />
+	<item android:state_pressed="true" android:state_checked="true"
+		  android:drawable="@drawable/raise_thumb_btn_all_in_down" />
+	<item android:drawable="@drawable/raise_confirm_nor" android:state_pressed="false" />
+	<item android:drawable="@drawable/raise_confirm_hot" android:state_pressed="true" />
+</selector>
